@@ -1,0 +1,66 @@
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$dddddd
+-bash: dddddd: command not found
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$ls
+$ls
+$ls -2
+ls: illegal option -- 2
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+$c[Kcat errorfile
+cat: errorfile: No such file or directory
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$ls
+$clear
+$k[Kls 0[K-l
+$ls -l2
+ls: illegal option -- 2
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+$cat errorrfile 
+$
+$
+$
+$exec 2> tty
