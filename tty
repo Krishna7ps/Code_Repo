@@ -1,2 +1,0 @@
-$exec 2> tty[Ccat errorrfile 
-$logout

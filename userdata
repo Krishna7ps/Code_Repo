@@ -1,9 +1,0 @@
-#!/bin/bash
-
-yum update
-yum install wget -y
-wget http://pm.puppetlabs.com/puppet-agent/2016.2.0/1.5.2/repos/el/7/PC1/x86_64/puppet-agent-1.5.2-1.el7.x86_64.rpm
-
-rpm -i puppet-agent-1.5.2-1.el7.x86_64.rpm
-source /etc/environment
-puppet agent -t

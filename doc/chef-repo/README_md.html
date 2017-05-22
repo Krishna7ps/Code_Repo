@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>README - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+  var index_rel_prefix = "../";
+</script>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/darkfish.js"></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+<div class="nav-section">
+  <h3>Table of Contents</h3>
+
+  <ul class="link-list" role="directory">
+    <li><a href="#label-The+chef-repo">The chef-repo</a>
+    <li><a href="#label-Knife+Configuration">Knife Configuration</a>
+    <li><a href="#label-Cookbooks">Cookbooks</a>
+    <li><a href="#label-Roles">Roles</a>
+    <li><a href="#label-Getting+Started">Getting Started</a>
+  </ul>
+</div>
+
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../chef-repo/README_md.html">README</a>
+  
+    <li><a href="../chef-repo/cookbooks/chefignore.html">chefignore</a>
+  
+    <li><a href="../chef-repo/cookbooks/starter/files/default/sample_txt.html">sample</a>
+  
+    <li><a href="../temp_dat.html">temp.dat</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page chef-repo/README.md">
+
+<h1 id="label-The+chef-repo">The chef-repo<span><a href="#label-The+chef-repo">&para;</a> <a href="#top">&uarr;</a></span></h1>
+
+<p>All installations require a central workspace known as the chef-repo. This
+is a place where primitive objects–cookbooks, roles, environments, data
+bags, and chef-repo configuration files–are stored and managed.</p>
+
+<p>The chef-repo should be kept under version control, such as <a
+href="http://git-scm.org">git</a>, and then managed as if it were source
+code.</p>
+
+<h2 id="label-Knife+Configuration">Knife Configuration<span><a href="#label-Knife+Configuration">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Knife is the <a href="https://docs.chef.io/knife.html">command line
+interface</a> for Chef. The chef-repo contains a .chef directory (which is
+a hidden directory by default) in which the Knife configuration file
+(knife.rb) is located. This file contains configuration settings for the
+chef-repo.</p>
+
+<p>The knife.rb file is automatically created by the starter kit. This file
+can be customized to support configuration settings used by <a
+href="https://docs.chef.io/plugin_knife.html">cloud provider options</a>
+and custom <a href="https://docs.chef.io/plugin_knife_custom.html">knife
+plugins</a>.</p>
+
+<p>Also located inside the .chef directory are .pem files, which contain
+private keys used to authenticate requests made to the Chef server. The
+USERNAME.pem file contains a private key unique to the user (and should
+never be shared with anyone). The ORGANIZATION-validator.pem file contains
+a private key that is global to the entire organization (and is used by all
+nodes and workstations that send requests to the Chef server).</p>
+
+<p>More information about knife.rb configuration options can be found in <a
+href="https://docs.chef.io/config_rb_knife.html">the documentation for
+knife</a>.</p>
+
+<h2 id="label-Cookbooks">Cookbooks<span><a href="#label-Cookbooks">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>A cookbook is the fundamental unit of configuration and policy
+distribution. A sample cookbook can be found in
+<code>cookbooks/starter</code>. After making changes to any cookbook, you
+must upload it to the Chef server using knife:</p>
+
+<pre>$ knife upload cookbooks/starter</pre>
+
+<p>For more information about cookbooks, see the example files in the
+<code>starter</code> cookbook.</p>
+
+<h2 id="label-Roles">Roles<span><a href="#label-Roles">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Roles provide logical grouping of cookbooks and other roles. A sample role
+can be found at <code>roles/starter.rb</code>.</p>
+
+<h2 id="label-Getting+Started">Getting Started<span><a href="#label-Getting+Started">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<p>Now that you have the chef-repo ready to go, check out <a
+href="https://learn.chef.io/">Learn Chef</a> to proceed with your
+workstation setup. If you have any questions about Chef you can always ask
+<a href="https://www.chef.io/support/">our support team</a> for a helping
+hand.</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://rdoc.github.io/rdoc">RDoc</a> 5.0.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
