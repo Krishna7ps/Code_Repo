@@ -1,6 +1,6 @@
 # This is a Chef recipe file. It can be used to specify resources which will
 # apply configuration to a server.
-
+node.default["starter_name"] = "krishna"
 log "Welcome to Chef, #{node["starter_name"]}!" do
   level :info
 end

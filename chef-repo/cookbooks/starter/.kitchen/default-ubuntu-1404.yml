@@ -1,0 +1,9 @@
+---
+username: kitchen
+ssh_key: "/Users/krishna/Code_Repo/chef-repo/cookbooks/starter/.kitchen/docker_id_rsa"
+image_id: 7a38d86650b0
+container_id: 1098bbb05135c63eaf25f33b3a63f42dafcad67275eac817a41a4784a9b22e59
+hostname: localhost
+port: 32773
+last_action: converge
+last_error: 
