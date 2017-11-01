@@ -1,3 +1,4 @@
+/*
 #variable "welcomeNote"{
 #    description     = "thsi is the test of terraform"
 #}
@@ -39,4 +40,6 @@ output "private_ip"{
 
 
 
+
+*/
 

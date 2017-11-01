@@ -1,5 +1,7 @@
+/*
 provider "aws" {
   region = "us-west-2"
+  
 }
 
 resource "aws_instance" "master" {
@@ -34,3 +36,5 @@ resource "aws_subnet" "test_subnet" {
   vpc_id     = "${aws_vpc.testVpc.id}"
   cidr_block = "10.3.1.0/24"
 }
+*/
+
