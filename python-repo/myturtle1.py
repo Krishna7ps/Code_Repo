@@ -14,3 +14,5 @@ for i in range(100):
     length+=5
     wn.bgcolor(random.choice(["green","blue"]))
 wn.bgcolor("lightgreen")
+for i in range(1,10):
+
