@@ -1,0 +1,100 @@
+fib:
+
+a=0, b=1
+print a,b
+end=gets()
+while true # c <= end
+{
+    c=a+b
+    a=b
+    b=c
+print c
+#if c <= int(end)
+#break
+}
+
+Index_file:
+
+ls > filename.txt
+No_of_files=$(wc filename.txt)
+for(i=1;i<=No_of_files;i++) 
+{
+    
+    filename= readline filename
+    filename=str(i)+'_'+filename    1_filename
+
+} 
+
+
+
+sort: 1, 11
+ 
+ls -lt > fn ==> into some array
+#name=realine filename.txt
+for(i=0;i<No_of_files;i++)
+    for(j=i+1;j<No_of_files;j++)
+
+        if fn[i][j] == fn[j][i]
+        some integer value condition
+            if fn[i][j+1] > fn[j][i+1]
+                swap(fn[i],fn[j])
+        elseif fn[i][j] > fn[j][i]
+                swap(fn[i],fn[j])
+
+
+
+
+fileToSearch= gets("file name to search")
+
+ind = read index of fileToSearch
+
+mid = No_of_files/2
+
+if ind > ( ind of fn[mid])
+    for(i=mid;i<fn.size;i++)
+        {
+    if fileToSearch == fn[i]
+        puts "file exist"
+    else
+        puts "file doesn't exist"
+        }
+
+else 
+
+    for(i=0;i<mid;i++)
+    {   
+    if fileToSearch == fn[i]
+        puts "file exist"
+    else
+        puts "file doesn't exist"
+    }
+
+
+
+
+
+
+
+
+for(i=;i<fn.size;i++)
+{
+    if fileToSearch == fn[i]
+        puts "file exist"
+    else
+        puts "file doesn't exist"
+}
+
+
+7 -- search
+
+1
+2
+3
+4
+5
+5
+6
+7
+8
+9
+10
