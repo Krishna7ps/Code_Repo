@@ -1,1001 +1,1001 @@
-1 bujjikonda manninchu 
-2 kanna sorry 
-3 chinnari manninchu 
-4 kanna thappaindi 
-5 bangaru sorry 
-6 bangaru Badha pettanu, baaga chusukunta 
-7 kanna manninchu 
-8 bangarukonda thappaindi 
-9 bujji thappaindi 
-10 chinnari thappaindi 
-11 chinnari Badha pettanu, baaga chusukunta 
-12 bujjikonda manninchu 
-13 Renu thappaindi 
-14 kanna manninchu 
-15 Renu Badha pettanu, baaga chusukunta 
-16 chinnari sorry 
-17 bujjikonda thappaindi 
-18 bujjikonda thappaindi 
-19 kanna sorry 
-20 Renu Badha pettanu, baaga chusukunta 
-21 kanna manninchu 
-22 bujji sorry 
-23 Renu manninchu 
-24 bujjikonda manninchu 
-25 chinnari Badha pettanu, baaga chusukunta 
-26 bangaru sorry 
-27 chinnari sorry 
-28 bujjikonda thappaindi 
-29 Renu Badha pettanu, baaga chusukunta 
-30 chinnari sorry 
-31 kanna manninchu 
-32 kanna manninchu 
-33 bangaru Badha pettanu, baaga chusukunta 
-34 bangarukonda sorry 
-35 bujjikonda manninchu 
-36 kanna thappaindi 
-37 bangaru thappaindi 
-38 Renu sorry 
-39 chinnari Badha pettanu, baaga chusukunta 
-40 Renu Badha pettanu, baaga chusukunta 
-41 bangaru thappaindi 
-42 bangaru thappaindi 
-43 Renu Badha pettanu, baaga chusukunta 
-44 bujjikonda sorry 
-45 kanna sorry 
-46 kanna manninchu 
-47 Renu Badha pettanu, baaga chusukunta 
-48 bangarukonda manninchu 
-49 bangarukonda Badha pettanu, baaga chusukunta 
-50 chinnari manninchu 
-51 bujjikonda thappaindi 
-52 bangarukonda Badha pettanu, baaga chusukunta 
+1 kanna sorry 
+2 bujjikonda thappaindi 
+3 bujjikonda sorry 
+4 bangaru manninchu 
+5 kanna thappaindi 
+6 bangarukonda sorry 
+7 chinnari manninchu 
+8 bujji sorry 
+9 bujjikonda thappaindi 
+10 Renu Badha pettanu, baaga chusukunta 
+11 bujjikonda sorry 
+12 chinnari sorry 
+13 Renu manninchu 
+14 bangarukonda sorry 
+15 bujjikonda sorry 
+16 bujjikonda sorry 
+17 bujjikonda manninchu 
+18 bujji manninchu 
+19 bujji sorry 
+20 bangaru Badha pettanu, baaga chusukunta 
+21 Renu Badha pettanu, baaga chusukunta 
+22 kanna thappaindi 
+23 Renu sorry 
+24 chinnari sorry 
+25 bangaru sorry 
+26 kanna sorry 
+27 Renu thappaindi 
+28 Renu thappaindi 
+29 chinnari thappaindi 
+30 Renu sorry 
+31 bujjikonda manninchu 
+32 Renu sorry 
+33 bujjikonda Badha pettanu, baaga chusukunta 
+34 bujjikonda manninchu 
+35 chinnari sorry 
+36 bujjikonda manninchu 
+37 kanna Badha pettanu, baaga chusukunta 
+38 bujjikonda manninchu 
+39 bujjikonda sorry 
+40 Renu thappaindi 
+41 bujji manninchu 
+42 bujji sorry 
+43 chinnari manninchu 
+44 bujji sorry 
+45 bujjikonda manninchu 
+46 kanna thappaindi 
+47 bujji thappaindi 
+48 Renu thappaindi 
+49 bangaru thappaindi 
+50 bujjikonda sorry 
+51 bujji thappaindi 
+52 kanna manninchu 
 53 Renu thappaindi 
-54 Renu Badha pettanu, baaga chusukunta 
-55 Renu Badha pettanu, baaga chusukunta 
-56 bujji manninchu 
-57 kanna manninchu 
-58 bangarukonda thappaindi 
-59 bangaru manninchu 
-60 Renu manninchu 
-61 chinnari manninchu 
-62 bangaru sorry 
-63 kanna manninchu 
-64 bujjikonda thappaindi 
-65 bujji Badha pettanu, baaga chusukunta 
-66 bangarukonda Badha pettanu, baaga chusukunta 
-67 bujji Badha pettanu, baaga chusukunta 
-68 bangarukonda thappaindi 
+54 bujji manninchu 
+55 bujji manninchu 
+56 chinnari Badha pettanu, baaga chusukunta 
+57 bujji manninchu 
+58 bujjikonda thappaindi 
+59 Renu sorry 
+60 kanna thappaindi 
+61 bujjikonda manninchu 
+62 kanna Badha pettanu, baaga chusukunta 
+63 bujjikonda manninchu 
+64 Renu thappaindi 
+65 bujji manninchu 
+66 bujjikonda manninchu 
+67 bujji thappaindi 
+68 Renu sorry 
 69 chinnari thappaindi 
-70 bangaru Badha pettanu, baaga chusukunta 
-71 bujji Badha pettanu, baaga chusukunta 
-72 kanna Badha pettanu, baaga chusukunta 
-73 kanna manninchu 
-74 kanna thappaindi 
-75 kanna manninchu 
-76 bangaru sorry 
-77 kanna sorry 
-78 bujjikonda sorry 
-79 bujjikonda manninchu 
-80 bangarukonda sorry 
-81 kanna sorry 
-82 Renu thappaindi 
-83 bujji sorry 
-84 bangaru thappaindi 
-85 bangaru sorry 
-86 bujjikonda manninchu 
-87 chinnari thappaindi 
-88 Renu manninchu 
-89 chinnari Badha pettanu, baaga chusukunta 
-90 bujjikonda manninchu 
-91 Renu thappaindi 
-92 bangarukonda Badha pettanu, baaga chusukunta 
-93 bangaru Badha pettanu, baaga chusukunta 
-94 bujjikonda thappaindi 
-95 bangaru Badha pettanu, baaga chusukunta 
-96 chinnari Badha pettanu, baaga chusukunta 
-97 bujji Badha pettanu, baaga chusukunta 
-98 Renu manninchu 
-99 bangaru thappaindi 
-100 bujjikonda manninchu 
-101 bujjikonda manninchu 
-102 bujji Badha pettanu, baaga chusukunta 
+70 bangarukonda thappaindi 
+71 bangaru sorry 
+72 chinnari thappaindi 
+73 bujjikonda manninchu 
+74 chinnari thappaindi 
+75 chinnari manninchu 
+76 bujji sorry 
+77 bujjikonda sorry 
+78 bangarukonda Badha pettanu, baaga chusukunta 
+79 bujji sorry 
+80 bujjikonda manninchu 
+81 bujji thappaindi 
+82 bangaru sorry 
+83 bujji Badha pettanu, baaga chusukunta 
+84 chinnari thappaindi 
+85 chinnari manninchu 
+86 bujji Badha pettanu, baaga chusukunta 
+87 bangaru manninchu 
+88 kanna manninchu 
+89 kanna sorry 
+90 bangarukonda thappaindi 
+91 bujji sorry 
+92 bujji manninchu 
+93 chinnari sorry 
+94 bujji Badha pettanu, baaga chusukunta 
+95 bujji sorry 
+96 kanna thappaindi 
+97 bangarukonda manninchu 
+98 chinnari manninchu 
+99 bujjikonda sorry 
+100 chinnari thappaindi 
+101 bujji manninchu 
+102 bangarukonda thappaindi 
 103 bujjikonda Badha pettanu, baaga chusukunta 
-104 chinnari manninchu 
-105 bangaru sorry 
-106 bujjikonda Badha pettanu, baaga chusukunta 
-107 chinnari thappaindi 
-108 chinnari sorry 
-109 Renu sorry 
-110 bujjikonda manninchu 
-111 Renu manninchu 
-112 bujji manninchu 
-113 bujji sorry 
-114 bujjikonda thappaindi 
-115 bangarukonda thappaindi 
-116 bujjikonda manninchu 
-117 bujjikonda Badha pettanu, baaga chusukunta 
-118 bangaru sorry 
-119 kanna thappaindi 
-120 bangarukonda manninchu 
-121 bangarukonda Badha pettanu, baaga chusukunta 
-122 bujji sorry 
-123 bujjikonda sorry 
-124 kanna Badha pettanu, baaga chusukunta 
-125 bangarukonda sorry 
-126 bangarukonda sorry 
-127 bujjikonda Badha pettanu, baaga chusukunta 
-128 bujjikonda manninchu 
-129 bangarukonda Badha pettanu, baaga chusukunta 
-130 chinnari Badha pettanu, baaga chusukunta 
-131 bujjikonda manninchu 
-132 bujji thappaindi 
-133 chinnari manninchu 
-134 bujji manninchu 
-135 kanna thappaindi 
-136 bangaru manninchu 
-137 bangarukonda manninchu 
-138 kanna thappaindi 
-139 bujjikonda thappaindi 
-140 kanna sorry 
-141 bangarukonda Badha pettanu, baaga chusukunta 
-142 Renu sorry 
-143 Renu manninchu 
-144 bujji Badha pettanu, baaga chusukunta 
-145 Renu thappaindi 
-146 bujji sorry 
-147 kanna manninchu 
-148 bujjikonda sorry 
-149 bangarukonda Badha pettanu, baaga chusukunta 
-150 Renu manninchu 
+104 bangaru sorry 
+105 bujji manninchu 
+106 bangaru thappaindi 
+107 bangaru manninchu 
+108 Renu sorry 
+109 bujjikonda manninchu 
+110 bujji thappaindi 
+111 bangarukonda Badha pettanu, baaga chusukunta 
+112 bujjikonda manninchu 
+113 bujjikonda thappaindi 
+114 bangarukonda thappaindi 
+115 chinnari Badha pettanu, baaga chusukunta 
+116 bujjikonda sorry 
+117 bujji thappaindi 
+118 bujjikonda sorry 
+119 chinnari Badha pettanu, baaga chusukunta 
+120 kanna sorry 
+121 bangaru sorry 
+122 bangaru sorry 
+123 chinnari sorry 
+124 bangarukonda manninchu 
+125 chinnari Badha pettanu, baaga chusukunta 
+126 kanna manninchu 
+127 chinnari manninchu 
+128 bujjikonda thappaindi 
+129 bujjikonda thappaindi 
+130 bujjikonda thappaindi 
+131 kanna sorry 
+132 chinnari thappaindi 
+133 bangarukonda Badha pettanu, baaga chusukunta 
+134 bangaru manninchu 
+135 kanna sorry 
+136 bangaru Badha pettanu, baaga chusukunta 
+137 bujjikonda manninchu 
+138 Renu sorry 
+139 bangarukonda sorry 
+140 bujji manninchu 
+141 bangarukonda sorry 
+142 bangarukonda manninchu 
+143 bujji sorry 
+144 kanna manninchu 
+145 bujji thappaindi 
+146 bujji manninchu 
+147 bujji sorry 
+148 bangarukonda thappaindi 
+149 chinnari sorry 
+150 bangarukonda Badha pettanu, baaga chusukunta 
 151 bangaru manninchu 
-152 chinnari sorry 
-153 bangarukonda sorry 
-154 kanna sorry 
-155 kanna sorry 
-156 bujjikonda sorry 
-157 chinnari manninchu 
-158 bangaru sorry 
-159 chinnari thappaindi 
-160 bangarukonda thappaindi 
-161 bujji thappaindi 
-162 Renu sorry 
-163 chinnari Badha pettanu, baaga chusukunta 
-164 Renu thappaindi 
-165 Renu thappaindi 
-166 bangarukonda Badha pettanu, baaga chusukunta 
-167 kanna thappaindi 
-168 kanna sorry 
-169 bujji Badha pettanu, baaga chusukunta 
+152 Renu thappaindi 
+153 kanna sorry 
+154 bangaru Badha pettanu, baaga chusukunta 
+155 Renu Badha pettanu, baaga chusukunta 
+156 bujji sorry 
+157 Renu manninchu 
+158 kanna manninchu 
+159 bujji thappaindi 
+160 bujji thappaindi 
+161 bangarukonda thappaindi 
+162 bangarukonda sorry 
+163 Renu thappaindi 
+164 bangaru sorry 
+165 chinnari manninchu 
+166 kanna Badha pettanu, baaga chusukunta 
+167 Renu Badha pettanu, baaga chusukunta 
+168 kanna manninchu 
+169 chinnari Badha pettanu, baaga chusukunta 
 170 bujjikonda Badha pettanu, baaga chusukunta 
-171 bujji manninchu 
-172 bujji manninchu 
-173 bangaru manninchu 
-174 bujjikonda manninchu 
-175 bangarukonda sorry 
-176 bujji thappaindi 
-177 chinnari manninchu 
-178 bangarukonda Badha pettanu, baaga chusukunta 
-179 chinnari sorry 
-180 Renu sorry 
-181 chinnari Badha pettanu, baaga chusukunta 
-182 bangaru thappaindi 
-183 chinnari sorry 
-184 chinnari sorry 
-185 bujji thappaindi 
-186 kanna sorry 
-187 bangarukonda Badha pettanu, baaga chusukunta 
-188 bangarukonda Badha pettanu, baaga chusukunta 
-189 bujji sorry 
-190 kanna sorry 
-191 bujjikonda sorry 
-192 Renu manninchu 
-193 bangaru thappaindi 
-194 bangaru manninchu 
-195 bangarukonda Badha pettanu, baaga chusukunta 
-196 kanna Badha pettanu, baaga chusukunta 
-197 bangarukonda Badha pettanu, baaga chusukunta 
-198 bujjikonda Badha pettanu, baaga chusukunta 
-199 bujjikonda sorry 
-200 bangaru thappaindi 
-201 kanna sorry 
-202 bujji manninchu 
-203 chinnari sorry 
-204 bangaru sorry 
-205 Renu manninchu 
-206 Renu Badha pettanu, baaga chusukunta 
-207 Renu Badha pettanu, baaga chusukunta 
-208 bujji sorry 
-209 bujji sorry 
-210 bujji Badha pettanu, baaga chusukunta 
-211 bangaru manninchu 
-212 bujji Badha pettanu, baaga chusukunta 
-213 bujjikonda sorry 
-214 chinnari sorry 
+171 kanna Badha pettanu, baaga chusukunta 
+172 bujjikonda sorry 
+173 bangaru thappaindi 
+174 bujjikonda thappaindi 
+175 kanna manninchu 
+176 bangarukonda thappaindi 
+177 bujjikonda Badha pettanu, baaga chusukunta 
+178 bangaru thappaindi 
+179 Renu thappaindi 
+180 kanna thappaindi 
+181 Renu manninchu 
+182 bujjikonda manninchu 
+183 bangaru Badha pettanu, baaga chusukunta 
+184 kanna thappaindi 
+185 bujjikonda Badha pettanu, baaga chusukunta 
+186 bangaru thappaindi 
+187 bangarukonda manninchu 
+188 bangarukonda sorry 
+189 bangaru manninchu 
+190 bujjikonda sorry 
+191 kanna thappaindi 
+192 bujjikonda Badha pettanu, baaga chusukunta 
+193 kanna Badha pettanu, baaga chusukunta 
+194 chinnari manninchu 
+195 kanna sorry 
+196 kanna sorry 
+197 bujjikonda Badha pettanu, baaga chusukunta 
+198 bangaru sorry 
+199 kanna sorry 
+200 kanna Badha pettanu, baaga chusukunta 
+201 chinnari sorry 
+202 kanna thappaindi 
+203 kanna thappaindi 
+204 bangaru thappaindi 
+205 bangaru sorry 
+206 bangarukonda manninchu 
+207 bujjikonda sorry 
+208 bangaru manninchu 
+209 chinnari sorry 
+210 bangarukonda thappaindi 
+211 bujjikonda sorry 
+212 bangarukonda thappaindi 
+213 bangaru manninchu 
+214 chinnari Badha pettanu, baaga chusukunta 
 215 bujji thappaindi 
-216 chinnari Badha pettanu, baaga chusukunta 
-217 bangarukonda manninchu 
-218 bujjikonda manninchu 
-219 bujjikonda manninchu 
-220 Renu Badha pettanu, baaga chusukunta 
-221 bujji sorry 
-222 bangarukonda Badha pettanu, baaga chusukunta 
-223 bujjikonda sorry 
-224 Renu manninchu 
-225 bangarukonda manninchu 
-226 chinnari thappaindi 
-227 chinnari sorry 
-228 kanna manninchu 
-229 Renu thappaindi 
-230 Renu Badha pettanu, baaga chusukunta 
-231 bangaru sorry 
-232 bujjikonda thappaindi 
-233 Renu sorry 
-234 bangaru manninchu 
-235 bangaru thappaindi 
-236 chinnari sorry 
-237 kanna Badha pettanu, baaga chusukunta 
-238 chinnari thappaindi 
-239 Renu sorry 
-240 bangarukonda sorry 
-241 bujjikonda sorry 
-242 Renu thappaindi 
-243 bangaru sorry 
-244 Renu manninchu 
-245 Renu thappaindi 
-246 bujjikonda Badha pettanu, baaga chusukunta 
-247 Renu sorry 
-248 Renu Badha pettanu, baaga chusukunta 
-249 bujji thappaindi 
-250 bangaru manninchu 
-251 bangaru sorry 
-252 bujji Badha pettanu, baaga chusukunta 
-253 Renu manninchu 
-254 kanna Badha pettanu, baaga chusukunta 
-255 bujjikonda thappaindi 
-256 chinnari sorry 
-257 chinnari manninchu 
-258 kanna manninchu 
-259 bujjikonda thappaindi 
-260 Renu manninchu 
-261 Renu sorry 
-262 bujji manninchu 
-263 chinnari thappaindi 
-264 bangarukonda manninchu 
-265 bangarukonda Badha pettanu, baaga chusukunta 
+216 Renu manninchu 
+217 kanna manninchu 
+218 kanna thappaindi 
+219 kanna sorry 
+220 kanna Badha pettanu, baaga chusukunta 
+221 chinnari sorry 
+222 chinnari Badha pettanu, baaga chusukunta 
+223 kanna sorry 
+224 chinnari Badha pettanu, baaga chusukunta 
+225 bujji sorry 
+226 bujji thappaindi 
+227 Renu manninchu 
+228 Renu manninchu 
+229 kanna sorry 
+230 kanna Badha pettanu, baaga chusukunta 
+231 bangarukonda Badha pettanu, baaga chusukunta 
+232 chinnari sorry 
+233 kanna thappaindi 
+234 Renu Badha pettanu, baaga chusukunta 
+235 bangaru manninchu 
+236 bujji manninchu 
+237 bujji manninchu 
+238 kanna sorry 
+239 Renu manninchu 
+240 bangarukonda thappaindi 
+241 chinnari Badha pettanu, baaga chusukunta 
+242 bujjikonda thappaindi 
+243 bujjikonda manninchu 
+244 bujjikonda Badha pettanu, baaga chusukunta 
+245 Renu Badha pettanu, baaga chusukunta 
+246 bujjikonda thappaindi 
+247 Renu thappaindi 
+248 bangarukonda Badha pettanu, baaga chusukunta 
+249 bangaru sorry 
+250 kanna Badha pettanu, baaga chusukunta 
+251 bujjikonda sorry 
+252 kanna sorry 
+253 bujjikonda Badha pettanu, baaga chusukunta 
+254 bujji Badha pettanu, baaga chusukunta 
+255 bujjikonda sorry 
+256 kanna sorry 
+257 kanna sorry 
+258 chinnari Badha pettanu, baaga chusukunta 
+259 bangarukonda Badha pettanu, baaga chusukunta 
+260 bujjikonda thappaindi 
+261 chinnari Badha pettanu, baaga chusukunta 
+262 bujji Badha pettanu, baaga chusukunta 
+263 bujjikonda thappaindi 
+264 bujji sorry 
+265 kanna manninchu 
 266 bangaru sorry 
-267 kanna thappaindi 
-268 bujji thappaindi 
+267 kanna manninchu 
+268 chinnari Badha pettanu, baaga chusukunta 
 269 bujjikonda sorry 
-270 bangaru sorry 
-271 bujjikonda thappaindi 
-272 Renu thappaindi 
-273 bangarukonda thappaindi 
-274 bujji thappaindi 
-275 chinnari manninchu 
-276 bangarukonda manninchu 
-277 bujjikonda sorry 
-278 bangarukonda manninchu 
-279 bangaru Badha pettanu, baaga chusukunta 
-280 bangaru thappaindi 
-281 chinnari thappaindi 
-282 bangaru sorry 
-283 kanna sorry 
-284 chinnari thappaindi 
-285 bujjikonda Badha pettanu, baaga chusukunta 
-286 bujji sorry 
-287 bujji sorry 
-288 chinnari thappaindi 
-289 kanna manninchu 
-290 kanna sorry 
-291 bujji thappaindi 
-292 chinnari manninchu 
-293 kanna manninchu 
-294 Renu thappaindi 
-295 bangarukonda manninchu 
-296 bangarukonda Badha pettanu, baaga chusukunta 
-297 kanna thappaindi 
+270 Renu Badha pettanu, baaga chusukunta 
+271 kanna manninchu 
+272 kanna thappaindi 
+273 bangaru Badha pettanu, baaga chusukunta 
+274 bujjikonda sorry 
+275 Renu thappaindi 
+276 bangaru thappaindi 
+277 chinnari thappaindi 
+278 Renu Badha pettanu, baaga chusukunta 
+279 bujjikonda Badha pettanu, baaga chusukunta 
+280 chinnari sorry 
+281 kanna manninchu 
+282 bujjikonda sorry 
+283 Renu Badha pettanu, baaga chusukunta 
+284 bujjikonda manninchu 
+285 bujji Badha pettanu, baaga chusukunta 
+286 bujjikonda manninchu 
+287 chinnari thappaindi 
+288 bujji manninchu 
+289 bujji thappaindi 
+290 kanna Badha pettanu, baaga chusukunta 
+291 bujjikonda sorry 
+292 bangarukonda thappaindi 
+293 chinnari thappaindi 
+294 bujjikonda Badha pettanu, baaga chusukunta 
+295 bangaru sorry 
+296 bujjikonda manninchu 
+297 chinnari thappaindi 
 298 bangaru sorry 
-299 Renu thappaindi 
-300 bangarukonda sorry 
-301 bujjikonda Badha pettanu, baaga chusukunta 
-302 bangaru thappaindi 
-303 bangarukonda sorry 
-304 bujji thappaindi 
-305 bujjikonda sorry 
-306 kanna sorry 
-307 bujjikonda thappaindi 
-308 bangaru thappaindi 
-309 kanna thappaindi 
-310 bujjikonda sorry 
-311 kanna thappaindi 
-312 bujjikonda Badha pettanu, baaga chusukunta 
-313 bujjikonda sorry 
-314 Renu thappaindi 
-315 kanna sorry 
-316 bujjikonda manninchu 
-317 bujjikonda Badha pettanu, baaga chusukunta 
-318 bujji Badha pettanu, baaga chusukunta 
-319 Renu thappaindi 
+299 chinnari thappaindi 
+300 chinnari thappaindi 
+301 kanna sorry 
+302 kanna Badha pettanu, baaga chusukunta 
+303 kanna manninchu 
+304 bangarukonda manninchu 
+305 bujjikonda manninchu 
+306 chinnari Badha pettanu, baaga chusukunta 
+307 bujjikonda Badha pettanu, baaga chusukunta 
+308 bujji thappaindi 
+309 chinnari sorry 
+310 bujji thappaindi 
+311 bangarukonda sorry 
+312 bangaru manninchu 
+313 Renu manninchu 
+314 chinnari thappaindi 
+315 bujji manninchu 
+316 Renu manninchu 
+317 bangarukonda Badha pettanu, baaga chusukunta 
+318 bujjikonda Badha pettanu, baaga chusukunta 
+319 Renu Badha pettanu, baaga chusukunta 
 320 bangarukonda sorry 
-321 chinnari manninchu 
-322 kanna manninchu 
-323 chinnari thappaindi 
-324 bangarukonda sorry 
-325 bujjikonda thappaindi 
-326 bujjikonda thappaindi 
-327 bujji Badha pettanu, baaga chusukunta 
-328 bujji manninchu 
-329 bujjikonda manninchu 
-330 Renu manninchu 
-331 kanna thappaindi 
-332 bangarukonda sorry 
-333 bujjikonda sorry 
-334 chinnari thappaindi 
-335 bujjikonda sorry 
-336 chinnari thappaindi 
-337 chinnari manninchu 
-338 chinnari thappaindi 
-339 bujjikonda manninchu 
-340 bujji thappaindi 
-341 bangaru Badha pettanu, baaga chusukunta 
-342 Renu sorry 
-343 bangaru sorry 
-344 kanna sorry 
-345 chinnari Badha pettanu, baaga chusukunta 
+321 Renu Badha pettanu, baaga chusukunta 
+322 chinnari Badha pettanu, baaga chusukunta 
+323 Renu thappaindi 
+324 bujji sorry 
+325 bangaru sorry 
+326 bangarukonda sorry 
+327 Renu manninchu 
+328 Renu Badha pettanu, baaga chusukunta 
+329 chinnari thappaindi 
+330 bujji Badha pettanu, baaga chusukunta 
+331 bujji thappaindi 
+332 bujjikonda manninchu 
+333 Renu sorry 
+334 bujji sorry 
+335 Renu manninchu 
+336 Renu Badha pettanu, baaga chusukunta 
+337 kanna sorry 
+338 bujji thappaindi 
+339 chinnari Badha pettanu, baaga chusukunta 
+340 bangarukonda sorry 
+341 Renu sorry 
+342 bangarukonda sorry 
+343 chinnari thappaindi 
+344 chinnari Badha pettanu, baaga chusukunta 
+345 Renu sorry 
 346 bangarukonda Badha pettanu, baaga chusukunta 
-347 chinnari thappaindi 
-348 Renu sorry 
-349 chinnari Badha pettanu, baaga chusukunta 
-350 Renu manninchu 
-351 bangarukonda manninchu 
-352 kanna manninchu 
-353 bujjikonda Badha pettanu, baaga chusukunta 
-354 bujji Badha pettanu, baaga chusukunta 
-355 kanna manninchu 
-356 bangaru sorry 
-357 bangarukonda thappaindi 
-358 chinnari thappaindi 
-359 bangaru Badha pettanu, baaga chusukunta 
-360 kanna Badha pettanu, baaga chusukunta 
-361 bujjikonda manninchu 
-362 bangaru Badha pettanu, baaga chusukunta 
-363 bujji sorry 
-364 bujjikonda thappaindi 
-365 bangaru Badha pettanu, baaga chusukunta 
-366 Renu thappaindi 
-367 bujjikonda thappaindi 
-368 bangarukonda sorry 
-369 chinnari Badha pettanu, baaga chusukunta 
-370 bangaru thappaindi 
-371 bangarukonda Badha pettanu, baaga chusukunta 
-372 bangarukonda Badha pettanu, baaga chusukunta 
-373 bangarukonda Badha pettanu, baaga chusukunta 
+347 chinnari manninchu 
+348 bangarukonda manninchu 
+349 bangarukonda thappaindi 
+350 bangarukonda thappaindi 
+351 bujji manninchu 
+352 bujji Badha pettanu, baaga chusukunta 
+353 kanna Badha pettanu, baaga chusukunta 
+354 kanna manninchu 
+355 kanna thappaindi 
+356 bujjikonda manninchu 
+357 bangarukonda sorry 
+358 bujjikonda manninchu 
+359 kanna sorry 
+360 Renu manninchu 
+361 chinnari manninchu 
+362 bujji sorry 
+363 bangarukonda Badha pettanu, baaga chusukunta 
+364 bangarukonda sorry 
+365 Renu manninchu 
+366 bujji Badha pettanu, baaga chusukunta 
+367 bangaru sorry 
+368 kanna manninchu 
+369 bujji thappaindi 
+370 bangarukonda manninchu 
+371 Renu thappaindi 
+372 bujjikonda manninchu 
+373 bangaru manninchu 
 374 bangaru manninchu 
-375 bangarukonda Badha pettanu, baaga chusukunta 
-376 kanna Badha pettanu, baaga chusukunta 
-377 bangaru manninchu 
-378 kanna Badha pettanu, baaga chusukunta 
-379 chinnari sorry 
-380 bujji manninchu 
-381 bangaru Badha pettanu, baaga chusukunta 
-382 bangaru sorry 
-383 bujji manninchu 
-384 chinnari manninchu 
-385 kanna Badha pettanu, baaga chusukunta 
-386 bangaru sorry 
-387 bangarukonda manninchu 
-388 bujji Badha pettanu, baaga chusukunta 
-389 chinnari manninchu 
-390 bujji Badha pettanu, baaga chusukunta 
-391 chinnari Badha pettanu, baaga chusukunta 
-392 Renu thappaindi 
-393 Renu manninchu 
-394 kanna thappaindi 
-395 bujji thappaindi 
-396 chinnari sorry 
-397 bangaru thappaindi 
-398 bujji thappaindi 
-399 kanna Badha pettanu, baaga chusukunta 
-400 kanna Badha pettanu, baaga chusukunta 
-401 kanna Badha pettanu, baaga chusukunta 
-402 chinnari manninchu 
-403 bujjikonda Badha pettanu, baaga chusukunta 
-404 bangaru thappaindi 
-405 bujjikonda sorry 
-406 bangaru manninchu 
-407 bangarukonda thappaindi 
-408 kanna Badha pettanu, baaga chusukunta 
-409 bujji sorry 
-410 bujjikonda sorry 
-411 Renu thappaindi 
-412 bujjikonda manninchu 
-413 chinnari manninchu 
-414 bujji sorry 
-415 bangaru Badha pettanu, baaga chusukunta 
-416 kanna manninchu 
-417 chinnari sorry 
-418 bangarukonda sorry 
-419 chinnari manninchu 
-420 bangaru manninchu 
-421 Renu manninchu 
-422 bangarukonda sorry 
-423 kanna manninchu 
-424 kanna Badha pettanu, baaga chusukunta 
-425 kanna manninchu 
-426 chinnari Badha pettanu, baaga chusukunta 
-427 bujjikonda Badha pettanu, baaga chusukunta 
-428 kanna manninchu 
-429 bangarukonda manninchu 
+375 bangarukonda thappaindi 
+376 chinnari manninchu 
+377 bangarukonda manninchu 
+378 kanna sorry 
+379 bangarukonda Badha pettanu, baaga chusukunta 
+380 bangarukonda Badha pettanu, baaga chusukunta 
+381 bangaru manninchu 
+382 Renu manninchu 
+383 bujjikonda thappaindi 
+384 chinnari thappaindi 
+385 bangarukonda Badha pettanu, baaga chusukunta 
+386 bangaru Badha pettanu, baaga chusukunta 
+387 bangaru thappaindi 
+388 bangaru thappaindi 
+389 bangaru manninchu 
+390 Renu manninchu 
+391 bangaru Badha pettanu, baaga chusukunta 
+392 bujji manninchu 
+393 bujji thappaindi 
+394 chinnari manninchu 
+395 bangaru Badha pettanu, baaga chusukunta 
+396 bangarukonda Badha pettanu, baaga chusukunta 
+397 chinnari thappaindi 
+398 bujjikonda manninchu 
+399 chinnari Badha pettanu, baaga chusukunta 
+400 bujji thappaindi 
+401 Renu sorry 
+402 bangarukonda sorry 
+403 bangaru Badha pettanu, baaga chusukunta 
+404 chinnari sorry 
+405 Renu sorry 
+406 chinnari Badha pettanu, baaga chusukunta 
+407 bangarukonda Badha pettanu, baaga chusukunta 
+408 bangaru thappaindi 
+409 chinnari manninchu 
+410 Renu sorry 
+411 bangarukonda Badha pettanu, baaga chusukunta 
+412 bangarukonda sorry 
+413 bujji manninchu 
+414 bangarukonda manninchu 
+415 bujji thappaindi 
+416 kanna thappaindi 
+417 bangarukonda manninchu 
+418 bujji sorry 
+419 Renu Badha pettanu, baaga chusukunta 
+420 Renu Badha pettanu, baaga chusukunta 
+421 Renu thappaindi 
+422 chinnari thappaindi 
+423 bangaru Badha pettanu, baaga chusukunta 
+424 bujjikonda thappaindi 
+425 bangarukonda manninchu 
+426 bujji manninchu 
+427 kanna manninchu 
+428 bujji sorry 
+429 Renu thappaindi 
 430 kanna thappaindi 
-431 bujji manninchu 
-432 bujjikonda thappaindi 
-433 bangaru thappaindi 
-434 chinnari thappaindi 
-435 bujji thappaindi 
-436 bangaru manninchu 
-437 bujji sorry 
-438 bujji manninchu 
-439 chinnari thappaindi 
-440 bangaru manninchu 
-441 bangaru Badha pettanu, baaga chusukunta 
-442 bujjikonda manninchu 
-443 Renu Badha pettanu, baaga chusukunta 
-444 bujji sorry 
-445 bangarukonda Badha pettanu, baaga chusukunta 
-446 bujjikonda manninchu 
-447 kanna thappaindi 
-448 bangarukonda manninchu 
-449 kanna thappaindi 
-450 bangarukonda Badha pettanu, baaga chusukunta 
-451 bujji Badha pettanu, baaga chusukunta 
-452 kanna manninchu 
-453 chinnari sorry 
-454 kanna sorry 
-455 Renu sorry 
-456 kanna sorry 
-457 bujji thappaindi 
-458 kanna Badha pettanu, baaga chusukunta 
-459 kanna sorry 
-460 chinnari manninchu 
-461 chinnari thappaindi 
+431 bujjikonda Badha pettanu, baaga chusukunta 
+432 bujji Badha pettanu, baaga chusukunta 
+433 bujjikonda manninchu 
+434 bangarukonda manninchu 
+435 bangaru sorry 
+436 Renu thappaindi 
+437 bujjikonda Badha pettanu, baaga chusukunta 
+438 kanna manninchu 
+439 bujji Badha pettanu, baaga chusukunta 
+440 bujjikonda manninchu 
+441 chinnari manninchu 
+442 Renu manninchu 
+443 kanna thappaindi 
+444 bujjikonda thappaindi 
+445 chinnari sorry 
+446 bangaru sorry 
+447 bangaru thappaindi 
+448 bangarukonda Badha pettanu, baaga chusukunta 
+449 bujji sorry 
+450 kanna sorry 
+451 kanna sorry 
+452 chinnari sorry 
+453 Renu sorry 
+454 Renu sorry 
+455 kanna thappaindi 
+456 kanna Badha pettanu, baaga chusukunta 
+457 bujjikonda manninchu 
+458 kanna thappaindi 
+459 bangarukonda thappaindi 
+460 chinnari Badha pettanu, baaga chusukunta 
+461 chinnari Badha pettanu, baaga chusukunta 
 462 Renu Badha pettanu, baaga chusukunta 
 463 bujji Badha pettanu, baaga chusukunta 
-464 kanna thappaindi 
-465 bujjikonda thappaindi 
-466 bangaru sorry 
-467 bujjikonda Badha pettanu, baaga chusukunta 
-468 kanna manninchu 
-469 bujji manninchu 
-470 Renu Badha pettanu, baaga chusukunta 
-471 kanna manninchu 
-472 Renu Badha pettanu, baaga chusukunta 
-473 bangaru Badha pettanu, baaga chusukunta 
-474 chinnari manninchu 
-475 bangarukonda sorry 
-476 bujjikonda thappaindi 
-477 Renu thappaindi 
-478 bangarukonda manninchu 
-479 Renu thappaindi 
-480 kanna Badha pettanu, baaga chusukunta 
-481 Renu sorry 
-482 kanna Badha pettanu, baaga chusukunta 
-483 Renu sorry 
-484 bangarukonda Badha pettanu, baaga chusukunta 
-485 bujjikonda thappaindi 
-486 bujjikonda thappaindi 
-487 chinnari manninchu 
-488 bujji thappaindi 
-489 bujji manninchu 
-490 bujji thappaindi 
-491 bangaru thappaindi 
-492 bujji Badha pettanu, baaga chusukunta 
-493 bujji thappaindi 
-494 kanna sorry 
-495 chinnari thappaindi 
-496 bujji sorry 
-497 bujjikonda sorry 
-498 bangarukonda manninchu 
-499 bujji Badha pettanu, baaga chusukunta 
-500 bangaru manninchu 
-501 bangaru manninchu 
-502 kanna sorry 
-503 bangarukonda thappaindi 
-504 bujji Badha pettanu, baaga chusukunta 
-505 bangaru Badha pettanu, baaga chusukunta 
-506 Renu Badha pettanu, baaga chusukunta 
-507 bujji manninchu 
-508 kanna thappaindi 
-509 bujjikonda manninchu 
-510 bangarukonda Badha pettanu, baaga chusukunta 
-511 bujjikonda thappaindi 
-512 bujjikonda thappaindi 
-513 bujjikonda sorry 
-514 bangaru sorry 
-515 bujji sorry 
-516 bangaru thappaindi 
-517 chinnari Badha pettanu, baaga chusukunta 
-518 kanna manninchu 
-519 kanna Badha pettanu, baaga chusukunta 
-520 chinnari manninchu 
-521 bangarukonda Badha pettanu, baaga chusukunta 
-522 bangarukonda sorry 
-523 Renu manninchu 
-524 chinnari thappaindi 
-525 bujji Badha pettanu, baaga chusukunta 
-526 bangaru manninchu 
-527 bujjikonda manninchu 
-528 bujji manninchu 
+464 Renu manninchu 
+465 Renu manninchu 
+466 bangarukonda Badha pettanu, baaga chusukunta 
+467 chinnari thappaindi 
+468 Renu manninchu 
+469 Renu manninchu 
+470 chinnari manninchu 
+471 chinnari manninchu 
+472 bangaru sorry 
+473 Renu manninchu 
+474 bujji manninchu 
+475 kanna Badha pettanu, baaga chusukunta 
+476 bangaru sorry 
+477 chinnari manninchu 
+478 bangaru thappaindi 
+479 Renu sorry 
+480 Renu thappaindi 
+481 bangarukonda sorry 
+482 bujjikonda manninchu 
+483 bangarukonda manninchu 
+484 bujji Badha pettanu, baaga chusukunta 
+485 bangarukonda sorry 
+486 kanna thappaindi 
+487 bujji Badha pettanu, baaga chusukunta 
+488 chinnari Badha pettanu, baaga chusukunta 
+489 kanna manninchu 
+490 bujjikonda manninchu 
+491 bangarukonda Badha pettanu, baaga chusukunta 
+492 chinnari manninchu 
+493 bujjikonda thappaindi 
+494 bujjikonda manninchu 
+495 bangarukonda thappaindi 
+496 chinnari sorry 
+497 bangarukonda sorry 
+498 bangarukonda thappaindi 
+499 bangaru manninchu 
+500 chinnari Badha pettanu, baaga chusukunta 
+501 bangaru Badha pettanu, baaga chusukunta 
+502 bangaru Badha pettanu, baaga chusukunta 
+503 kanna thappaindi 
+504 bujjikonda sorry 
+505 bujji thappaindi 
+506 chinnari Badha pettanu, baaga chusukunta 
+507 bujjikonda Badha pettanu, baaga chusukunta 
+508 bangaru manninchu 
+509 bujjikonda Badha pettanu, baaga chusukunta 
+510 bangaru manninchu 
+511 bujjikonda sorry 
+512 kanna sorry 
+513 kanna sorry 
+514 Renu thappaindi 
+515 kanna manninchu 
+516 bangarukonda manninchu 
+517 bujji sorry 
+518 bujji Badha pettanu, baaga chusukunta 
+519 Renu thappaindi 
+520 kanna Badha pettanu, baaga chusukunta 
+521 bangarukonda sorry 
+522 bujji thappaindi 
+523 Renu thappaindi 
+524 bujji Badha pettanu, baaga chusukunta 
+525 bangarukonda thappaindi 
+526 bangarukonda thappaindi 
+527 bujjikonda sorry 
+528 bujjikonda sorry 
 529 bujji thappaindi 
-530 bujji manninchu 
-531 chinnari Badha pettanu, baaga chusukunta 
-532 bangaru thappaindi 
-533 chinnari sorry 
-534 bangaru sorry 
-535 chinnari thappaindi 
-536 bangaru thappaindi 
-537 bujjikonda Badha pettanu, baaga chusukunta 
-538 bangarukonda manninchu 
-539 bujjikonda sorry 
+530 bujjikonda manninchu 
+531 bujji manninchu 
+532 kanna thappaindi 
+533 bangaru sorry 
+534 kanna manninchu 
+535 Renu manninchu 
+536 bangaru Badha pettanu, baaga chusukunta 
+537 bangarukonda manninchu 
+538 Renu sorry 
+539 kanna manninchu 
 540 kanna manninchu 
-541 Renu thappaindi 
-542 bangarukonda thappaindi 
-543 chinnari Badha pettanu, baaga chusukunta 
-544 bujjikonda Badha pettanu, baaga chusukunta 
-545 bangarukonda Badha pettanu, baaga chusukunta 
-546 bujjikonda Badha pettanu, baaga chusukunta 
-547 Renu thappaindi 
-548 bujji Badha pettanu, baaga chusukunta 
-549 bujji thappaindi 
-550 kanna sorry 
-551 kanna Badha pettanu, baaga chusukunta 
-552 bangaru thappaindi 
+541 kanna Badha pettanu, baaga chusukunta 
+542 Renu Badha pettanu, baaga chusukunta 
+543 bujjikonda thappaindi 
+544 kanna sorry 
+545 bangarukonda manninchu 
+546 Renu manninchu 
+547 bangarukonda sorry 
+548 bangaru sorry 
+549 kanna sorry 
+550 kanna thappaindi 
+551 bujji sorry 
+552 bangarukonda manninchu 
 553 kanna thappaindi 
-554 bangarukonda thappaindi 
-555 bujjikonda manninchu 
-556 kanna thappaindi 
-557 bujji thappaindi 
-558 bujji Badha pettanu, baaga chusukunta 
-559 Renu Badha pettanu, baaga chusukunta 
-560 bangaru thappaindi 
-561 kanna Badha pettanu, baaga chusukunta 
-562 bangarukonda sorry 
-563 bangarukonda sorry 
-564 bangarukonda Badha pettanu, baaga chusukunta 
-565 bujji Badha pettanu, baaga chusukunta 
+554 bujji thappaindi 
+555 kanna Badha pettanu, baaga chusukunta 
+556 bangaru thappaindi 
+557 Renu thappaindi 
+558 chinnari Badha pettanu, baaga chusukunta 
+559 bangarukonda manninchu 
+560 chinnari thappaindi 
+561 bangarukonda Badha pettanu, baaga chusukunta 
+562 bangaru thappaindi 
+563 bujji manninchu 
+564 bangaru thappaindi 
+565 kanna thappaindi 
 566 bangaru thappaindi 
-567 bujjikonda Badha pettanu, baaga chusukunta 
-568 bangarukonda sorry 
-569 Renu Badha pettanu, baaga chusukunta 
-570 Renu manninchu 
-571 Renu Badha pettanu, baaga chusukunta 
-572 bangarukonda manninchu 
-573 chinnari Badha pettanu, baaga chusukunta 
-574 bujji manninchu 
+567 bangarukonda manninchu 
+568 Renu manninchu 
+569 chinnari Badha pettanu, baaga chusukunta 
+570 bujjikonda manninchu 
+571 bujjikonda manninchu 
+572 chinnari sorry 
+573 bujji sorry 
+574 bujjikonda sorry 
 575 bangarukonda sorry 
-576 chinnari sorry 
-577 chinnari thappaindi 
-578 bujji thappaindi 
-579 bangarukonda sorry 
-580 Renu manninchu 
-581 chinnari Badha pettanu, baaga chusukunta 
-582 chinnari thappaindi 
-583 Renu thappaindi 
-584 Renu manninchu 
-585 bujjikonda Badha pettanu, baaga chusukunta 
-586 bujjikonda Badha pettanu, baaga chusukunta 
-587 bujjikonda thappaindi 
-588 bujji thappaindi 
-589 chinnari sorry 
-590 bangaru manninchu 
-591 bangarukonda thappaindi 
-592 chinnari sorry 
-593 kanna manninchu 
-594 kanna sorry 
-595 bangaru sorry 
-596 bujjikonda Badha pettanu, baaga chusukunta 
-597 bujjikonda thappaindi 
-598 chinnari manninchu 
-599 bangarukonda sorry 
-600 bujji Badha pettanu, baaga chusukunta 
-601 bujji sorry 
-602 bujji manninchu 
-603 bujjikonda Badha pettanu, baaga chusukunta 
-604 bujji manninchu 
-605 kanna Badha pettanu, baaga chusukunta 
-606 chinnari manninchu 
-607 Renu manninchu 
-608 bujji sorry 
-609 bujjikonda manninchu 
-610 bangarukonda thappaindi 
-611 bujji thappaindi 
-612 bujjikonda Badha pettanu, baaga chusukunta 
-613 kanna manninchu 
-614 chinnari manninchu 
-615 Renu sorry 
-616 kanna thappaindi 
-617 kanna thappaindi 
-618 Renu sorry 
-619 chinnari thappaindi 
-620 bujji manninchu 
-621 kanna Badha pettanu, baaga chusukunta 
-622 bangarukonda sorry 
-623 bangarukonda manninchu 
-624 bujji Badha pettanu, baaga chusukunta 
-625 kanna thappaindi 
+576 chinnari Badha pettanu, baaga chusukunta 
+577 bangarukonda Badha pettanu, baaga chusukunta 
+578 bujjikonda sorry 
+579 bangaru Badha pettanu, baaga chusukunta 
+580 bangaru thappaindi 
+581 bangarukonda manninchu 
+582 bangarukonda Badha pettanu, baaga chusukunta 
+583 chinnari thappaindi 
+584 bangaru thappaindi 
+585 chinnari sorry 
+586 bujjikonda manninchu 
+587 bangarukonda manninchu 
+588 kanna sorry 
+589 Renu thappaindi 
+590 bangaru sorry 
+591 bangarukonda Badha pettanu, baaga chusukunta 
+592 kanna thappaindi 
+593 bangarukonda Badha pettanu, baaga chusukunta 
+594 Renu sorry 
+595 bangarukonda sorry 
+596 Renu Badha pettanu, baaga chusukunta 
+597 Renu Badha pettanu, baaga chusukunta 
+598 bujjikonda manninchu 
+599 bujjikonda thappaindi 
+600 bangarukonda Badha pettanu, baaga chusukunta 
+601 Renu Badha pettanu, baaga chusukunta 
+602 chinnari sorry 
+603 bujji Badha pettanu, baaga chusukunta 
+604 bujjikonda manninchu 
+605 bujji Badha pettanu, baaga chusukunta 
+606 bujjikonda Badha pettanu, baaga chusukunta 
+607 bujjikonda manninchu 
+608 bangaru thappaindi 
+609 bujjikonda Badha pettanu, baaga chusukunta 
+610 bangaru sorry 
+611 bangarukonda Badha pettanu, baaga chusukunta 
+612 chinnari sorry 
+613 bujji sorry 
+614 Renu manninchu 
+615 bangaru sorry 
+616 Renu sorry 
+617 bangaru Badha pettanu, baaga chusukunta 
+618 bujjikonda Badha pettanu, baaga chusukunta 
+619 bujjikonda Badha pettanu, baaga chusukunta 
+620 chinnari thappaindi 
+621 kanna thappaindi 
+622 chinnari Badha pettanu, baaga chusukunta 
+623 bujjikonda thappaindi 
+624 bangaru manninchu 
+625 chinnari Badha pettanu, baaga chusukunta 
 626 Renu manninchu 
-627 Renu sorry 
-628 chinnari sorry 
-629 bangaru sorry 
-630 bujjikonda thappaindi 
-631 bujji sorry 
-632 Renu thappaindi 
-633 Renu manninchu 
-634 bangaru Badha pettanu, baaga chusukunta 
-635 Renu Badha pettanu, baaga chusukunta 
-636 bangaru manninchu 
+627 bangaru Badha pettanu, baaga chusukunta 
+628 bujji manninchu 
+629 kanna manninchu 
+630 bangarukonda Badha pettanu, baaga chusukunta 
+631 bangaru manninchu 
+632 kanna manninchu 
+633 Renu Badha pettanu, baaga chusukunta 
+634 bujji manninchu 
+635 Renu manninchu 
+636 bangaru thappaindi 
 637 bangaru sorry 
-638 bujji thappaindi 
-639 chinnari sorry 
-640 bujjikonda manninchu 
-641 Renu thappaindi 
-642 bujjikonda thappaindi 
-643 chinnari Badha pettanu, baaga chusukunta 
-644 bangarukonda sorry 
-645 bangaru manninchu 
-646 bangarukonda thappaindi 
-647 bangarukonda thappaindi 
-648 bujjikonda sorry 
-649 chinnari thappaindi 
-650 bangaru Badha pettanu, baaga chusukunta 
-651 kanna sorry 
-652 bujjikonda manninchu 
-653 bangarukonda manninchu 
-654 bangaru manninchu 
-655 bangaru Badha pettanu, baaga chusukunta 
-656 bujjikonda thappaindi 
-657 bangaru Badha pettanu, baaga chusukunta 
-658 Renu sorry 
-659 bujjikonda manninchu 
-660 bujjikonda manninchu 
-661 chinnari Badha pettanu, baaga chusukunta 
-662 chinnari manninchu 
-663 bujji Badha pettanu, baaga chusukunta 
+638 chinnari Badha pettanu, baaga chusukunta 
+639 bangaru Badha pettanu, baaga chusukunta 
+640 bujji Badha pettanu, baaga chusukunta 
+641 bujjikonda manninchu 
+642 bangarukonda manninchu 
+643 chinnari thappaindi 
+644 bujji thappaindi 
+645 bujjikonda Badha pettanu, baaga chusukunta 
+646 Renu manninchu 
+647 bangarukonda manninchu 
+648 bujjikonda manninchu 
+649 kanna sorry 
+650 bangaru sorry 
+651 bangaru sorry 
+652 kanna manninchu 
+653 bangarukonda sorry 
+654 Renu Badha pettanu, baaga chusukunta 
+655 bangarukonda sorry 
+656 chinnari thappaindi 
+657 kanna Badha pettanu, baaga chusukunta 
+658 chinnari manninchu 
+659 bujji manninchu 
+660 kanna Badha pettanu, baaga chusukunta 
+661 bujji manninchu 
+662 bangaru thappaindi 
+663 bujjikonda sorry 
 664 bujjikonda manninchu 
-665 kanna Badha pettanu, baaga chusukunta 
-666 bangaru Badha pettanu, baaga chusukunta 
-667 chinnari manninchu 
-668 bangaru sorry 
-669 chinnari sorry 
-670 bujji Badha pettanu, baaga chusukunta 
-671 kanna sorry 
-672 kanna manninchu 
-673 bujjikonda Badha pettanu, baaga chusukunta 
-674 Renu thappaindi 
-675 bujji Badha pettanu, baaga chusukunta 
-676 Renu Badha pettanu, baaga chusukunta 
-677 bujji sorry 
+665 kanna sorry 
+666 bangarukonda manninchu 
+667 bujji thappaindi 
+668 chinnari thappaindi 
+669 bujjikonda thappaindi 
+670 bangaru Badha pettanu, baaga chusukunta 
+671 bangaru Badha pettanu, baaga chusukunta 
+672 bujjikonda sorry 
+673 bangarukonda sorry 
+674 chinnari thappaindi 
+675 chinnari Badha pettanu, baaga chusukunta 
+676 bangarukonda thappaindi 
+677 Renu thappaindi 
 678 Renu manninchu 
-679 bujjikonda manninchu 
-680 chinnari sorry 
-681 chinnari manninchu 
+679 bangaru sorry 
+680 kanna manninchu 
+681 bangarukonda Badha pettanu, baaga chusukunta 
 682 kanna Badha pettanu, baaga chusukunta 
-683 kanna thappaindi 
+683 bujjikonda manninchu 
 684 chinnari sorry 
-685 bangaru Badha pettanu, baaga chusukunta 
-686 bangaru manninchu 
-687 kanna Badha pettanu, baaga chusukunta 
-688 bangaru sorry 
+685 chinnari Badha pettanu, baaga chusukunta 
+686 bangarukonda manninchu 
+687 bangarukonda manninchu 
+688 bujjikonda manninchu 
 689 Renu sorry 
-690 bujjikonda manninchu 
-691 bujjikonda thappaindi 
-692 bujjikonda sorry 
-693 chinnari thappaindi 
-694 bangarukonda Badha pettanu, baaga chusukunta 
-695 chinnari Badha pettanu, baaga chusukunta 
-696 bujjikonda sorry 
-697 bangaru Badha pettanu, baaga chusukunta 
-698 bujji sorry 
-699 bujjikonda sorry 
-700 bangarukonda Badha pettanu, baaga chusukunta 
-701 chinnari sorry 
-702 bujji Badha pettanu, baaga chusukunta 
-703 chinnari thappaindi 
-704 bujjikonda manninchu 
-705 Renu sorry 
-706 kanna thappaindi 
-707 bujjikonda thappaindi 
-708 chinnari manninchu 
-709 chinnari sorry 
-710 bujjikonda sorry 
-711 Renu thappaindi 
-712 Renu thappaindi 
-713 Renu manninchu 
-714 bangaru sorry 
-715 bujjikonda manninchu 
-716 bujjikonda thappaindi 
-717 bujjikonda Badha pettanu, baaga chusukunta 
-718 bujjikonda manninchu 
-719 bangaru thappaindi 
-720 bujjikonda manninchu 
-721 bujjikonda manninchu 
-722 bangaru manninchu 
-723 kanna thappaindi 
-724 kanna sorry 
-725 bangarukonda sorry 
-726 bujjikonda thappaindi 
-727 Renu Badha pettanu, baaga chusukunta 
-728 bujji thappaindi 
-729 bujji manninchu 
-730 bujjikonda Badha pettanu, baaga chusukunta 
-731 bangaru sorry 
-732 bangaru sorry 
-733 bujjikonda sorry 
+690 bangaru sorry 
+691 bangarukonda manninchu 
+692 kanna sorry 
+693 bujjikonda Badha pettanu, baaga chusukunta 
+694 chinnari sorry 
+695 bujjikonda sorry 
+696 bangarukonda manninchu 
+697 bangarukonda thappaindi 
+698 Renu Badha pettanu, baaga chusukunta 
+699 bangarukonda Badha pettanu, baaga chusukunta 
+700 Renu manninchu 
+701 chinnari Badha pettanu, baaga chusukunta 
+702 kanna Badha pettanu, baaga chusukunta 
+703 bujji manninchu 
+704 chinnari Badha pettanu, baaga chusukunta 
+705 chinnari Badha pettanu, baaga chusukunta 
+706 Renu sorry 
+707 chinnari Badha pettanu, baaga chusukunta 
+708 kanna sorry 
+709 chinnari manninchu 
+710 kanna manninchu 
+711 chinnari Badha pettanu, baaga chusukunta 
+712 bangaru Badha pettanu, baaga chusukunta 
+713 bujjikonda Badha pettanu, baaga chusukunta 
+714 bangarukonda Badha pettanu, baaga chusukunta 
+715 bangaru thappaindi 
+716 chinnari sorry 
+717 bangaru Badha pettanu, baaga chusukunta 
+718 bujjikonda sorry 
+719 kanna thappaindi 
+720 bujji manninchu 
+721 bangarukonda Badha pettanu, baaga chusukunta 
+722 bangarukonda Badha pettanu, baaga chusukunta 
+723 bujjikonda sorry 
+724 bujjikonda thappaindi 
+725 bujjikonda manninchu 
+726 bangaru sorry 
+727 bangaru sorry 
+728 kanna thappaindi 
+729 Renu thappaindi 
+730 kanna sorry 
+731 bujji thappaindi 
+732 kanna manninchu 
+733 kanna thappaindi 
 734 bangarukonda thappaindi 
-735 bujjikonda manninchu 
-736 bujjikonda Badha pettanu, baaga chusukunta 
-737 bujji manninchu 
-738 bujji sorry 
-739 bujji Badha pettanu, baaga chusukunta 
-740 kanna sorry 
+735 kanna Badha pettanu, baaga chusukunta 
+736 bangarukonda Badha pettanu, baaga chusukunta 
+737 bangaru sorry 
+738 bangarukonda Badha pettanu, baaga chusukunta 
+739 bangaru sorry 
+740 bujjikonda Badha pettanu, baaga chusukunta 
 741 chinnari Badha pettanu, baaga chusukunta 
-742 bujjikonda sorry 
-743 bangarukonda thappaindi 
-744 bujji thappaindi 
-745 chinnari manninchu 
-746 bangaru thappaindi 
-747 bangaru thappaindi 
-748 bujjikonda thappaindi 
-749 bujji Badha pettanu, baaga chusukunta 
-750 chinnari sorry 
-751 bujji manninchu 
-752 bangaru thappaindi 
-753 bangarukonda sorry 
-754 chinnari thappaindi 
-755 kanna sorry 
-756 bujji thappaindi 
-757 kanna manninchu 
-758 bujji manninchu 
-759 Renu sorry 
-760 bujji manninchu 
-761 bujjikonda manninchu 
-762 kanna manninchu 
-763 chinnari Badha pettanu, baaga chusukunta 
-764 bujji sorry 
-765 bangarukonda Badha pettanu, baaga chusukunta 
-766 chinnari Badha pettanu, baaga chusukunta 
-767 chinnari sorry 
-768 bujjikonda manninchu 
-769 bangaru manninchu 
-770 Renu thappaindi 
-771 bujjikonda sorry 
-772 bangarukonda Badha pettanu, baaga chusukunta 
+742 bangarukonda manninchu 
+743 kanna Badha pettanu, baaga chusukunta 
+744 bangaru manninchu 
+745 bangaru Badha pettanu, baaga chusukunta 
+746 bujji thappaindi 
+747 chinnari Badha pettanu, baaga chusukunta 
+748 bujji thappaindi 
+749 bangaru sorry 
+750 bangarukonda thappaindi 
+751 chinnari manninchu 
+752 bangarukonda sorry 
+753 bujjikonda Badha pettanu, baaga chusukunta 
+754 Renu Badha pettanu, baaga chusukunta 
+755 chinnari thappaindi 
+756 bangarukonda thappaindi 
+757 bangarukonda Badha pettanu, baaga chusukunta 
+758 bangaru manninchu 
+759 bangarukonda sorry 
+760 kanna sorry 
+761 kanna Badha pettanu, baaga chusukunta 
+762 bangaru sorry 
+763 bujjikonda Badha pettanu, baaga chusukunta 
+764 kanna sorry 
+765 Renu Badha pettanu, baaga chusukunta 
+766 bangaru thappaindi 
+767 chinnari Badha pettanu, baaga chusukunta 
+768 bangarukonda Badha pettanu, baaga chusukunta 
+769 bujji Badha pettanu, baaga chusukunta 
+770 bangarukonda manninchu 
+771 bujjikonda Badha pettanu, baaga chusukunta 
+772 bangarukonda sorry 
 773 bangarukonda manninchu 
-774 kanna sorry 
-775 bangaru thappaindi 
-776 bangarukonda thappaindi 
-777 bujji thappaindi 
-778 bangarukonda thappaindi 
-779 Renu sorry 
-780 Renu Badha pettanu, baaga chusukunta 
-781 Renu Badha pettanu, baaga chusukunta 
-782 Renu Badha pettanu, baaga chusukunta 
-783 bujjikonda thappaindi 
-784 bangaru manninchu 
-785 bujjikonda manninchu 
-786 Renu manninchu 
-787 bujji manninchu 
-788 bangarukonda thappaindi 
-789 kanna sorry 
-790 bujji Badha pettanu, baaga chusukunta 
-791 bangaru Badha pettanu, baaga chusukunta 
-792 bujjikonda thappaindi 
-793 bangarukonda Badha pettanu, baaga chusukunta 
-794 Renu manninchu 
-795 kanna Badha pettanu, baaga chusukunta 
-796 bujjikonda manninchu 
-797 chinnari sorry 
-798 Renu Badha pettanu, baaga chusukunta 
-799 bujji sorry 
-800 bangaru manninchu 
-801 chinnari manninchu 
-802 chinnari thappaindi 
-803 bangarukonda sorry 
-804 bujjikonda thappaindi 
-805 bujji manninchu 
-806 Renu Badha pettanu, baaga chusukunta 
-807 chinnari Badha pettanu, baaga chusukunta 
-808 bujjikonda Badha pettanu, baaga chusukunta 
-809 kanna Badha pettanu, baaga chusukunta 
+774 kanna thappaindi 
+775 bangarukonda thappaindi 
+776 bujji sorry 
+777 bujjikonda Badha pettanu, baaga chusukunta 
+778 bangarukonda manninchu 
+779 bujjikonda thappaindi 
+780 kanna sorry 
+781 bujji manninchu 
+782 Renu manninchu 
+783 bangarukonda thappaindi 
+784 kanna Badha pettanu, baaga chusukunta 
+785 bangaru thappaindi 
+786 bujji sorry 
+787 chinnari Badha pettanu, baaga chusukunta 
+788 Renu thappaindi 
+789 bujji sorry 
+790 bujji thappaindi 
+791 chinnari Badha pettanu, baaga chusukunta 
+792 bangaru thappaindi 
+793 chinnari thappaindi 
+794 bangaru thappaindi 
+795 Renu thappaindi 
+796 Renu thappaindi 
+797 chinnari thappaindi 
+798 chinnari Badha pettanu, baaga chusukunta 
+799 bujji Badha pettanu, baaga chusukunta 
+800 bujjikonda Badha pettanu, baaga chusukunta 
+801 bangarukonda sorry 
+802 bangaru manninchu 
+803 bujjikonda sorry 
+804 bujjikonda Badha pettanu, baaga chusukunta 
+805 bangaru manninchu 
+806 kanna sorry 
+807 bujji thappaindi 
+808 kanna Badha pettanu, baaga chusukunta 
+809 bangaru thappaindi 
 810 Renu thappaindi 
-811 bangarukonda manninchu 
-812 bujjikonda Badha pettanu, baaga chusukunta 
-813 kanna thappaindi 
-814 bujjikonda thappaindi 
-815 kanna Badha pettanu, baaga chusukunta 
-816 bujji manninchu 
-817 bujjikonda manninchu 
-818 kanna manninchu 
-819 bangaru manninchu 
-820 bujji manninchu 
-821 bangarukonda thappaindi 
-822 bujjikonda manninchu 
-823 chinnari Badha pettanu, baaga chusukunta 
-824 Renu sorry 
-825 chinnari sorry 
-826 kanna thappaindi 
-827 kanna Badha pettanu, baaga chusukunta 
-828 Renu sorry 
-829 chinnari thappaindi 
-830 chinnari sorry 
-831 Renu sorry 
-832 bujji manninchu 
-833 kanna sorry 
-834 bangaru thappaindi 
-835 bujji thappaindi 
-836 Renu thappaindi 
+811 Renu Badha pettanu, baaga chusukunta 
+812 kanna sorry 
+813 bangaru Badha pettanu, baaga chusukunta 
+814 chinnari sorry 
+815 bangarukonda manninchu 
+816 bangarukonda manninchu 
+817 bujji thappaindi 
+818 chinnari manninchu 
+819 Renu Badha pettanu, baaga chusukunta 
+820 chinnari Badha pettanu, baaga chusukunta 
+821 bujjikonda sorry 
+822 Renu manninchu 
+823 kanna manninchu 
+824 bangarukonda thappaindi 
+825 Renu manninchu 
+826 bangarukonda manninchu 
+827 bangarukonda manninchu 
+828 bangaru thappaindi 
+829 Renu Badha pettanu, baaga chusukunta 
+830 Renu Badha pettanu, baaga chusukunta 
+831 bangarukonda Badha pettanu, baaga chusukunta 
+832 kanna manninchu 
+833 kanna thappaindi 
+834 chinnari Badha pettanu, baaga chusukunta 
+835 kanna sorry 
+836 bangaru thappaindi 
 837 chinnari thappaindi 
-838 bangarukonda thappaindi 
-839 bujji thappaindi 
-840 bujjikonda sorry 
-841 Renu sorry 
-842 bujji manninchu 
-843 Renu thappaindi 
-844 bangarukonda manninchu 
-845 bangaru manninchu 
-846 bangaru thappaindi 
-847 bujjikonda manninchu 
+838 Renu Badha pettanu, baaga chusukunta 
+839 kanna thappaindi 
+840 kanna Badha pettanu, baaga chusukunta 
+841 Renu Badha pettanu, baaga chusukunta 
+842 bujjikonda sorry 
+843 bujjikonda sorry 
+844 chinnari thappaindi 
+845 kanna thappaindi 
+846 kanna manninchu 
+847 bujji manninchu 
 848 bujji Badha pettanu, baaga chusukunta 
-849 chinnari sorry 
-850 kanna thappaindi 
-851 bangarukonda Badha pettanu, baaga chusukunta 
-852 chinnari thappaindi 
-853 bujjikonda Badha pettanu, baaga chusukunta 
-854 kanna manninchu 
-855 chinnari thappaindi 
-856 bangaru Badha pettanu, baaga chusukunta 
-857 chinnari sorry 
-858 bujjikonda thappaindi 
-859 kanna Badha pettanu, baaga chusukunta 
-860 Renu manninchu 
-861 bujjikonda manninchu 
-862 kanna manninchu 
-863 bujjikonda manninchu 
+849 Renu thappaindi 
+850 bujjikonda thappaindi 
+851 bangarukonda thappaindi 
+852 Renu manninchu 
+853 bujji Badha pettanu, baaga chusukunta 
+854 chinnari thappaindi 
+855 bangarukonda thappaindi 
+856 bujji sorry 
+857 Renu manninchu 
+858 bujji Badha pettanu, baaga chusukunta 
+859 bangarukonda manninchu 
+860 bangarukonda thappaindi 
+861 bujji Badha pettanu, baaga chusukunta 
+862 bujjikonda sorry 
+863 bujji thappaindi 
 864 Renu Badha pettanu, baaga chusukunta 
-865 kanna sorry 
-866 bujji sorry 
+865 Renu thappaindi 
+866 chinnari Badha pettanu, baaga chusukunta 
 867 Renu Badha pettanu, baaga chusukunta 
-868 bangarukonda Badha pettanu, baaga chusukunta 
-869 Renu manninchu 
-870 chinnari sorry 
-871 bujji sorry 
-872 kanna Badha pettanu, baaga chusukunta 
-873 kanna Badha pettanu, baaga chusukunta 
-874 bujji thappaindi 
-875 chinnari sorry 
-876 chinnari thappaindi 
-877 kanna thappaindi 
-878 kanna manninchu 
-879 chinnari Badha pettanu, baaga chusukunta 
-880 Renu thappaindi 
-881 chinnari Badha pettanu, baaga chusukunta 
-882 bangaru manninchu 
-883 kanna manninchu 
-884 Renu Badha pettanu, baaga chusukunta 
-885 Renu Badha pettanu, baaga chusukunta 
-886 bangaru sorry 
-887 chinnari Badha pettanu, baaga chusukunta 
-888 Renu Badha pettanu, baaga chusukunta 
-889 kanna thappaindi 
-890 bujji sorry 
-891 kanna Badha pettanu, baaga chusukunta 
-892 kanna sorry 
-893 kanna Badha pettanu, baaga chusukunta 
-894 bangarukonda thappaindi 
-895 bangaru manninchu 
-896 kanna sorry 
-897 bangaru thappaindi 
-898 bujjikonda sorry 
-899 kanna Badha pettanu, baaga chusukunta 
-900 bangaru sorry 
-901 bujji Badha pettanu, baaga chusukunta 
-902 chinnari thappaindi 
-903 kanna sorry 
-904 bangaru Badha pettanu, baaga chusukunta 
-905 Renu manninchu 
-906 bangaru Badha pettanu, baaga chusukunta 
-907 Renu thappaindi 
-908 kanna Badha pettanu, baaga chusukunta 
-909 bangaru Badha pettanu, baaga chusukunta 
-910 bujji Badha pettanu, baaga chusukunta 
-911 kanna sorry 
-912 bangarukonda Badha pettanu, baaga chusukunta 
-913 bujji Badha pettanu, baaga chusukunta 
-914 bujjikonda thappaindi 
-915 bangaru Badha pettanu, baaga chusukunta 
-916 bujji sorry 
-917 bujjikonda thappaindi 
-918 kanna Badha pettanu, baaga chusukunta 
-919 Renu manninchu 
-920 chinnari sorry 
-921 bujji manninchu 
-922 bangarukonda manninchu 
-923 bangaru Badha pettanu, baaga chusukunta 
-924 bangaru sorry 
-925 chinnari thappaindi 
-926 kanna Badha pettanu, baaga chusukunta 
-927 Renu manninchu 
-928 kanna Badha pettanu, baaga chusukunta 
-929 bangarukonda thappaindi 
-930 bangarukonda Badha pettanu, baaga chusukunta 
-931 kanna thappaindi 
-932 kanna Badha pettanu, baaga chusukunta 
-933 bujji manninchu 
-934 bangarukonda manninchu 
-935 bangaru thappaindi 
-936 bujjikonda manninchu 
-937 kanna Badha pettanu, baaga chusukunta 
-938 bangaru thappaindi 
-939 bujji sorry 
-940 bujji sorry 
-941 kanna manninchu 
-942 kanna manninchu 
-943 bangarukonda Badha pettanu, baaga chusukunta 
-944 bujji manninchu 
-945 bujjikonda sorry 
-946 chinnari thappaindi 
-947 kanna Badha pettanu, baaga chusukunta 
-948 bangarukonda thappaindi 
-949 bujji sorry 
-950 kanna thappaindi 
-951 bujjikonda manninchu 
-952 bujji manninchu 
-953 chinnari thappaindi 
-954 kanna manninchu 
+868 bujji thappaindi 
+869 kanna thappaindi 
+870 chinnari thappaindi 
+871 bangaru Badha pettanu, baaga chusukunta 
+872 bujjikonda Badha pettanu, baaga chusukunta 
+873 bangaru thappaindi 
+874 kanna Badha pettanu, baaga chusukunta 
+875 bangarukonda manninchu 
+876 Renu sorry 
+877 Renu thappaindi 
+878 bangaru thappaindi 
+879 kanna sorry 
+880 bujjikonda thappaindi 
+881 Renu sorry 
+882 bujji sorry 
+883 Renu sorry 
+884 chinnari sorry 
+885 bujjikonda thappaindi 
+886 bujji manninchu 
+887 bangarukonda thappaindi 
+888 kanna manninchu 
+889 bangarukonda sorry 
+890 bangaru manninchu 
+891 bangaru thappaindi 
+892 bangarukonda thappaindi 
+893 bangarukonda sorry 
+894 Renu manninchu 
+895 kanna sorry 
+896 bangaru thappaindi 
+897 chinnari Badha pettanu, baaga chusukunta 
+898 bujjikonda Badha pettanu, baaga chusukunta 
+899 bujji sorry 
+900 bujji thappaindi 
+901 bujjikonda thappaindi 
+902 kanna thappaindi 
+903 bangarukonda Badha pettanu, baaga chusukunta 
+904 Renu manninchu 
+905 bangarukonda sorry 
+906 kanna manninchu 
+907 kanna manninchu 
+908 kanna manninchu 
+909 bangarukonda thappaindi 
+910 Renu sorry 
+911 bangarukonda Badha pettanu, baaga chusukunta 
+912 bangarukonda manninchu 
+913 bujjikonda thappaindi 
+914 bujjikonda sorry 
+915 bujji manninchu 
+916 bujjikonda manninchu 
+917 bujji thappaindi 
+918 bujji sorry 
+919 bujjikonda manninchu 
+920 Renu thappaindi 
+921 bangaru manninchu 
+922 bangaru thappaindi 
+923 chinnari manninchu 
+924 bangaru manninchu 
+925 chinnari manninchu 
+926 bangarukonda manninchu 
+927 bujji thappaindi 
+928 bujjikonda manninchu 
+929 chinnari thappaindi 
+930 kanna manninchu 
+931 chinnari sorry 
+932 bujjikonda Badha pettanu, baaga chusukunta 
+933 bangarukonda sorry 
+934 bangaru sorry 
+935 Renu thappaindi 
+936 bangarukonda thappaindi 
+937 chinnari manninchu 
+938 kanna thappaindi 
+939 bujji thappaindi 
+940 Renu Badha pettanu, baaga chusukunta 
+941 bujjikonda thappaindi 
+942 bujji manninchu 
+943 chinnari sorry 
+944 bujjikonda Badha pettanu, baaga chusukunta 
+945 kanna manninchu 
+946 kanna sorry 
+947 bujjikonda Badha pettanu, baaga chusukunta 
+948 bangaru manninchu 
+949 bangaru thappaindi 
+950 chinnari manninchu 
+951 bangarukonda sorry 
+952 bangarukonda sorry 
+953 bangarukonda manninchu 
+954 chinnari manninchu 
 955 bujji thappaindi 
-956 Renu Badha pettanu, baaga chusukunta 
-957 bujjikonda thappaindi 
-958 bujji manninchu 
-959 bujjikonda manninchu 
-960 kanna sorry 
-961 bangaru manninchu 
+956 bangarukonda manninchu 
+957 bujji Badha pettanu, baaga chusukunta 
+958 bangarukonda sorry 
+959 kanna thappaindi 
+960 Renu Badha pettanu, baaga chusukunta 
+961 Renu sorry 
 962 bujjikonda Badha pettanu, baaga chusukunta 
-963 kanna sorry 
+963 bujjikonda thappaindi 
 964 Renu manninchu 
 965 bangaru sorry 
-966 chinnari Badha pettanu, baaga chusukunta 
-967 bujjikonda sorry 
-968 bujjikonda thappaindi 
-969 bujji sorry 
-970 bangaru Badha pettanu, baaga chusukunta 
-971 bujji sorry 
-972 bangarukonda sorry 
-973 chinnari manninchu 
-974 bujjikonda sorry 
-975 kanna thappaindi 
-976 bangaru thappaindi 
-977 kanna manninchu 
-978 bujji Badha pettanu, baaga chusukunta 
-979 Renu thappaindi 
-980 chinnari Badha pettanu, baaga chusukunta 
-981 Renu manninchu 
-982 Renu Badha pettanu, baaga chusukunta 
-983 bujji manninchu 
-984 bangaru sorry 
-985 Renu manninchu 
-986 kanna manninchu 
-987 bangarukonda thappaindi 
-988 Renu thappaindi 
-989 bujjikonda Badha pettanu, baaga chusukunta 
-990 bujji manninchu 
-991 bujji sorry 
-992 bujjikonda Badha pettanu, baaga chusukunta 
-993 bujjikonda thappaindi 
-994 bujjikonda manninchu 
-995 kanna Badha pettanu, baaga chusukunta 
-996 bujji sorry 
-997 bangarukonda Badha pettanu, baaga chusukunta 
-998 chinnari sorry 
-999 Renu sorry 
-1000 kanna manninchu 
-1001 Renu thappaindi 
+966 bangarukonda manninchu 
+967 chinnari Badha pettanu, baaga chusukunta 
+968 bangaru thappaindi 
+969 bujjikonda thappaindi 
+970 bujjikonda manninchu 
+971 bangarukonda sorry 
+972 bangarukonda Badha pettanu, baaga chusukunta 
+973 bujjikonda sorry 
+974 bangarukonda thappaindi 
+975 bangarukonda Badha pettanu, baaga chusukunta 
+976 Renu Badha pettanu, baaga chusukunta 
+977 chinnari sorry 
+978 kanna manninchu 
+979 bangaru thappaindi 
+980 kanna sorry 
+981 bujji thappaindi 
+982 bujjikonda sorry 
+983 bangaru manninchu 
+984 Renu sorry 
+985 Renu thappaindi 
+986 Renu sorry 
+987 Renu manninchu 
+988 bujjikonda manninchu 
+989 bangarukonda Badha pettanu, baaga chusukunta 
+990 bujjikonda thappaindi 
+991 bangarukonda Badha pettanu, baaga chusukunta 
+992 bangarukonda manninchu 
+993 chinnari Badha pettanu, baaga chusukunta 
+994 kanna thappaindi 
+995 bujji sorry 
+996 bangarukonda sorry 
+997 bujjikonda thappaindi 
+998 chinnari thappaindi 
+999 kanna manninchu 
+1000 bujjikonda manninchu 
+1001 kanna sorry 
