@@ -1,3 +1,7 @@
+# python modules come across
+
+import logging
+import boto3
 
 #listing buckets and objects of each bucket
 
@@ -33,5 +37,7 @@ res=sts.assume_role(RoleArn='arn:aws:iam::462397709356:role/lakana-fox-admin',Ro
 
 s3=boto3.client('s3',aws_access_key_id=res['Credentials']['AccessKeyId'],
 aws_secret_access_key=res['Credentials']['SecretAccessKey'],
-aws_session_token=res['Credentials']['SessionToken'])
+aws_session_token=res['Credentials']['SessionToken'])  
+kpattamsetty@contractor.lakana.com
+
 
