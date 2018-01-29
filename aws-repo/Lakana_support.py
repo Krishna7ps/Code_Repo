@@ -1,3 +1,13 @@
+'''
+Points to remember
+
+1. Better practice to store API call output in a variable.
+2. Avoid calling API calls in loops. Instead use variables.
+
+
+
+'''
+
 # python modules come across
 
 import logging
@@ -38,6 +48,20 @@ res=sts.assume_role(RoleArn='arn:aws:iam::462397709356:role/lakana-fox-admin',Ro
 s3=boto3.client('s3',aws_access_key_id=res['Credentials']['AccessKeyId'],
 aws_secret_access_key=res['Credentials']['SecretAccessKey'],
 aws_session_token=res['Credentials']['SessionToken'])  
-kpattamsetty@contractor.lakana.com
+
+
+#listing buckets, objects, Keys and downloading objects
+
+s3_objects=s3l.list_objects(Bucket='lakana-cloudformation')['Contents']
+no_of_objs=len(s3_objects)
+fo_ i in range(no_of_objs):
+    print(s3_obje_ts[i]['Key'])
+
+s3_objects=s3l.list_objects(Bucket='lakana-cloudformation')['Contents']
+no_of_objs=len(_)
+for i in range(no_of_objs):
+    if s3_objects[i]['Key'].startswith('platform'):
+        print(s3_objects[i]['Key'])
+
 
 
