@@ -27,6 +27,7 @@ import re
 import glob
 import fnmatch
 import selenium
+import django
 
 
 #Setting up assumerole on boto3
@@ -101,3 +102,41 @@ for i in range(no_of_objs):
     if s3_objects[i]['Key'].startswith('platform/v37'):
         obj_download=s3_objects[i]['Key']
         s3l.download_file('lakana-cloudformation',obj_download,obj_download.split('/')[-1])
+
+
+
+#Deleting security groups from the account
+
+
+ec2=boto3.client('ec2')
+
+sg=ec2.describe_security_groups()
+
+# print("List of security groups:")
+for i in range(len(sg['SecurityGroups'])):
+    if sg['SecurityGroups'][i]['GroupName'] == 'default':
+        print("Default SG can't be deleted")
+    else:
+        try:
+            del_g=ec2.delete_security_group(GroupName=sg['SecurityGroups'][i]['GroupName'])
+            if del_g['ResponseMetadata']['HTTPStatusCode']==200:
+                print(sg['SecurityGroups'][i]['GroupName'],"is deleted")
+        except:
+            print("Some error occurred while deleting ",sg['SecurityGroups'][i]['GroupName'])
+
+
+# Remove directory from git and local
+'''
+You could checkout 'master' with both directories;
+
+git rm -r one-of-the-directories
+git commit -m "Remove duplicated directory"
+git push origin <your-git-branch> (typically 'master', but not always)
+Remove directory from git but NOT local
+As mentioned in the comments, what you usually want to do is remove this directory from git but not delete it entirely from the filesystem (local)
+
+In that case use:
+
+git rm -r --cached myFolder
+
+'''            
