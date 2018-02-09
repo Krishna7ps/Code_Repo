@@ -1,10 +1,20 @@
 '''
-Points to remember
+Check list:
 
 1. Better practice to store API call output in a variable.
 2. Avoid calling API calls in loops. Instead use variables.
 
+Documentations:
 
+Graphite -- http://graphite-api.readthedocs.io/en/latest/
+            http://graphite.readthedocs.io/en/latest/
+Grafana -- https://www.hostedgraphite.com/docs/advanced/grafana-api.html
+Docker -- https://docker-py.readthedocs.io/en/stable/
+AWS -- https://boto3.readthedocs.io/en/latest/
+Varnish -- https://varnish-cache.org/
+
+Useful links:
+http://ipython.readthedocs.io/en/stable/interactive/magics.html
 
 '''
 
@@ -22,16 +32,22 @@ import json
 import random
 import os
 import sys
-import fabric3
+import fabric3 # http://docs.fabfile.org/en/1.14/tutorial.html
 import re
 import glob
 import fnmatch
 import selenium
 import django
 import xlwings
-import openpyxl
-import xlsxwriter
-
+import openpyxl # https://openpyxl.readthedocs.io/en/stable/tutorial.html
+import xlsxwriter # http://xlsxwriter.readthedocs.io/index.html
+import pynput # https://pypi.python.org/pypi/pynput
+import getpass # https://docs.python.org/3/library/getpass.html
+import pwd
+import pyHook # http://pyhook.sourceforge.net/doc_1.5.0/
+import pythoncom
+import pwd # https://docs.python.org/3/library/pwd.html#module-pwd
+import 
 
 #1. Setting up assumerole on boto3
 
@@ -98,6 +114,10 @@ s3.meta.client.download_file('mybucket', 'hello.txt', '/tmp/hello.txt')
 '''
 
 #5. Downloading objects from specific s3 bucket with specific word they start with
+
+''' https://www.peterbe.com/plog/fastest-way-to-download-a-file-from-s3 
+    https://alexwlchan.net/2017/07/listing-s3-keys/
+'''
 
 s3_objects=s3l.list_objects(Bucket='lakana-cloudformation')['Contents']
 no_of_objs=len(s3_objects)
@@ -205,4 +225,52 @@ for i in range(len(data['Reservations'])):
             if data['Reservations'][i]['Instances'][j]['Tags'][k]['Key']=='Name':
                 print(data['Reservations'][i]['Instances'][j]['Tags'][k]['Value'].strip(), (data['Reservations'][i]['Instances'][j]['InstanceType']))
 
+
+#10. Curser move for defined time intervel, shoud run on top on chrome(tested) or any other applications(untested)
+''' https://www.geeksforgeeks.org/mouse-keyboard-automation-using-python/ '''
+import time
+import pyautogui
+
+x=0
+y=700
+for i in range(1000):
+    pyautogui.moveTo(x,y,duration=1)
+    pyautogui.click(x,y)
+    time.sleep(2)
+    x,y=y,x
+
+#11. Listening to keyboard infinite time, stops when perticular key is pressed
+
+from pynput import keyboard
+
+def on_press(key):
+    try:
+        print('alphanumeric key {0} pressed'.format(key.char))
+    except AttributeError:
+        print('special key {0} pressed'.format(key))
+
+def on_release(key):
+    print('{0} released'.format(key))
+    if key == keyboard.Key.esc:
+        # Stop listener
+        return False
+
+# Collect events until released
+with keyboard.Listener(
+        on_press=on_press,
+        on_release=on_release) as listener:
+    listener.join()
+'''
+import pythoncom, pyHook 
+
+def uMad(event):
+    return False
+
+hm = pyHook.HookManager()
+hm.MouseAll = uMad
+hm.KeyAll = uMad
+hm.HookMouse()
+hm.HookKeyboard()
+pythoncom.PumpMessages()
+'''
 
