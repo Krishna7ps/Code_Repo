@@ -12,9 +12,13 @@ Grafana -- https://www.hostedgraphite.com/docs/advanced/grafana-api.html
 Docker -- https://docker-py.readthedocs.io/en/stable/
 AWS -- https://boto3.readthedocs.io/en/latest/
 Varnish -- https://varnish-cache.org/
+django -- https://docs.djangoproject.com/en/2.0/
 
 Useful links:
 http://ipython.readthedocs.io/en/stable/interactive/magics.html
+https://www.dataquest.io/blog/learn-data-science/
+http://docs.activestate.com/activepython/3.3/pywin32/html/com/win32com/HTML/QuickStartClientCom.html
+http://timgolden.me.uk/python/win32_how_do_i/watch_directory_for_changes.html
 
 '''
 
@@ -22,7 +26,8 @@ http://ipython.readthedocs.io/en/stable/interactive/magics.html
 
 import requests
 import win32com.client
-import pywinauto
+import pywinauto #https://pywinauto.readthedocs.io/en/latest/getting_started.html
+                 #https://media.readthedocs.org/pdf/pywinauto/latest/pywinauto.pdf
 import pyautogui
 import urllib.request  #Equivalent to urllib2 in python3
 import logging
