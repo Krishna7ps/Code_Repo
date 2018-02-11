@@ -30,3 +30,41 @@ with keyboard.Listener(
         on_press=on_press,
         on_release=on_release) as listener:
     listener.join()
+
+
+
+
+
+
+
+
+
+import time
+import pyautogui
+from pynput import keyboard
+
+#def on_press(key):
+    x=0
+    y=700
+    for i in range(1000):
+        pyautogui.moveTo(x,y,duration=1)
+        pyautogui.click(x,y)
+        time.sleep(2)
+        x,y=y,x
+
+def on_release(key):
+    x=0
+    y=700
+    for i in range(1000):
+        pyautogui.moveTo(x,y,duration=1)
+        pyautogui.click(x,y)
+        time.sleep(2)
+        x,y=y,x
+        if key == keyboard.Key.esc:
+            # Stop listener
+            return False
+# Collect events until released
+with keyboard.Listener(
+        on_press=on_press,
+        on_release=on_release) as listener:
+    listener.join()
