@@ -9,6 +9,31 @@ for i in range(1000):
     time.sleep(2)
     x,y=y,x
 
+
+
+import time
+import pyautogui
+import os
+from colorama import init
+
+pyautogui.FAILSAFE=false
+x=0
+y=700
+os.system("cls")
+pyautogui.moveTo(600,600)
+init()
+from colorama import Fore,Back,Style
+print(Fore.MAGENTA)
+print("Screen is locked")
+
+for i in range(1000):
+    pyautogui.moveTo(x,y,duration=1)
+    pyautogui.click(x,y)
+    time.sleep(10)
+    x,y=y,x
+
+
+
 #11. Listening to keyboard infinite time, stops when perticular key is pressed
 
 from pynput import keyboard
