@@ -32,8 +32,16 @@ with keyboard.Listener(
     listener.join()
 
 
+import time
+import pyautogui
 
-
+x=0
+y=700
+for i in range(1000):
+    pyautogui.moveTo(x,y,duration=1)
+    pyautogui.click(x,y)
+    time.sleep(2)
+    x,y=y,x
 
 
 
@@ -43,7 +51,7 @@ import time
 import pyautogui
 from pynput import keyboard
 
-#def on_press(key):
+def on_press(key):
     x=0
     y=700
     for i in range(1000):
