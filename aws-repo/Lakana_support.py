@@ -19,6 +19,9 @@ http://ipython.readthedocs.io/en/stable/interactive/magics.html
 https://www.dataquest.io/blog/learn-data-science/
 http://docs.activestate.com/activepython/3.3/pywin32/html/com/win32com/HTML/QuickStartClientCom.html
 http://timgolden.me.uk/python/win32_how_do_i/watch_directory_for_changes.html
+https://www.digitalocean.com/community/tutorials/how-to-use-web-apis-in-python-3
+https://www.digitalocean.com/community/tutorials/how-to-scrape-web-pages-with-beautiful-soup-and-python-3
+https://www.digitalocean.com/community/tutorials/how-to-work-with-web-data-using-requests-and-beautiful-soup-with-python-3
 
 '''
 
@@ -48,11 +51,11 @@ import openpyxl # https://openpyxl.readthedocs.io/en/stable/tutorial.html
 import xlsxwriter # http://xlsxwriter.readthedocs.io/index.html
 import pynput # https://pypi.python.org/pypi/pynput
 import getpass # https://docs.python.org/3/library/getpass.html
-import pwd
 import pyHook # http://pyhook.sourceforge.net/doc_1.5.0/
 import pythoncom
 import pwd # https://docs.python.org/3/library/pwd.html#module-pwd
-import 
+import pandas
+import numpy
 
 #1. Setting up assumerole on boto3
 
