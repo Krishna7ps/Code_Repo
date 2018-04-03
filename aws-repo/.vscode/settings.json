@@ -1,0 +1,4 @@
+{
+    "python.linting.pylintEnabled": false,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+}
