@@ -1,0 +1,29 @@
+ 1.tegna
+    2.nxs
+    3.mtss
+    4.sps
+    5.gmg
+    6.cmg
+    7.fox
+1.prod
+    2.dev
+    3.uat
+    4.stage
+    5.qa
+
+if(x==1):
+    environment='prod'
+if(x==2):
+    environment='dev'
+if(x==3):
+    environment='uat'
+if(x==4):
+    environment='stage'
+if(x==5):
+    environment='qa'
+if(x==6):
+    client='cmg'
+if(x==7):
+    client='fox'
+if(x==1):
+    client=''
