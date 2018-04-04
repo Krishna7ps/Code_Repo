@@ -78,7 +78,7 @@ def all():
     if(z=='3'):
         system_type='feed'
     
-    print("Details for %s - %s - %s "% (client,environment,system_type))
+    print("Details for %s-%s-%s "% (client,environment,system_type))
 
     rep=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[system_type]}])
 #    print(rep)
