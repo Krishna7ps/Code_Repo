@@ -57,7 +57,7 @@ import pwd # https://docs.python.org/3/library/pwd.html#module-pwd
 import pandas
 import numpy
 
-#1. Setting up assumerole on boto3
+#Setting up assumerole on boto3
 
 sts=boto3.client('sts')
 res=sts.assume_role(RoleArn='arn:aws:iam::462397709356:role/lakana-fox-admin',RoleSessionName='testrole')
@@ -67,14 +67,14 @@ aws_secret_access_key=res['Credentials']['SecretAccessKey'],
 aws_session_token=res['Credentials']['SessionToken'])  
 
 
-#2. listing buckets and objects of each bucket
+#listing buckets and objects of each bucket
 
 for i in range(len(s3.list_buckets()['Buckets'])):
     buck=s3.list_buckets()['Buckets'][i]['Name']
     pprint.pprint(s3.list_objects(Bucket=buck))
     time.sleep(1000)
     
-#3. Listing each object that CacheControl metadata set
+#Listing each object that CacheControl metadata set
 
 API_list_buckets
 count=0
@@ -97,7 +97,7 @@ for i in range(len(s3.list_buckets()['Buckets'])):
         pass
 
 
-#4. listing buckets, objects, Keys 
+#listing buckets, objects, Keys 
 
 s3l=boto3.client('s3') #Creating s3 boto3 object
 s3_buckets=s3l.list_buckets() #Listing buckets under the account
@@ -121,7 +121,7 @@ s3.meta.client.download_file('mybucket', 'hello.txt', '/tmp/hello.txt')
 
 '''
 
-#5. Downloading objects from specific s3 bucket with specific word they start with
+#Downloading objects from specific s3 bucket with specific word they start with
 
 ''' https://www.peterbe.com/plog/fastest-way-to-download-a-file-from-s3 
     https://alexwlchan.net/2017/07/listing-s3-keys/
@@ -136,7 +136,7 @@ for i in range(no_of_objs):
 
 
 
-#6. Deleting security groups from the account
+#Deleting security groups from the account
 
 
 ec2=boto3.client('ec2')
@@ -156,7 +156,7 @@ for i in range(len(sg['SecurityGroups'])):
             print("Some error occurred while deleting ",sg['SecurityGroups'][i]['GroupName'])
 
 
-#7. Remove directory from git and local
+#Remove directory from git and local
 '''
 You could checkout 'master' with both directories;
 
@@ -172,7 +172,7 @@ git rm -r --cached myFolder
 
 '''            
 
-#8. Solution for json serialize a datetime object and dumping dict object into an external json file.
+#Solution for json serialize a datetime object and dumping dict object into an external json file.
 
 import datetime
 import json
@@ -184,7 +184,7 @@ def myconverter(o):
 with open('data.txt', 'w') as outfile:
     json.dump(data, outfile, default=myconverter) #json.dumps(data,default=myconverter)
 
-#9. Listing instances Names, instance types
+#Listing instances Names, instance types
 
 import boto3
 import openpyxl as el
@@ -234,7 +234,7 @@ for i in range(len(data['Reservations'])):
                 print(data['Reservations'][i]['Instances'][j]['Tags'][k]['Value'].strip(), (data['Reservations'][i]['Instances'][j]['InstanceType']))
 
 
-#10. Curser move for defined time intervel, shoud run on top on chrome(tested) or any other applications(untested)
+#Curser move for defined time intervel, shoud run on top on chrome(tested) or any other applications(untested)
 ''' https://www.geeksforgeeks.org/mouse-keyboard-automation-using-python/ '''
 import time
 import pyautogui
@@ -247,7 +247,7 @@ for i in range(1000):
     time.sleep(2)
     x,y=y,x
 
-#11. Listening to keyboard infinite time, stops when perticular key is pressed
+#Listening to keyboard infinite time, stops when perticular key is pressed
 
 from pynput import keyboard
 
@@ -263,7 +263,7 @@ def on_release(key):
         # Stop listener
         return False
 
-# Collect events until released
+#Collect events until released
 with keyboard.Listener(
         on_press=on_press,
         on_release=on_release) as listener:
@@ -282,3 +282,31 @@ hm.HookKeyboard()
 pythoncom.PumpMessages()
 '''
 
+
+#Work on status of remote servers
+
+import boto3
+import fabric3
+from fabric.api import run,env
+
+ec2=boto3.client('ec2')
+
+
+# How to serialize a datetime object as JSON using Python?
+''' Got this error when dumping json varialbe into a local file 
+Solution:
+     The solution is quite simple. The json.dumps method can accept an optional parameter called default which is expected to be a function. Every time JSON tries to convert a value it does not know how to convert it will call the function we passed to it. The function will receive the object in question, and it is expected to return the JSON representation of the object.
+
+     In the function we just call the __str__ method of the datetime object that will return a string     representation of the value. This is what we return.
+     
+     While the condition we have in the function is not required, if we expect to have other types of     objects in our data structure that need special treatment, we can make sure our function handles    them too. As dealing with each object will probably be different we check if the current object is     one we know to handle and do that inside the if statement. 
+'''
+
+import json
+import datetime
+
+def con(o):
+    if isinstance(o,datetime.datetime):
+        return o.__str__()
+with open('feedsData.json','w') as outfile:
+    print(json.dump(res,outfile,default=con)) #res is json response variable from AWS query
