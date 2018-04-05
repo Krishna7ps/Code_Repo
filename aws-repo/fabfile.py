@@ -1,20 +1,21 @@
 from fabric.api import run, env
 import boto3
+import os
+import time
 
-'''
-def actions():
-    print("1.uname \n2.hostname \n3.Service status")
-    ip=input("Please enter task number to perform: ")
-    if (ip==1):
-        print(run("uname -s"))
-    if(ip==2):
-        run("hostname")
-    if(ip==3):
-        run("service liferay status")
-    
-'''
+client=''
+environment=''
+sys_type=''
+env.hosts=[]
+
 def all():
     
+    global client
+    global environment
+    global sys_type
+    global env.hosts
+    
+
     ec2=boto3.client('ec2')
     
     print('''Choose client from the list
@@ -28,6 +29,7 @@ def all():
     \n ''')
 
     x=input("Enter client number: ")
+    os.system("clear")
 
     
     if(x=='1'):
@@ -45,7 +47,7 @@ def all():
     if(x=='7'):
         client='fox'
     
-    print("client is ",client)
+    #print("client is ",client)
  
     print('''\nChoose environment
     1.prod
@@ -55,6 +57,7 @@ def all():
     5.qa
     \n''')
     y=input("Enter enviroment number: ")
+    os.system("clear")
     if(y=='1'):
         environment='prod'
     if(y=='2'):
@@ -71,24 +74,120 @@ def all():
     3.feed
     \n''')
     z=input("Enter system type number: ")
+    os.system("clear")
     if(z=='1'):
-        system_type='cms'
+        sys_type='cms'
     if(z=='2'):
-        system_type='web'
+        sys_type='web'
     if(z=='3'):
-        system_type='feed'
+        sys_type='feed'
     
-    print("Details for %s-%s-%s "% (client,environment,system_type))
+    
+    shortName=input("Enter instance short name(EX: cms01,web06,feed01): ")
+    keyInstance=client+"-"+environment+"-"+shortName+"-us-east-1"
+    #print(keyInstance)
+    env.hosts=[]
+    response=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[sys_type]},{"Name":'tag:Name','Values':[keyInstance]}])
+    
+    print("Info: %s --> %s"%(keyInstance,response['Reservations'][0]["Instances"][0]["PrivateIpAddress"]))
+    env.hosts.append(response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])
+    print("Env hosts is: ",env.hosts)
 
-    rep=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[system_type]}])
-#    print(rep)
-    env.hosts=['172.31.12.150']
+    while True:
+        print('''\nAvailable Tasks
+        1.Service Status
+        2.Service Stop
+        3.Service Start
+        ''')
+        task=input("Enter Task number: ")
+        if task=='1':
+            service_status()
+        elif task=='2':
+            service_stop()
+        elif task=='3':
+            service_start()
+        else:
+            print("Choice not available")
+        if input("Want to try another service(y for yes)?: ")=='y':
+            continue
+        else:
+            break
+            
+
     
 def uname():
     run("uname -s")
 def hostname():
     run("hostname")
 def service_status():
-    run("service liferay status")
+    global env.hosts
+    global client
+    global environment
+    global sys_type
+    hostname()
+    print("***********",client,"*************")
+    if not sys_type=='feed':
+        time.sleep(2)
+        confirm=input("Is hostname correct(y/n)?: ")
+        if confirm=='y':
+            run("service liferay status")
+        else:
+            time.sleep(1)
+            print("Aborted...")
+    else:
+        confirm=input("Is hostname correct(y/n)?: ")
+        if confirm=='y':
+            run("sudo service jboss-feeds status && sleep 1")
+            
+        else:
+            time.sleep(1)
+            print("Aborted...")
+
+def service_stop():
+    global env.hosts
+    global client
+    global environment
+    global sys_type
+    hostname()
+    print("***********",client,"*************")
+    if not sys_type=='feed':
+        time.sleep(2)
+        confirm=input("Is hostname correct(y/n)?: ")
+        if confirm=='y':
+            run("sudo service liferay stop")
+        else:
+            time.sleep(1)
+            print("Aborted...")
+    else:
+        confirm=input("Is hostname correct(y/n)?: ")
+        if confirm=='y':
+            run("sudo service jboss-feeds stop && sleep 1")
+        else:
+            time.sleep(1)
+            print("Aborted...")
+def service_start():
+    global env.hosts
+    global client
+    global environment
+    global sys_type
+    hostname()
+    print("***********",client,"*************")
+    if not sys_type=='feed':
+        time.sleep(2)
+        confirm=input("Is hostname correct(y/n)?: ")
+        if confirm=='y':
+            run("sudo service liferay start")
+        else:
+            time.sleep(1)
+            print("Aborted...")
+    else:
+        confirm=input("Is hostname correct(y/n)?: ")
+        if confirm=='y':
+            run("sudo service jboss-feeds start && sleep 1")
+            
+        else:
+            time.sleep(1)
+            print("Aborted...")
+
 
 

@@ -590,3 +590,208 @@ git rev-parse --symbolic-full-name --abbrev-ref master@{u}
 git rev-list --left-right master...origin/master
 git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 git remote --verbose
+git show :aws-repo/temp.py
+git show :aws-repo/fabfile.py
+git show :aws-repo/service.py
+git show :aws-repo/temp.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/fabfile.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/temp.py
+git show :aws-repo/fabfile.py
+git show :aws-repo/temp.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/fabfile.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/temp.py
+git show :aws-repo/fabfile.py
+git show :aws-repo/temp.py
+git show :aws-repo/fabfile.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/service.py
+git show :aws-repo/temp.py
+git show :aws-repo/fabfile.py

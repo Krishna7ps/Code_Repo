@@ -1,0 +1,1297 @@
+file:///root/code_repo/aws-repo/websData.json
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-3f815e45",
+                    "InstanceId": "i-0278fcb85d1d4d028",
+                    "InstanceType": "c4.8xlarge",
+                    "KeyName": "production",
+                    "LaunchTime": "2018-03-03 19:12:33+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1c",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-6-18.ec2.internal",
+                    "PrivateIpAddress": "172.31.6.18",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-204-236-247-6.compute-1.amazonaws.com",
+                    "PublicIpAddress": "204.236.247.6",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-333e6375",
+                    "VpcId": "vpc-53d2ce31",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2018-03-03 19:12:33+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0f2b45db742679cf0"
+                            }
+                        }
+                    ],
+                    "ClientToken": "aee587b5-1e98-1efe-3560-19751f61cbc2_subnet-333e6375_1",
+                    "EbsOptimized": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::127246258661:instance-profile/platform-tegna-prod-AllIamResources-1FHOXJ5V5N0UW-NWOProfile-19GR17Z4OD9J6",
+                        "Id": "AIPAIZGEGN7PHBO2RFUUE"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-204-236-247-6.compute-1.amazonaws.com",
+                                "PublicIp": "204.236.247.6"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2018-03-03 19:12:33+00:00",
+                                "AttachmentId": "eni-attach-c78610c1",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Access-BASE",
+                                    "GroupId": "sg-1929837c"
+                                },
+                                {
+                                    "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                                    "GroupId": "sg-8cd436f1"
+                                },
+                                {
+                                    "GroupName": "platform-prod-module-cluster-clients-sg",
+                                    "GroupId": "sg-d88547aa"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0e:fb:42:e4:a5:66",
+                            "NetworkInterfaceId": "eni-128465c3",
+                            "OwnerId": "127246258661",
+                            "PrivateDnsName": "ip-172-31-6-18.ec2.internal",
+                            "PrivateIpAddress": "172.31.6.18",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-204-236-247-6.compute-1.amazonaws.com",
+                                        "PublicIp": "204.236.247.6"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-6-18.ec2.internal",
+                                    "PrivateIpAddress": "172.31.6.18"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-333e6375",
+                            "VpcId": "vpc-53d2ce31"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Access-BASE",
+                            "GroupId": "sg-1929837c"
+                        },
+                        {
+                            "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                            "GroupId": "sg-8cd436f1"
+                        },
+                        {
+                            "GroupName": "platform-prod-module-cluster-clients-sg",
+                            "GroupId": "sg-d88547aa"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH-WEBScaleGroup-16GYIKM5WYCRS"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-east-1:127246258661:stack/platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH/5a1edc60-9a72-11e6-810c-5044334e0ab3"
+                        },
+                        {
+                            "Key": "system_type",
+                            "Value": "web"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "WEBScaleGroup"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "tegna-prod-web02-us-east-1"
+                        },
+                        {
+                            "Key": "client",
+                            "Value": "tegna"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "127246258661",
+            "RequesterId": "226008221399",
+            "ReservationId": "r-0144d75f1876732ab"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-3f815e45",
+                    "InstanceId": "i-0b23b58c5d2943b70",
+                    "InstanceType": "c4.8xlarge",
+                    "KeyName": "production",
+                    "LaunchTime": "2018-03-03 19:40:28+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-33-137.ec2.internal",
+                    "PrivateIpAddress": "172.31.33.137",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-184-72-127-212.compute-1.amazonaws.com",
+                    "PublicIpAddress": "184.72.127.212",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-d1dfa2f9",
+                    "VpcId": "vpc-53d2ce31",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2018-03-03 19:40:28+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0f05bba9f4046c4d7"
+                            }
+                        }
+                    ],
+                    "ClientToken": "98b587b5-84dc-49f4-05b8-7882b9142a4f_subnet-d1dfa2f9_1",
+                    "EbsOptimized": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::127246258661:instance-profile/platform-tegna-prod-AllIamResources-1FHOXJ5V5N0UW-NWOProfile-19GR17Z4OD9J6",
+                        "Id": "AIPAIZGEGN7PHBO2RFUUE"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-184-72-127-212.compute-1.amazonaws.com",
+                                "PublicIp": "184.72.127.212"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2018-03-03 19:40:28+00:00",
+                                "AttachmentId": "eni-attach-29fcdce5",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Access-BASE",
+                                    "GroupId": "sg-1929837c"
+                                },
+                                {
+                                    "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                                    "GroupId": "sg-8cd436f1"
+                                },
+                                {
+                                    "GroupName": "platform-prod-module-cluster-clients-sg",
+                                    "GroupId": "sg-d88547aa"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "12:a1:53:27:0a:98",
+                            "NetworkInterfaceId": "eni-a2887e6d",
+                            "OwnerId": "127246258661",
+                            "PrivateDnsName": "ip-172-31-33-137.ec2.internal",
+                            "PrivateIpAddress": "172.31.33.137",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-184-72-127-212.compute-1.amazonaws.com",
+                                        "PublicIp": "184.72.127.212"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-33-137.ec2.internal",
+                                    "PrivateIpAddress": "172.31.33.137"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-d1dfa2f9",
+                            "VpcId": "vpc-53d2ce31"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Access-BASE",
+                            "GroupId": "sg-1929837c"
+                        },
+                        {
+                            "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                            "GroupId": "sg-8cd436f1"
+                        },
+                        {
+                            "GroupName": "platform-prod-module-cluster-clients-sg",
+                            "GroupId": "sg-d88547aa"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "client",
+                            "Value": "tegna"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "WEBScaleGroup"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-east-1:127246258661:stack/platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH/5a1edc60-9a72-11e6-810c-5044334e0ab3"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH-WEBScaleGroup-16GYIKM5WYCRS"
+                        },
+                        {
+                            "Key": "system_type",
+                            "Value": "web"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "tegna-prod-web06-us-east-1"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "127246258661",
+            "RequesterId": "226008221399",
+            "ReservationId": "r-00a77dba8feaf8f91"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-3f815e45",
+                    "InstanceId": "i-09f44b3ea5a8158fc",
+                    "InstanceType": "c4.8xlarge",
+                    "KeyName": "production",
+                    "LaunchTime": "2018-03-03 19:12:33+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1e",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-61-177.ec2.internal",
+                    "PrivateIpAddress": "172.31.61.177",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-54-197-124-73.compute-1.amazonaws.com",
+                    "PublicIpAddress": "54.197.124.73",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-b0690e8a",
+                    "VpcId": "vpc-53d2ce31",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2018-03-03 19:12:33+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0d0f7d0cc84118930"
+                            }
+                        }
+                    ],
+                    "ClientToken": "aee587b5-1e98-1efe-3560-19751f61cbc2_subnet-b0690e8a_1",
+                    "EbsOptimized": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::127246258661:instance-profile/platform-tegna-prod-AllIamResources-1FHOXJ5V5N0UW-NWOProfile-19GR17Z4OD9J6",
+                        "Id": "AIPAIZGEGN7PHBO2RFUUE"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-54-197-124-73.compute-1.amazonaws.com",
+                                "PublicIp": "54.197.124.73"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2018-03-03 19:12:33+00:00",
+                                "AttachmentId": "eni-attach-0a1ffbdb",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Access-BASE",
+                                    "GroupId": "sg-1929837c"
+                                },
+                                {
+                                    "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                                    "GroupId": "sg-8cd436f1"
+                                },
+                                {
+                                    "GroupName": "platform-prod-module-cluster-clients-sg",
+                                    "GroupId": "sg-d88547aa"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:f5:ee:7b:a1:62",
+                            "NetworkInterfaceId": "eni-c832f272",
+                            "OwnerId": "127246258661",
+                            "PrivateDnsName": "ip-172-31-61-177.ec2.internal",
+                            "PrivateIpAddress": "172.31.61.177",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-54-197-124-73.compute-1.amazonaws.com",
+                                        "PublicIp": "54.197.124.73"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-61-177.ec2.internal",
+                                    "PrivateIpAddress": "172.31.61.177"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-b0690e8a",
+                            "VpcId": "vpc-53d2ce31"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Access-BASE",
+                            "GroupId": "sg-1929837c"
+                        },
+                        {
+                            "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                            "GroupId": "sg-8cd436f1"
+                        },
+                        {
+                            "GroupName": "platform-prod-module-cluster-clients-sg",
+                            "GroupId": "sg-d88547aa"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-east-1:127246258661:stack/platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH/5a1edc60-9a72-11e6-810c-5044334e0ab3"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "WEBScaleGroup"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH"
+                        },
+                        {
+                            "Key": "system_type",
+                            "Value": "web"
+                        },
+                        {
+                            "Key": "client",
+                            "Value": "tegna"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "tegna-prod-web01-us-east-1"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH-WEBScaleGroup-16GYIKM5WYCRS"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "127246258661",
+            "RequesterId": "226008221399",
+            "ReservationId": "r-0deeff8e6e078153b"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-3f815e45",
+                    "InstanceId": "i-055c435dd1f8d5a6c",
+                    "InstanceType": "c4.8xlarge",
+                    "KeyName": "production",
+                    "LaunchTime": "2018-03-03 19:40:28+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1c",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-12-150.ec2.internal",
+                    "PrivateIpAddress": "172.31.12.150",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-54-197-221-155.compute-1.amazonaws.com",
+                    "PublicIpAddress": "54.197.221.155",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-333e6375",
+                    "VpcId": "vpc-53d2ce31",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2018-03-03 19:40:29+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-04731b50e436f981a"
+                            }
+                        }
+                    ],
+                    "ClientToken": "98b587b5-84dc-49f4-05b8-7882b9142a4f_subnet-333e6375_1",
+                    "EbsOptimized": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::127246258661:instance-profile/platform-tegna-prod-AllIamResources-1FHOXJ5V5N0UW-NWOProfile-19GR17Z4OD9J6",
+                        "Id": "AIPAIZGEGN7PHBO2RFUUE"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-54-197-221-155.compute-1.amazonaws.com",
+                                "PublicIp": "54.197.221.155"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2018-03-03 19:40:28+00:00",
+                                "AttachmentId": "eni-attach-60a43266",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Access-BASE",
+                                    "GroupId": "sg-1929837c"
+                                },
+                                {
+                                    "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                                    "GroupId": "sg-8cd436f1"
+                                },
+                                {
+                                    "GroupName": "platform-prod-module-cluster-clients-sg",
+                                    "GroupId": "sg-d88547aa"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0e:df:41:cd:10:40",
+                            "NetworkInterfaceId": "eni-eac1203b",
+                            "OwnerId": "127246258661",
+                            "PrivateDnsName": "ip-172-31-12-150.ec2.internal",
+                            "PrivateIpAddress": "172.31.12.150",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-54-197-221-155.compute-1.amazonaws.com",
+                                        "PublicIp": "54.197.221.155"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-12-150.ec2.internal",
+                                    "PrivateIpAddress": "172.31.12.150"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-333e6375",
+                            "VpcId": "vpc-53d2ce31"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Access-BASE",
+                            "GroupId": "sg-1929837c"
+                        },
+                        {
+                            "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                            "GroupId": "sg-8cd436f1"
+                        },
+                        {
+                            "GroupName": "platform-prod-module-cluster-clients-sg",
+                            "GroupId": "sg-d88547aa"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "client",
+                            "Value": "tegna"
+                        },
+                        {
+                            "Key": "system_type",
+                            "Value": "web"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "tegna-prod-web07-us-east-1"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "WEBScaleGroup"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-east-1:127246258661:stack/platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH/5a1edc60-9a72-11e6-810c-5044334e0ab3"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH-WEBScaleGroup-16GYIKM5WYCRS"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "127246258661",
+            "RequesterId": "226008221399",
+            "ReservationId": "r-0a5263c1d405684a0"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-3f815e45",
+                    "InstanceId": "i-0b30e50e7a5934a1b",
+                    "InstanceType": "c4.8xlarge",
+                    "KeyName": "production",
+                    "LaunchTime": "2018-03-03 19:12:32+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1b",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-16-226.ec2.internal",
+                    "PrivateIpAddress": "172.31.16.226",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-34-202-166-121.compute-1.amazonaws.com",
+                    "PublicIpAddress": "34.202.166.121",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-af82b2db",
+                    "VpcId": "vpc-53d2ce31",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2018-03-03 19:12:33+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0fef9d8579b76dbf5"
+                            }
+                        }
+                    ],
+                    "ClientToken": "aee587b5-1e98-1efe-3560-19751f61cbc2_subnet-af82b2db_1",
+                    "EbsOptimized": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::127246258661:instance-profile/platform-tegna-prod-AllIamResources-1FHOXJ5V5N0UW-NWOProfile-19GR17Z4OD9J6",
+                        "Id": "AIPAIZGEGN7PHBO2RFUUE"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-34-202-166-121.compute-1.amazonaws.com",
+                                "PublicIp": "34.202.166.121"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2018-03-03 19:12:32+00:00",
+                                "AttachmentId": "eni-attach-877a358e",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Access-BASE",
+                                    "GroupId": "sg-1929837c"
+                                },
+                                {
+                                    "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                                    "GroupId": "sg-8cd436f1"
+                                },
+                                {
+                                    "GroupName": "platform-prod-module-cluster-clients-sg",
+                                    "GroupId": "sg-d88547aa"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:ca:2b:18:c1:8e",
+                            "NetworkInterfaceId": "eni-1f7a2f06",
+                            "OwnerId": "127246258661",
+                            "PrivateDnsName": "ip-172-31-16-226.ec2.internal",
+                            "PrivateIpAddress": "172.31.16.226",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-34-202-166-121.compute-1.amazonaws.com",
+                                        "PublicIp": "34.202.166.121"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-16-226.ec2.internal",
+                                    "PrivateIpAddress": "172.31.16.226"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-af82b2db",
+                            "VpcId": "vpc-53d2ce31"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Access-BASE",
+                            "GroupId": "sg-1929837c"
+                        },
+                        {
+                            "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                            "GroupId": "sg-8cd436f1"
+                        },
+                        {
+                            "GroupName": "platform-prod-module-cluster-clients-sg",
+                            "GroupId": "sg-d88547aa"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-east-1:127246258661:stack/platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH/5a1edc60-9a72-11e6-810c-5044334e0ab3"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH"
+                        },
+                        {
+                            "Key": "client",
+                            "Value": "tegna"
+                        },
+                        {
+                            "Key": "system_type",
+                            "Value": "web"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "tegna-prod-web03-us-east-1"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH-WEBScaleGroup-16GYIKM5WYCRS"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "WEBScaleGroup"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "127246258661",
+            "RequesterId": "226008221399",
+            "ReservationId": "r-0a4e1b0bdf3561f75"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-3f815e45",
+                    "InstanceId": "i-0bfabc5d4d8db06aa",
+                    "InstanceType": "c4.8xlarge",
+                    "KeyName": "production",
+                    "LaunchTime": "2018-03-03 19:40:28+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1b",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-20-47.ec2.internal",
+                    "PrivateIpAddress": "172.31.20.47",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-34-202-166-119.compute-1.amazonaws.com",
+                    "PublicIpAddress": "34.202.166.119",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-af82b2db",
+                    "VpcId": "vpc-53d2ce31",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2018-03-03 19:40:28+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-082cfa9d1f10cc5b4"
+                            }
+                        }
+                    ],
+                    "ClientToken": "98b587b5-84dc-49f4-05b8-7882b9142a4f_subnet-af82b2db_1",
+                    "EbsOptimized": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::127246258661:instance-profile/platform-tegna-prod-AllIamResources-1FHOXJ5V5N0UW-NWOProfile-19GR17Z4OD9J6",
+                        "Id": "AIPAIZGEGN7PHBO2RFUUE"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-34-202-166-119.compute-1.amazonaws.com",
+                                "PublicIp": "34.202.166.119"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2018-03-03 19:40:28+00:00",
+                                "AttachmentId": "eni-attach-e592ddec",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Access-BASE",
+                                    "GroupId": "sg-1929837c"
+                                },
+                                {
+                                    "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                                    "GroupId": "sg-8cd436f1"
+                                },
+                                {
+                                    "GroupName": "platform-prod-module-cluster-clients-sg",
+                                    "GroupId": "sg-d88547aa"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:2f:06:e9:2c:ac",
+                            "NetworkInterfaceId": "eni-abbfeab2",
+                            "OwnerId": "127246258661",
+                            "PrivateDnsName": "ip-172-31-20-47.ec2.internal",
+                            "PrivateIpAddress": "172.31.20.47",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-34-202-166-119.compute-1.amazonaws.com",
+                                        "PublicIp": "34.202.166.119"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-20-47.ec2.internal",
+                                    "PrivateIpAddress": "172.31.20.47"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-af82b2db",
+                            "VpcId": "vpc-53d2ce31"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Access-BASE",
+                            "GroupId": "sg-1929837c"
+                        },
+                        {
+                            "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                            "GroupId": "sg-8cd436f1"
+                        },
+                        {
+                            "GroupName": "platform-prod-module-cluster-clients-sg",
+                            "GroupId": "sg-d88547aa"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH-WEBScaleGroup-16GYIKM5WYCRS"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "WEBScaleGroup"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-east-1:127246258661:stack/platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH/5a1edc60-9a72-11e6-810c-5044334e0ab3"
+                        },
+                        {
+                            "Key": "system_type",
+                            "Value": "web"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "tegna-prod-web05-us-east-1"
+                        },
+                        {
+                            "Key": "client",
+                            "Value": "tegna"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "127246258661",
+            "RequesterId": "226008221399",
+            "ReservationId": "r-0ce6c12a4ee7e1af4"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-3f815e45",
+                    "InstanceId": "i-0e75a591ff36ee64f",
+                    "InstanceType": "c4.8xlarge",
+                    "KeyName": "production",
+                    "LaunchTime": "2018-03-03 19:12:33+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-43-32.ec2.internal",
+                    "PrivateIpAddress": "172.31.43.32",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-34-239-118-44.compute-1.amazonaws.com",
+                    "PublicIpAddress": "34.239.118.44",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-d1dfa2f9",
+                    "VpcId": "vpc-53d2ce31",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2018-03-03 19:12:34+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0d561e0ee94d9417b"
+                            }
+                        }
+                    ],
+                    "ClientToken": "aee587b5-1e98-1efe-3560-19751f61cbc2_subnet-d1dfa2f9_1",
+                    "EbsOptimized": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::127246258661:instance-profile/platform-tegna-prod-AllIamResources-1FHOXJ5V5N0UW-NWOProfile-19GR17Z4OD9J6",
+                        "Id": "AIPAIZGEGN7PHBO2RFUUE"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-34-239-118-44.compute-1.amazonaws.com",
+                                "PublicIp": "34.239.118.44"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2018-03-03 19:12:33+00:00",
+                                "AttachmentId": "eni-attach-141636d8",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Access-BASE",
+                                    "GroupId": "sg-1929837c"
+                                },
+                                {
+                                    "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                                    "GroupId": "sg-8cd436f1"
+                                },
+                                {
+                                    "GroupName": "platform-prod-module-cluster-clients-sg",
+                                    "GroupId": "sg-d88547aa"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "12:67:ec:11:68:e8",
+                            "NetworkInterfaceId": "eni-c0b0460f",
+                            "OwnerId": "127246258661",
+                            "PrivateDnsName": "ip-172-31-43-32.ec2.internal",
+                            "PrivateIpAddress": "172.31.43.32",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-34-239-118-44.compute-1.amazonaws.com",
+                                        "PublicIp": "34.239.118.44"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-43-32.ec2.internal",
+                                    "PrivateIpAddress": "172.31.43.32"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-d1dfa2f9",
+                            "VpcId": "vpc-53d2ce31"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Access-BASE",
+                            "GroupId": "sg-1929837c"
+                        },
+                        {
+                            "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                            "GroupId": "sg-8cd436f1"
+                        },
+                        {
+                            "GroupName": "platform-prod-module-cluster-clients-sg",
+                            "GroupId": "sg-d88547aa"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "client",
+                            "Value": "tegna"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "tegna-prod-web04-us-east-1"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "WEBScaleGroup"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-east-1:127246258661:stack/platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH/5a1edc60-9a72-11e6-810c-5044334e0ab3"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH-WEBScaleGroup-16GYIKM5WYCRS"
+                        },
+                        {
+                            "Key": "system_type",
+                            "Value": "web"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "127246258661",
+            "RequesterId": "226008221399",
+            "ReservationId": "r-05d098703d274c4ab"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-3f815e45",
+                    "InstanceId": "i-0d4d5809eec6acebd",
+                    "InstanceType": "c4.8xlarge",
+                    "KeyName": "production",
+                    "LaunchTime": "2018-03-03 19:40:28+00:00",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1e",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-58-92.ec2.internal",
+                    "PrivateIpAddress": "172.31.58.92",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-52-87-251-229.compute-1.amazonaws.com",
+                    "PublicIpAddress": "52.87.251.229",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-b0690e8a",
+                    "VpcId": "vpc-53d2ce31",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2018-03-03 19:40:29+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0242721476e74a1c6"
+                            }
+                        }
+                    ],
+                    "ClientToken": "98b587b5-84dc-49f4-05b8-7882b9142a4f_subnet-b0690e8a_1",
+                    "EbsOptimized": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::127246258661:instance-profile/platform-tegna-prod-AllIamResources-1FHOXJ5V5N0UW-NWOProfile-19GR17Z4OD9J6",
+                        "Id": "AIPAIZGEGN7PHBO2RFUUE"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-52-87-251-229.compute-1.amazonaws.com",
+                                "PublicIp": "52.87.251.229"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2018-03-03 19:40:28+00:00",
+                                "AttachmentId": "eni-attach-df75910e",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "Access-BASE",
+                                    "GroupId": "sg-1929837c"
+                                },
+                                {
+                                    "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                                    "GroupId": "sg-8cd436f1"
+                                },
+                                {
+                                    "GroupName": "platform-prod-module-cluster-clients-sg",
+                                    "GroupId": "sg-d88547aa"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:a8:97:bb:ba:84",
+                            "NetworkInterfaceId": "eni-b64b8b0c",
+                            "OwnerId": "127246258661",
+                            "PrivateDnsName": "ip-172-31-58-92.ec2.internal",
+                            "PrivateIpAddress": "172.31.58.92",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-52-87-251-229.compute-1.amazonaws.com",
+                                        "PublicIp": "52.87.251.229"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-58-92.ec2.internal",
+                                    "PrivateIpAddress": "172.31.58.92"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-b0690e8a",
+                            "VpcId": "vpc-53d2ce31"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "Access-BASE",
+                            "GroupId": "sg-1929837c"
+                        },
+                        {
+                            "GroupName": "platform-tegna-prod-AllSecurityGroups-1GENSC85OES6R-WEBSecurityGroup-194J7X3BQIX57",
+                            "GroupId": "sg-8cd436f1"
+                        },
+                        {
+                            "GroupName": "platform-prod-module-cluster-clients-sg",
+                            "GroupId": "sg-d88547aa"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "aws:cloudformation:stack-name",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH"
+                        },
+                        {
+                            "Key": "env",
+                            "Value": "prod"
+                        },
+                        {
+                            "Key": "aws:cloudformation:logical-id",
+                            "Value": "WEBScaleGroup"
+                        },
+                        {
+                            "Key": "aws:cloudformation:stack-id",
+                            "Value": "arn:aws:cloudformation:us-east-1:127246258661:stack/platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH/5a1edc60-9a72-11e6-810c-5044334e0ab3"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "platform-tegna-prod-WEBAutoScale-3WPDCRSTBGXH-WEBScaleGroup-16GYIKM5WYCRS"
+                        },
+                        {
+                            "Key": "client",
+                            "Value": "tegna"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "tegna-prod-web08-us-east-1"
+                        },
+                        {
+                            "Key": "system_type",
+                            "Value": "web"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "127246258661",
+            "RequesterId": "226008221399",
+            "ReservationId": "r-078b0102532d50acb"
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "8e845d6a-cda3-4c56-bf2a-c37cccbc8a37",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "content-type": "text/xml;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "vary": "Accept-Encoding",
+            "date": "Wed, 04 Apr 2018 04:59:36 GMT",
+            "server": "AmazonEC2"
+        },
+        "RetryAttempts": 0
+    }
+}
