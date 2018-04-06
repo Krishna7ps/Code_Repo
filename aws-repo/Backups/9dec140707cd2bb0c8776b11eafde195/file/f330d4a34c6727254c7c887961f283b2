@@ -1,10 +1,13 @@
+file:///root/code_repo/aws-repo/fabfile.py
 from fabric.api import run, env
 from fabric.tasks import execute
 import boto3
 import os
 import time
 import sys
+'''
 
+'''
 env.hosts=[]
 client=''
 environment=''
