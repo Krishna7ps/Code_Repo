@@ -5,6 +5,7 @@ Pre-requisites:
         -   fabric3
         -   AWSCLI
     -   AWS configure to set AWS credentials
+    -   Connection to client VPN may requied
 
 
 Changes to be made in

@@ -1,13 +1,13 @@
 import os
 import time
-
+from fabric.colors import green,red,yellow,white,cyan,magenta,blue
 while True:
     os.system("clear")
-    print('''\nAvailable Tasks
+    print(white('''\nAvailable Tasks
     1.Service Status
     2.Service Stop
     3.Service Start
-    ''')
+    '''))
     task=input("Enter Task number: ")
     if task=='1':
         os.system('fab -f ./fabfile.py set_host service_status -i ~/id -u cyb.kpattamsetty  --show everything')
@@ -22,13 +22,13 @@ while True:
         time.sleep(2)
         #service_start()
     else:
-        print("\nInvalid selection..")
+        print(red("\nInvalid selection.."))
         time.sleep(2)
 
     if input("\nWant to try another service(y for yes)?: ")=='y':
         continue
     else:
-        print("Good bye...")
+        print(magenta("Good bye..."))
         break
 
 

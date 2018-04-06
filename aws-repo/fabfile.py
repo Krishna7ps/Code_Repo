@@ -1,6 +1,6 @@
 from fabric.api import run, env
 from fabric.tasks import execute
-from fabric.colors import green,red,yellow,white,cyan
+from fabric.colors import green,red,yellow,white,cyan,magenta
 import boto3
 import os
 import time
@@ -62,15 +62,15 @@ def set_host():
             time.sleep(2)
 
     #print("client is ",client)
-    print('''\nChoose environment
-
-    1.prod
-    2.dev
-    3.uat
-    4.stage
-    5.qa
-    \n''')
     while True:
+        print(green('''\nChoose environment
+        1.prod
+        2.dev
+        3.uat
+        4.stage
+        5.qa
+        \n'''))
+
 
         y=input("Enter enviroment number: ")
         os.system("clear")
@@ -90,16 +90,16 @@ def set_host():
             environment='qa'
             break
         else:
-            print("\nNot a valid environment number, choose again! \n")
+            print(yellow("\nNot a valid environment number, choose again! \n"))
             time.sleep(2)
 
-    print('''\nchoose system type
-    1.cms
-    2.web
-    3.feed
-    \n''')
 
     while True:
+        print(magenta('''\nchoose system type
+        1.cms
+        2.web
+        3.feed
+        \n'''))
         z=input("Enter system type number: ")
         os.system("clear")
         if(z=='1'):
@@ -112,7 +112,7 @@ def set_host():
             sys_type='feed'
             break
         else:
-            print("\nNot a valid system_type number, choose again!")
+            print(yellow("\nNot a valid system_type number, choose again!"))
             time.sleep(2)
 
 
@@ -141,16 +141,16 @@ def set_host():
 
             response=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[sys_type]},{"Name":'tag:Name','Values':[keyInstance]}])
         
-            print("Info: %s --> %s"%(keyInstance,response['Reservations'][0]["Instances"][0]["PrivateIpAddress"]))
+            print(green("Info: %s --> %s"%(keyInstance,response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])))
             env.hosts.append(response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])
             #print("Env hosts is: ",env.hosts)
     except:
-        print('''\n
+        print(yellow('''\n
         Can not connect to the server, reasons can be
         1. Selected instance might have connectivity problems(network issue, Terminated etc
         2. Choosen wrong short name
          
-        Please try after sometime \n''')
+        Please try after sometime \n'''))
 
     
 
@@ -174,7 +174,7 @@ def service_status():
             run("service liferay status")
         else:
             time.sleep(1)
-            print("Aborted...")
+            print(red("Aborted..."))
     else:
         confirm=input("Is hostname correct(y/n)?: ")
         if confirm=='y':
@@ -182,7 +182,7 @@ def service_status():
             
         else:
             time.sleep(1)
-            print("Aborted...")
+            print(red("Aborted..."))
 
 def service_stop():
 
@@ -196,14 +196,14 @@ def service_stop():
             run("sudo service liferay stop")
         else:
             time.sleep(1)
-            print("Aborted...")
+            print(red("Aborted..."))
     else:
         confirm=input("Is hostname correct(y/n)?: ")
         if confirm=='y':
             run("sudo service jboss-feeds stop && sleep 1")
         else:
             time.sleep(1)
-            print("Aborted...")
+            print(red("Aborted..."))
 def service_start():
     
     hostname()
@@ -216,7 +216,7 @@ def service_start():
             run("sudo service liferay start")
         else:
             time.sleep(1)
-            print("Aborted...")
+            print(red("Aborted..."))
     else:
         confirm=input("Is hostname correct(y/n)?: ")
         if confirm=='y':
@@ -224,4 +224,4 @@ def service_start():
             
         else:
             time.sleep(1)
-            print("Aborted...")
+            print(red("Aborted..."))
