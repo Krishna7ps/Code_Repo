@@ -310,3 +310,7 @@ def con(o):
         return o.__str__()
 with open('feedsData.json','w') as outfile:
     print(json.dump(res,outfile,default=con)) #res is json response variable from AWS query
+
+import json
+with open('data.txt', 'w') as outfile:
+    json.dump(data, outfile)
