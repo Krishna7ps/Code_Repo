@@ -21,6 +21,11 @@
             "label": "Ctrl+Shift+T",
             "isNative": true
         },
+        "workbench.action.openRecent": {
+            "id": "workbench.action.openRecent",
+            "label": "Ctrl+R",
+            "isNative": true
+        },
         "workbench.action.files.save": {
             "id": "workbench.action.files.save",
             "label": "Ctrl+S",
@@ -446,5 +451,19 @@
             "/root/code_repo"
         ],
         "files": []
+    },
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderPath": "/root/code_repo/aws-repo",
+            "backupPath": "/root/code_repo/aws-repo/Backups/9dec140707cd2bb0c8776b11eafde195",
+            "uiState": {
+                "mode": 0,
+                "x": 1280,
+                "y": 65,
+                "width": 1280,
+                "height": 925
+            }
+        }
     }
 }
