@@ -34,7 +34,6 @@ def set_host():
         7.fox
         \n '''))
         x=input("\nEnter client number: ")
-
         os.system("clear")
         if(x=='1'):
             client='tegna'
@@ -70,8 +69,6 @@ def set_host():
         4.stage
         5.qa
         \n'''))
-
-
         y=input("Enter enviroment number: ")
         os.system("clear")
         if(y=='1'):
