@@ -1,15 +1,16 @@
 Pre-requisites:
     -   Install python3
-    -   Install packages
+    -   Install packages(with pip3)
         -   boto3
         -   fabric3
-        -   AWS configure to set AWS credentials
+        -   AWSCLI
+    -   AWS configure to set AWS credentials
 
 
 Changes to be made in
 service.py:
     1. For each user need SSH ID file and lakana user id
-    os.system('fab -f ./fabfile.py set_host service_status -i {Path to ID file} -u {Lakana UserName}--show everything')
+    os.system('fab -f ./fabfile.py set_host service_status -i {Path to ID file} -u {Lakana UserName} --show everything')
     
     2. Workstation specific changes
     

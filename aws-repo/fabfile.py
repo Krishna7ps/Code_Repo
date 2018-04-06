@@ -1,10 +1,13 @@
 from fabric.api import run, env
 from fabric.tasks import execute
+from fabric.colors import green,red,yellow,white,cyan
 import boto3
 import os
 import time
 import sys
+'''
 
+'''
 env.hosts=[]
 client=''
 environment=''
@@ -17,17 +20,21 @@ def set_host():
     global sys_type
 
     ec2=boto3.client('ec2')
-    print('''Choose client from the list
-    1.tegna
-    2.nxs
-    3.mtss
-    4.sps
-    5.gmg
-    6.cmg
-    7.fox
-    \n ''')
+    
     while True:
+        
+        print(cyan('''Choose client from the list
+
+        1.tegna
+        2.nxs
+        3.mtss
+        4.sps
+        5.gmg
+        6.cmg
+        7.fox
+        \n '''))
         x=input("\nEnter client number: ")
+
         os.system("clear")
         if(x=='1'):
             client='tegna'
@@ -51,11 +58,12 @@ def set_host():
             client='fox'
             break
         else:
-            print("\nNot a valid client number, choose again!")
+            print(yellow("\nNot a valid client number, choose again!\n"))
             time.sleep(2)
 
     #print("client is ",client)
     print('''\nChoose environment
+
     1.prod
     2.dev
     3.uat
@@ -82,7 +90,7 @@ def set_host():
             environment='qa'
             break
         else:
-            print("\nNot a valid environment number, choose again!")
+            print("\nNot a valid environment number, choose again! \n")
             time.sleep(2)
 
     print('''\nchoose system type
@@ -120,11 +128,11 @@ def set_host():
         for i in range(len(fulldata['Reservations'])):
             servers_list+=[y["Value"] for y in [x for x in fulldata['Reservations'][i]["Instances"][0]['Tags']] if y["Key"]=="Name"]
         if len(servers_list)==0:
-            print("No instances available\n")
+            print(yellow("No instances available\n"))
             sys.exit(0)
         else:
             for i in range(len(servers_list)):
-                print(servers_list[i])
+                print(white(servers_list[i]))
             
             shortName=input("\nEnter instance short name(EX: cms01,web06,feed01): ")
             keyInstance=client+"-"+environment+"-"+shortName+"-us-east-1"
