@@ -25,10 +25,10 @@ while True:
         print(red("\nInvalid selection.."))
         time.sleep(2)
 
-    if input("\nWant to try another service(y for yes)?: ")=='y':
+    if input(blue("\nWant to try another service(y for yes)?: "))=='y':
         continue
     else:
-        print(magenta("Good bye..."))
+        print(magenta("Good Bye..."))
         break
 
 

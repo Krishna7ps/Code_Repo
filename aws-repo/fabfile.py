@@ -1,6 +1,6 @@
 from fabric.api import run, env
 from fabric.tasks import execute
-from fabric.colors import green,red,yellow,white,cyan,magenta
+from fabric.colors import green,red,yellow,white,cyan
 import boto3
 import os
 import time
@@ -23,7 +23,7 @@ def set_host():
     
     while True:
         
-        print(cyan('''Choose client from the list
+        print(white('''Choose client from the list
 
         1.tegna
         2.nxs
@@ -63,7 +63,7 @@ def set_host():
 
     #print("client is ",client)
     while True:
-        print(green('''\nChoose environment
+        print(white('''\nChoose environment
         1.prod
         2.dev
         3.uat
@@ -95,7 +95,7 @@ def set_host():
 
 
     while True:
-        print(magenta('''\nchoose system type
+        print(white('''\nchoose system type
         1.cms
         2.web
         3.feed
@@ -149,6 +149,7 @@ def set_host():
         Can not connect to the server, reasons can be
         1. Selected instance might have connectivity problems(network issue, Terminated etc
         2. Choosen wrong short name
+        3. Pressed ctrl+c
          
         Please try after sometime \n'''))
 
