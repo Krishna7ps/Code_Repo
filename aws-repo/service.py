@@ -7,6 +7,8 @@ while True:
     1.Service Status
     2.Service Stop
     3.Service Start
+    4.Purge Logs
+    5.Delete S3 Obejcts
     '''))
     task=input("Enter Task number: ")
     if task=='1':
