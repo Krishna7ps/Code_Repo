@@ -7,6 +7,7 @@ Pre-requisites:
     -   AWS configure to set AWS credentials
     -   Connection to client requied
 
+All files should be in same folder
 
 Changes to be made in
 All the files should be in the same folder
@@ -25,3 +26,6 @@ fabfile.py:
         os.system("cls")
         if workstation is Linux:
         os.system("clear")
+
+Usage:
+python3 service.py

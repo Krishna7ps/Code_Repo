@@ -16,3 +16,4 @@
 ./aws-repo/Us*
 ./aws-repo/logs/*
 ./aws-repo/mac*
+/Users/krishna/Code_Repo/terraform-repo/.terraform/plugins/*
