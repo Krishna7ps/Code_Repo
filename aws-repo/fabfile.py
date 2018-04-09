@@ -165,7 +165,7 @@ def hostname():
 
 def service_status():
     global sys_type
-    hostname()
+    #hostname()
 #    if(len(env.hosts)==0):
  #       sys.exit(0)    
     if not sys_type=='feed':
