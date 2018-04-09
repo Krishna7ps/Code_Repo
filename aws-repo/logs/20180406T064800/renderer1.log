@@ -1,0 +1,13 @@
+[2018-04-09 15:42:47.141] [renderer1] [error] connect ENOENT /root/code_repo/aws-repo/1.20.1-shared.sock: Error: connect ENOENT /root/code_repo/aws-repo/1.20.1-shared.sock
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[2018-04-09 15:42:49.899] [renderer1] [error] Error: connect ENOENT /root/code_repo/aws-repo/1.20.1-shared.sock
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[2018-04-09 15:42:56.016] [renderer1] [error] connect ENOENT /root/code_repo/aws-repo/1.20.1-shared.sock: Error: connect ENOENT /root/code_repo/aws-repo/1.20.1-shared.sock
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[2018-04-09 15:43:00.406] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
