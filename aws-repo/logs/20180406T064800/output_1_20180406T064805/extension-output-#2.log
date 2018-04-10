@@ -1,7 +1,0 @@
-
-Formatting with autopep8 failed.
-You could either install the 'autopep8' formatter, turn it off or use another formatter.
-Error: /bin/python: No module named autopep8
-
-----------Generating Tags----------
-ctags --options=/root/.vscode/extensions/ms-python.python-2018.3.1/resources/ctagOptions --languages=Python --exclude=**/site-packages/** -o /root/code_repo/aws-repo/.vscode/tags .
