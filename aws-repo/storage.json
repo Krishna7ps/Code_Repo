@@ -455,8 +455,8 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "folderPath": "/root/code_repo/aws-repo",
-            "backupPath": "/root/code_repo/aws-repo/Backups/9dec140707cd2bb0c8776b11eafde195",
+            "folderPath": "/root/code_repo",
+            "backupPath": "/root/code_repo/aws-repo/Backups/b617a109f80b5fd18f8f04636b75fb83",
             "uiState": {
                 "mode": 0,
                 "x": 1280,
