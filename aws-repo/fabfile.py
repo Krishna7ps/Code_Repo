@@ -69,7 +69,7 @@ def set_host():
         4.stage
         5.qa
         \n'''))
-         y=input("Enter enviroment number: ")
+        y=input("Enter enviroment number: ")
         os.system("clear")
         if(y=='1'):
             environment='prod'
