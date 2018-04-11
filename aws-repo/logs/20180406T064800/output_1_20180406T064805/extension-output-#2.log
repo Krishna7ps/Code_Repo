@@ -1,5 +1,0 @@
-
-Formatting with autopep8 failed.
-You could either install the 'autopep8' formatter, turn it off or use another formatter.
-Error: /bin/python: No module named autopep8
-

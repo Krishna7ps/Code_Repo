@@ -1,0 +1,213 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Equivalent	../Lakana_support.py	/^import urllib.request  #Equivalent to urllib2 in python3$/;"	kind:namespace	line:35
+Lakana_support.py	../Lakana_support.py	1;"	kind:file	line:1
+Temp.py	../Temp.py	1;"	kind:file	line:1
+all	../temp.py	/^def all():$/;"	kind:function	line:7
+aws_secret_access_key	../Lakana_support.py	/^aws_secret_access_key=res['Credentials']['SecretAccessKey'],$/;"	kind:variable	line:66
+aws_session_token	../Lakana_support.py	/^aws_session_token=res['Credentials']['SessionToken'])  $/;"	kind:variable	line:67
+blue	../service.py	/^from fabric.colors import green,red,yellow,white,cyan,magenta,blue$/;"	kind:namespace	line:3
+boto3	../Lakana_support.py	/^import boto3$/;"	kind:namespace	line:189
+boto3	../Lakana_support.py	/^import boto3$/;"	kind:namespace	line:288
+boto3	../Lakana_support.py	/^import boto3$/;"	kind:namespace	line:37
+boto3	../fabfile.py	/^import boto3$/;"	kind:namespace	line:4
+boto3	../testing.py	/^import boto3$/;"	kind:namespace	line:1
+buck	../Lakana_support.py	/^    buck=API_list_buckets['Buckets'][i]['Name']$/;"	kind:variable	line:82
+buck	../Lakana_support.py	/^    buck=s3.list_buckets()['Buckets'][i]['Name']$/;"	kind:variable	line:73
+client	../Lakana_support.py	/^import win32com.client$/;"	kind:namespace	line:31
+client	../fabfile.py	/^client=''$/;"	kind:variable	line:12
+client	../temp.py	/^    client='cmg'$/;"	kind:variable	line:170
+client	../temp.py	/^    client='fox'$/;"	kind:variable	line:172
+client	../temp.py	/^    client='gmg'$/;"	kind:variable	line:168
+client	../temp.py	/^    client='mtss'$/;"	kind:variable	line:164
+client	../temp.py	/^    client='nxs'$/;"	kind:variable	line:162
+client	../temp.py	/^    client='sps'$/;"	kind:variable	line:166
+client	../temp.py	/^    client='tegna'$/;"	kind:variable	line:160
+client	../temp.py	/^client=''$/;"	kind:variable	line:2
+client	../testing.py	/^    client=input("client: ")$/;"	kind:variable	line:7
+con	../Lakana_support.py	/^def con(o):$/;"	kind:function	line:308
+count	../Lakana_support.py	/^                count=count+1$/;"	kind:variable	line:94
+count	../Lakana_support.py	/^count=0$/;"	kind:variable	line:197
+count	../Lakana_support.py	/^count=0$/;"	kind:variable	line:80
+cyan	../fabfile.py	/^from fabric.colors import green,red,yellow,white,cyan$/;"	kind:namespace	line:3
+cyan	../service.py	/^from fabric.colors import green,red,yellow,white,cyan,magenta,blue$/;"	kind:namespace	line:3
+data	../Lakana_support.py	/^data=ec2.describe_instances()   $/;"	kind:variable	line:193
+datetime	../Lakana_support.py	/^import datetime$/;"	kind:namespace	line:177
+datetime	../Lakana_support.py	/^import datetime$/;"	kind:namespace	line:306
+del_g	../Lakana_support.py	/^            del_g=ec2.delete_security_group(GroupName=sg['SecurityGroups'][i]['GroupName'])$/;"	kind:variable	line:152
+django	../Lakana_support.py	/^import django$/;"	kind:namespace	line:48
+doc_1	../Lakana_support.py	/^import pyHook # http:\/\/pyhook.sourceforge.net\/doc_1.5.0\/$/;"	kind:namespace	line:54
+docs	../Lakana_support.py	/^import fabric3 # http:\/\/docs.fabfile.org\/en\/1.14\/tutorial.html$/;"	kind:namespace	line:43
+docs	../Lakana_support.py	/^import getpass # https:\/\/docs.python.org\/3\/library\/getpass.html$/;"	kind:namespace	line:53
+docs	../Lakana_support.py	/^import pwd # https:\/\/docs.python.org\/3\/library\/pwd.html#module-pwd$/;"	kind:namespace	line:56
+ec2	../Lakana_support.py	/^ec2=boto3.client("ec2")$/;"	kind:variable	line:191
+ec2	../Lakana_support.py	/^ec2=boto3.client('ec2')$/;"	kind:variable	line:142
+ec2	../Lakana_support.py	/^ec2=boto3.client('ec2')$/;"	kind:variable	line:292
+ec2	../temp.py	/^ec2=boto3.client('ec2')$/;"	kind:variable	line:145
+ec2	../testing.py	/^ec2=boto3.client('ec2')$/;"	kind:variable	line:3
+el	../Lakana_support.py	/^import openpyxl as el$/;"	kind:namespace	line:190
+en	../Lakana_support.py	/^import fabric3 # http:\/\/docs.fabfile.org\/en\/1.14\/tutorial.html$/;"	kind:namespace	line:43
+en	../Lakana_support.py	/^import openpyxl # https:\/\/openpyxl.readthedocs.io\/en\/stable\/tutorial.html$/;"	kind:namespace	line:50
+en	../Lakana_support.py	/^import pywinauto #https:\/\/pywinauto.readthedocs.io\/en\/latest\/getting_started.html$/;"	kind:namespace	line:32
+env	../Lakana_support.py	/^from fabric.api import run,env$/;"	kind:namespace	line:290
+env	../fabfile.py	/^from fabric.api import run, env$/;"	kind:namespace	line:1
+environment	../fabfile.py	/^environment=''$/;"	kind:variable	line:13
+environment	../temp.py	/^    environment='dev'$/;"	kind:variable	line:187
+environment	../temp.py	/^    environment='prod'$/;"	kind:variable	line:185
+environment	../temp.py	/^    environment='qa'$/;"	kind:variable	line:193
+environment	../temp.py	/^    environment='stage'$/;"	kind:variable	line:191
+environment	../temp.py	/^    environment='uat'$/;"	kind:variable	line:189
+environment	../temp.py	/^environment=''$/;"	kind:variable	line:3
+environment	../testing.py	/^    environment=input("environment: ")$/;"	kind:variable	line:8
+execute	../fabfile.py	/^from fabric.tasks import execute$/;"	kind:namespace	line:2
+fabfile	../Lakana_support.py	/^import fabric3 # http:\/\/docs.fabfile.org\/en\/1.14\/tutorial.html$/;"	kind:namespace	line:43
+fabfile.py	../fabfile.py	1;"	kind:file	line:1
+fabric3	../Lakana_support.py	/^import fabric3 # http:\/\/docs.fabfile.org\/en\/1.14\/tutorial.html$/;"	kind:namespace	line:43
+fabric3	../Lakana_support.py	/^import fabric3$/;"	kind:namespace	line:289
+fnmatch	../Lakana_support.py	/^import fnmatch$/;"	kind:namespace	line:46
+fulldata	../testing.py	/^    fulldata=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[sys_type]}])$/;"	kind:variable	line:10
+getpass	../Lakana_support.py	/^import getpass # https:\/\/docs.python.org\/3\/library\/getpass.html$/;"	kind:namespace	line:53
+getting_started	../Lakana_support.py	/^import pywinauto #https:\/\/pywinauto.readthedocs.io\/en\/latest\/getting_started.html$/;"	kind:namespace	line:32
+glob	../Lakana_support.py	/^import glob$/;"	kind:namespace	line:45
+green	../fabfile.py	/^from fabric.colors import green,red,yellow,white,cyan$/;"	kind:namespace	line:3
+green	../service.py	/^from fabric.colors import green,red,yellow,white,cyan,magenta,blue$/;"	kind:namespace	line:3
+hostname	../fabfile.py	/^def hostname():$/;"	kind:function	line:161
+hosts	../temp.py	/^hosts=[]$/;"	kind:variable	line:212
+html	../Lakana_support.py	/^import fabric3 # http:\/\/docs.fabfile.org\/en\/1.14\/tutorial.html$/;"	kind:namespace	line:43
+html	../Lakana_support.py	/^import getpass # https:\/\/docs.python.org\/3\/library\/getpass.html$/;"	kind:namespace	line:53
+html	../Lakana_support.py	/^import openpyxl # https:\/\/openpyxl.readthedocs.io\/en\/stable\/tutorial.html$/;"	kind:namespace	line:50
+html	../Lakana_support.py	/^import pwd # https:\/\/docs.python.org\/3\/library\/pwd.html#module-pwd$/;"	kind:namespace	line:56
+html	../Lakana_support.py	/^import pywinauto #https:\/\/pywinauto.readthedocs.io\/en\/latest\/getting_started.html$/;"	kind:namespace	line:32
+html	../Lakana_support.py	/^import xlsxwriter # http:\/\/xlsxwriter.readthedocs.io\/index.html$/;"	kind:namespace	line:51
+http	../Lakana_support.py	/^import fabric3 # http:\/\/docs.fabfile.org\/en\/1.14\/tutorial.html$/;"	kind:namespace	line:43
+http	../Lakana_support.py	/^import pyHook # http:\/\/pyhook.sourceforge.net\/doc_1.5.0\/$/;"	kind:namespace	line:54
+http	../Lakana_support.py	/^import xlsxwriter # http:\/\/xlsxwriter.readthedocs.io\/index.html$/;"	kind:namespace	line:51
+https	../Lakana_support.py	/^import getpass # https:\/\/docs.python.org\/3\/library\/getpass.html$/;"	kind:namespace	line:53
+https	../Lakana_support.py	/^import openpyxl # https:\/\/openpyxl.readthedocs.io\/en\/stable\/tutorial.html$/;"	kind:namespace	line:50
+https	../Lakana_support.py	/^import pwd # https:\/\/docs.python.org\/3\/library\/pwd.html#module-pwd$/;"	kind:namespace	line:56
+https	../Lakana_support.py	/^import pynput # https:\/\/pypi.python.org\/pypi\/pynput$/;"	kind:namespace	line:52
+https	../Lakana_support.py	/^import pywinauto #https:\/\/pywinauto.readthedocs.io\/en\/latest\/getting_started.html$/;"	kind:namespace	line:32
+in	../Lakana_support.py	/^import urllib.request  #Equivalent to urllib2 in python3$/;"	kind:namespace	line:35
+index	../Lakana_support.py	/^import xlsxwriter # http:\/\/xlsxwriter.readthedocs.io\/index.html$/;"	kind:namespace	line:51
+io	../Lakana_support.py	/^import openpyxl # https:\/\/openpyxl.readthedocs.io\/en\/stable\/tutorial.html$/;"	kind:namespace	line:50
+io	../Lakana_support.py	/^import pywinauto #https:\/\/pywinauto.readthedocs.io\/en\/latest\/getting_started.html$/;"	kind:namespace	line:32
+io	../Lakana_support.py	/^import xlsxwriter # http:\/\/xlsxwriter.readthedocs.io\/index.html$/;"	kind:namespace	line:51
+json	../Lakana_support.py	/^import json$/;"	kind:namespace	line:178
+json	../Lakana_support.py	/^import json$/;"	kind:namespace	line:305
+json	../Lakana_support.py	/^import json$/;"	kind:namespace	line:314
+json	../Lakana_support.py	/^import json$/;"	kind:namespace	line:39
+keyInstance	../temp.py	/^keyInstance=client+"-"+environment+"-"+shortName+"-us-east-1"$/;"	kind:variable	line:210
+keyboard	../Lakana_support.py	/^from pynput import keyboard$/;"	kind:namespace	line:252
+latest	../Lakana_support.py	/^import pywinauto #https:\/\/pywinauto.readthedocs.io\/en\/latest\/getting_started.html$/;"	kind:namespace	line:32
+library	../Lakana_support.py	/^import getpass # https:\/\/docs.python.org\/3\/library\/getpass.html$/;"	kind:namespace	line:53
+library	../Lakana_support.py	/^import pwd # https:\/\/docs.python.org\/3\/library\/pwd.html#module-pwd$/;"	kind:namespace	line:56
+logging	../Lakana_support.py	/^import logging$/;"	kind:namespace	line:36
+magenta	../service.py	/^from fabric.colors import green,red,yellow,white,cyan,magenta,blue$/;"	kind:namespace	line:3
+module	../Lakana_support.py	/^import pwd # https:\/\/docs.python.org\/3\/library\/pwd.html#module-pwd$/;"	kind:namespace	line:56
+myconverter	../Lakana_support.py	/^def myconverter(o):$/;"	kind:function	line:180
+net	../Lakana_support.py	/^import pyHook # http:\/\/pyhook.sourceforge.net\/doc_1.5.0\/$/;"	kind:namespace	line:54
+no_of_objs	../Lakana_support.py	/^no_of_objs=len(_)$/;"	kind:variable	line:111
+no_of_objs	../Lakana_support.py	/^no_of_objs=len(s3_objects)$/;"	kind:variable	line:106
+no_of_objs	../Lakana_support.py	/^no_of_objs=len(s3_objects)$/;"	kind:variable	line:131
+no_of_objs	../Temp.py	/^no_of_objs=len(s3_objects)$/;"	kind:variable	line:3
+numpy	../Lakana_support.py	/^import numpy$/;"	kind:namespace	line:58
+obj	../Lakana_support.py	/^            obj=s3.list_objects(Bucket=buck)['Contents'][j]['Key']$/;"	kind:variable	line:89
+obj_download	../Lakana_support.py	/^        obj_download=s3_objects[i]['Key']$/;"	kind:variable	line:134
+obj_download	../Temp.py	/^    obj_download=s3_objects[i]['Key']$/;"	kind:variable	line:5
+on_press	../Lakana_support.py	/^def on_press(key):$/;"	kind:function	line:254
+on_release	../Lakana_support.py	/^def on_release(key):$/;"	kind:function	line:260
+openpyxl	../Lakana_support.py	/^import openpyxl # https:\/\/openpyxl.readthedocs.io\/en\/stable\/tutorial.html$/;"	kind:namespace	line:50
+org	../Lakana_support.py	/^import fabric3 # http:\/\/docs.fabfile.org\/en\/1.14\/tutorial.html$/;"	kind:namespace	line:43
+org	../Lakana_support.py	/^import getpass # https:\/\/docs.python.org\/3\/library\/getpass.html$/;"	kind:namespace	line:53
+org	../Lakana_support.py	/^import pwd # https:\/\/docs.python.org\/3\/library\/pwd.html#module-pwd$/;"	kind:namespace	line:56
+org	../Lakana_support.py	/^import pynput # https:\/\/pypi.python.org\/pypi\/pynput$/;"	kind:namespace	line:52
+os	../Lakana_support.py	/^import os$/;"	kind:namespace	line:41
+os	../fabfile.py	/^import os$/;"	kind:namespace	line:5
+os	../service.py	/^import os$/;"	kind:namespace	line:1
+pandas	../Lakana_support.py	/^import pandas$/;"	kind:namespace	line:57
+pwd	../Lakana_support.py	/^import pwd # https:\/\/docs.python.org\/3\/library\/pwd.html#module-pwd$/;"	kind:namespace	line:56
+pyHook	../Lakana_support.py	/^import pyHook # http:\/\/pyhook.sourceforge.net\/doc_1.5.0\/$/;"	kind:namespace	line:54
+pyautogui	../Lakana_support.py	/^import pyautogui$/;"	kind:namespace	line:240
+pyautogui	../Lakana_support.py	/^import pyautogui$/;"	kind:namespace	line:34
+pyhook	../Lakana_support.py	/^import pyHook # http:\/\/pyhook.sourceforge.net\/doc_1.5.0\/$/;"	kind:namespace	line:54
+pynput	../Lakana_support.py	/^import pynput # https:\/\/pypi.python.org\/pypi\/pynput$/;"	kind:namespace	line:52
+pypi	../Lakana_support.py	/^import pynput # https:\/\/pypi.python.org\/pypi\/pynput$/;"	kind:namespace	line:52
+python	../Lakana_support.py	/^import getpass # https:\/\/docs.python.org\/3\/library\/getpass.html$/;"	kind:namespace	line:53
+python	../Lakana_support.py	/^import pwd # https:\/\/docs.python.org\/3\/library\/pwd.html#module-pwd$/;"	kind:namespace	line:56
+python	../Lakana_support.py	/^import pynput # https:\/\/pypi.python.org\/pypi\/pynput$/;"	kind:namespace	line:52
+python3	../Lakana_support.py	/^import urllib.request  #Equivalent to urllib2 in python3$/;"	kind:namespace	line:35
+pythoncom	../Lakana_support.py	/^import pythoncom$/;"	kind:namespace	line:55
+pywinauto	../Lakana_support.py	/^import pywinauto #https:\/\/pywinauto.readthedocs.io\/en\/latest\/getting_started.html$/;"	kind:namespace	line:32
+random	../Lakana_support.py	/^import random$/;"	kind:namespace	line:40
+re	../Lakana_support.py	/^import re$/;"	kind:namespace	line:44
+readthedocs	../Lakana_support.py	/^import openpyxl # https:\/\/openpyxl.readthedocs.io\/en\/stable\/tutorial.html$/;"	kind:namespace	line:50
+readthedocs	../Lakana_support.py	/^import pywinauto #https:\/\/pywinauto.readthedocs.io\/en\/latest\/getting_started.html$/;"	kind:namespace	line:32
+readthedocs	../Lakana_support.py	/^import xlsxwriter # http:\/\/xlsxwriter.readthedocs.io\/index.html$/;"	kind:namespace	line:51
+red	../fabfile.py	/^from fabric.colors import green,red,yellow,white,cyan$/;"	kind:namespace	line:3
+red	../service.py	/^from fabric.colors import green,red,yellow,white,cyan,magenta,blue$/;"	kind:namespace	line:3
+rep	../Lakana_support.py	/^            rep=s3.get_object(Bucket=buck,Key=obj)$/;"	kind:variable	line:91
+request	../Lakana_support.py	/^import urllib.request  #Equivalent to urllib2 in python3$/;"	kind:namespace	line:35
+requests	../Lakana_support.py	/^import requests$/;"	kind:namespace	line:30
+res	../Lakana_support.py	/^res=sts.assume_role(RoleArn='arn:aws:iam::462397709356:role\/lakana-fox-admin',RoleSessionName='testrole')$/;"	kind:variable	line:63
+response	../temp.py	/^response=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[sys_type]},{"Name":'tag:Name','Values':[keyInstance]}])$/;"	kind:variable	line:213
+run	../Lakana_support.py	/^from fabric.api import run,env$/;"	kind:namespace	line:290
+run	../fabfile.py	/^from fabric.api import run, env$/;"	kind:namespace	line:1
+s3	../Lakana_support.py	/^s3=boto3.client('s3',aws_access_key_id=res['Credentials']['AccessKeyId'],$/;"	kind:variable	line:65
+s3_buckets	../Lakana_support.py	/^s3_buckets=s3l.list_buckets() #Listing buckets under the account$/;"	kind:variable	line:103
+s3_objects	../Lakana_support.py	/^s3_objects=s3l.list_objects(Bucket='lakana-cloudformation')['Contents']$/;"	kind:variable	line:105
+s3_objects	../Lakana_support.py	/^s3_objects=s3l.list_objects(Bucket='lakana-cloudformation')['Contents']$/;"	kind:variable	line:110
+s3_objects	../Lakana_support.py	/^s3_objects=s3l.list_objects(Bucket='lakana-cloudformation')['Contents']$/;"	kind:variable	line:130
+s3_objects	../Temp.py	/^s3_objects=s3l.list_objects(Bucket='lakana-techops-assets-us-east-1')['Contents']$/;"	kind:variable	line:2
+s3l	../Lakana_support.py	/^s3l=boto3.client('s3') #Creating s3 boto3 object$/;"	kind:variable	line:102
+s3l	../Temp.py	/^s3l=boto3.client('s3') #Creating s3 boto3 object$/;"	kind:variable	line:1
+selenium	../Lakana_support.py	/^import selenium$/;"	kind:namespace	line:47
+servers_list	../testing.py	/^    servers_list=[]$/;"	kind:variable	line:6
+service.py	../service.py	1;"	kind:file	line:1
+service_start	../fabfile.py	/^def service_start():$/;"	kind:function	line:208
+service_status	../fabfile.py	/^def service_status():$/;"	kind:function	line:166
+service_stop	../fabfile.py	/^def service_stop():$/;"	kind:function	line:188
+set_host	../fabfile.py	/^def set_host():$/;"	kind:function	line:16
+sg	../Lakana_support.py	/^sg=ec2.describe_security_groups()$/;"	kind:variable	line:144
+sh1	../Lakana_support.py	/^sh1=wb.create_sheet("Avg CPU")$/;"	kind:variable	line:199
+shortName	../temp.py	/^shortName=input("Enter instance short name(EX: cms01,web06,feed01): ")$/;"	kind:variable	line:209
+sourceforge	../Lakana_support.py	/^import pyHook # http:\/\/pyhook.sourceforge.net\/doc_1.5.0\/$/;"	kind:namespace	line:54
+stable	../Lakana_support.py	/^import openpyxl # https:\/\/openpyxl.readthedocs.io\/en\/stable\/tutorial.html$/;"	kind:namespace	line:50
+sts	../Lakana_support.py	/^sts=boto3.client('sts')$/;"	kind:variable	line:62
+subprocess	../Lakana_support.py	/^import subprocess$/;"	kind:namespace	line:38
+sys	../Lakana_support.py	/^import sys$/;"	kind:namespace	line:42
+sys	../fabfile.py	/^import sys$/;"	kind:namespace	line:7
+sys_type	../fabfile.py	/^sys_type=''$/;"	kind:variable	line:14
+sys_type	../temp.py	/^    sys_type='cms'$/;"	kind:variable	line:202
+sys_type	../temp.py	/^    sys_type='feed'$/;"	kind:variable	line:206
+sys_type	../temp.py	/^    sys_type='web'$/;"	kind:variable	line:204
+sys_type	../temp.py	/^sys_type=''$/;"	kind:variable	line:4
+sys_type	../testing.py	/^    sys_type=input("sys_type: ")$/;"	kind:variable	line:9
+task	../service.py	/^    task=input("Enter Task number: ")$/;"	kind:variable	line:11
+temp.py	../temp.py	1;"	kind:file	line:1
+testing.py	../testing.py	1;"	kind:file	line:1
+time	../Lakana_support.py	/^import time$/;"	kind:namespace	line:239
+time	../fabfile.py	/^import time$/;"	kind:namespace	line:6
+time	../service.py	/^import time$/;"	kind:namespace	line:2
+to	../Lakana_support.py	/^import urllib.request  #Equivalent to urllib2 in python3$/;"	kind:namespace	line:35
+tutorial	../Lakana_support.py	/^import fabric3 # http:\/\/docs.fabfile.org\/en\/1.14\/tutorial.html$/;"	kind:namespace	line:43
+tutorial	../Lakana_support.py	/^import openpyxl # https:\/\/openpyxl.readthedocs.io\/en\/stable\/tutorial.html$/;"	kind:namespace	line:50
+uname	../fabfile.py	/^def uname():$/;"	kind:function	line:158
+urllib	../Lakana_support.py	/^import urllib.request  #Equivalent to urllib2 in python3$/;"	kind:namespace	line:35
+urllib2	../Lakana_support.py	/^import urllib.request  #Equivalent to urllib2 in python3$/;"	kind:namespace	line:35
+wb	../Lakana_support.py	/^wb=el.Workbook()$/;"	kind:variable	line:198
+white	../fabfile.py	/^from fabric.colors import green,red,yellow,white,cyan$/;"	kind:namespace	line:3
+white	../service.py	/^from fabric.colors import green,red,yellow,white,cyan,magenta,blue$/;"	kind:namespace	line:3
+win32com	../Lakana_support.py	/^import win32com.client$/;"	kind:namespace	line:31
+x	../Lakana_support.py	/^x=0$/;"	kind:variable	line:242
+x	../temp.py	/^x=input("Enter client number: ")$/;"	kind:variable	line:156
+xlsxwriter	../Lakana_support.py	/^import xlsxwriter # http:\/\/xlsxwriter.readthedocs.io\/index.html$/;"	kind:namespace	line:51
+xlwings	../Lakana_support.py	/^import xlwings$/;"	kind:namespace	line:49
+y	../Lakana_support.py	/^y=700$/;"	kind:variable	line:243
+y	../temp.py	/^y=input("Enter enviroment number: ")$/;"	kind:variable	line:182
+yellow	../fabfile.py	/^from fabric.colors import green,red,yellow,white,cyan$/;"	kind:namespace	line:3
+yellow	../service.py	/^from fabric.colors import green,red,yellow,white,cyan,magenta,blue$/;"	kind:namespace	line:3
+z	../temp.py	/^z=input("Enter system type number: ")$/;"	kind:variable	line:199

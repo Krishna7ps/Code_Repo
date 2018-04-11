@@ -34,6 +34,7 @@ def set_host():
         7.fox
         \n '''))
         x=input("\nEnter client number: ")
+
         os.system("clear")
         if(x=='1'):
             client='tegna'
@@ -69,6 +70,11 @@ def set_host():
         4.stage
         5.qa
         \n'''))
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ed4ebfadd6b80370af964ada5ea6b5ee6b71a506
         y=input("Enter enviroment number: ")
         os.system("clear")
         if(y=='1'):
@@ -162,12 +168,13 @@ def hostname():
 
 def service_status():
     global sys_type
-    hostname()
+    #hostname()
 #    if(len(env.hosts)==0):
  #       sys.exit(0)    
     if not sys_type=='feed':
         time.sleep(2)
-        confirm=input("Is hostname correct(y/n)?: ")
+        #confirm=input("Is hostname correct(y/n)?: ")
+        confirm='y'
         if confirm=='y':
             run("service liferay status")
         else:
@@ -189,7 +196,8 @@ def service_stop():
     
     if not sys_type=='feed':
         time.sleep(2)
-        confirm=input("Is hostname correct(y/n)?: ")
+        #confirm=input("Is hostname correct(y/n)?: ")
+        confirm='y'
         if confirm=='y':
             run("sudo service liferay stop")
         else:
@@ -209,7 +217,8 @@ def service_start():
     
     if not sys_type=='feed':
         time.sleep(2)
-        confirm=input("Is hostname correct(y/n)?: ")
+        #confirm=input("Is hostname correct(y/n)?: ")
+        confirm='y'
         if confirm=='y':
             run("sudo service liferay start")
         else:
