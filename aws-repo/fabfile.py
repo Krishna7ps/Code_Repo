@@ -165,9 +165,9 @@ def hostname():
 
 def service_status():
     global sys_type
-    #hostname()
-#    if(len(env.hosts)==0):
- #       sys.exit(0)    
+    hostname()
+    if(len(env.hosts)==0):
+        sys.exit(0)    
     if not sys_type=='feed':
         time.sleep(2)
         #confirm=input("Is hostname correct(y/n)?: ")
@@ -178,13 +178,31 @@ def service_status():
             time.sleep(1)
             print(red("Aborted..."))
     else:
-        confirm=input("Is hostname correct(y/n)?: ")
+        #confirm=input("Is hostname correct(y/n)?: ")
+        confirm='y'
         if confirm=='y':
             run("sudo service jboss-feeds status && sleep 1")
             
         else:
             time.sleep(1)
-            print(red("Aborted..."))
+            print(red("Wrong choice..."))
+    other=input("Want another service(same client)")
+    print('''
+    1.status
+    2.stop
+    3.start
+    ''')
+    what=input("choose: ")
+    if other=='y':
+        if what=='1':
+            service_status()
+        elif what=='2':
+            service_stop()
+        elif what=='3':
+            service_start()
+        else:
+            print("no proper input, exiting..")
+
 
 def service_stop():
 
@@ -207,6 +225,23 @@ def service_stop():
         else:
             time.sleep(1)
             print(red("Aborted..."))
+    other=input("Want another service(same client)")
+    print('''
+    1.status
+    2.stop
+    3.start
+    ''')
+    what=input("choose: ")
+    if other=='y':
+        if what=='1':
+            service_status()
+        elif what=='2':
+            service_stop()
+        elif what=='3':
+            service_start()
+        else:
+            print("no proper input, exiting..")
+
 def service_start():
     
     hostname()
@@ -229,3 +264,20 @@ def service_start():
         else:
             time.sleep(1)
             print(red("Aborted..."))
+    other=input("Want another service(same client)")
+    print('''
+    1.status
+    2.stop
+    3.start
+    ''')
+    what=input("choose: ")
+    if other=='y':
+        if what=='1':
+            service_status()
+        elif what=='2':
+            service_stop()
+        elif what=='3':
+            service_start()
+        else:
+            print("no proper input, exiting..")
+

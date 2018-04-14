@@ -1,0 +1,1369 @@
+Looking for git in: git
+Using git 2.16.3 from git
+git rev-parse --show-toplevel
+git config --get commit.template
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git check-ignore -z --stdin
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git check-ignore -z --stdin
+git show :aws-repo/data.txt
+git status -z -u
+git symbolic-ref --short HEAD
+git show :aws-repo/fabfile.py
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git check-ignore -z --stdin
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/fabfile.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git check-ignore -z --stdin
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/service.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/fabfile.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/service.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :aws-repo/fabfile.py
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse dailyTasks
+git rev-parse --symbolic-full-name --abbrev-ref dailyTasks@{u}
+fatal: no upstream configured for branch 'dailyTasks'
+
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
