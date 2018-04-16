@@ -6,7 +6,7 @@ import os
 import time
 import sys
 '''
-Testing 
+
 '''
 env.hosts=[]
 client=''
@@ -69,6 +69,7 @@ def set_host():
         3.uat
         4.stage
         5.qa
+        6.adk
         \n'''))
 
 
@@ -89,6 +90,10 @@ def set_host():
         elif(y=='5'):
             environment='qa'
             break
+        elif(y=='6'):
+            environment='adk'
+            break
+
         else:
             print(yellow("\nNot a valid environment number, choose again! \n"))
             time.sleep(2)
@@ -178,31 +183,13 @@ def service_status():
             time.sleep(1)
             print(red("Aborted..."))
     else:
-        #confirm=input("Is hostname correct(y/n)?: ")
-        confirm='y'
+        confirm=input("Is hostname correct(y/n)?: ")
         if confirm=='y':
             run("sudo service jboss-feeds status && sleep 1")
             
         else:
             time.sleep(1)
-            print(red("Wrong choice..."))
-    other=input("Want another service(same client)")
-    print('''
-    1.status
-    2.stop
-    3.start
-    ''')
-    what=input("choose: ")
-    if other=='y':
-        if what=='1':
-            service_status()
-        elif what=='2':
-            service_stop()
-        elif what=='3':
-            service_start()
-        else:
-            print("no proper input, exiting..")
-
+            print(red("Aborted..."))
 
 def service_stop():
 
@@ -225,23 +212,6 @@ def service_stop():
         else:
             time.sleep(1)
             print(red("Aborted..."))
-    other=input("Want another service(same client)")
-    print('''
-    1.status
-    2.stop
-    3.start
-    ''')
-    what=input("choose: ")
-    if other=='y':
-        if what=='1':
-            service_status()
-        elif what=='2':
-            service_stop()
-        elif what=='3':
-            service_start()
-        else:
-            print("no proper input, exiting..")
-
 def service_start():
     
     hostname()
@@ -264,20 +234,3 @@ def service_start():
         else:
             time.sleep(1)
             print(red("Aborted..."))
-    other=input("Want another service(same client)")
-    print('''
-    1.status
-    2.stop
-    3.start
-    ''')
-    what=input("choose: ")
-    if other=='y':
-        if what=='1':
-            service_status()
-        elif what=='2':
-            service_stop()
-        elif what=='3':
-            service_start()
-        else:
-            print("no proper input, exiting..")
-
