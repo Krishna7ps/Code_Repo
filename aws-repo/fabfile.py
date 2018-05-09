@@ -69,6 +69,7 @@ def set_host():
         3.uat
         4.stage
         5.qa
+        6.adk
         \n'''))
 <<<<<<< HEAD
 =======
@@ -92,6 +93,10 @@ def set_host():
         elif(y=='5'):
             environment='qa'
             break
+        elif(y=='6'):
+            environment='adk'
+            break
+
         else:
             print(yellow("\nNot a valid environment number, choose again! \n"))
             time.sleep(2)
@@ -168,9 +173,9 @@ def hostname():
 
 def service_status():
     global sys_type
-    #hostname()
-#    if(len(env.hosts)==0):
- #       sys.exit(0)    
+    hostname()
+    if(len(env.hosts)==0):
+        sys.exit(0)    
     if not sys_type=='feed':
         time.sleep(2)
         #confirm=input("Is hostname correct(y/n)?: ")

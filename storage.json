@@ -447,6 +447,7 @@
     "pickerWorkingDir": "/root/code_repo",
     "openedPathsList": {
         "workspaces": [
+            "/root/code_repo/aws-repo",
             "/root/code_repo/aws-repo"
         ],
         "files": []

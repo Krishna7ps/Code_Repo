@@ -448,6 +448,7 @@
     "openedPathsList": {
         "workspaces": [
             "/root/code_repo",
+            "/root/code_repo",
             "/root/code_repo/aws-repo"
         ],
         "files": []
@@ -460,9 +461,9 @@
             "uiState": {
                 "mode": 0,
                 "x": 1280,
-                "y": 65,
-                "width": 1280,
-                "height": 925
+                "y": 37,
+                "width": 1024,
+                "height": 731
             }
         }
     }
