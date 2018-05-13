@@ -448,7 +448,6 @@
     "openedPathsList": {
         "workspaces": [
             "/root/code_repo",
-            "/root/code_repo",
             "/root/code_repo/aws-repo"
         ],
         "files": []
