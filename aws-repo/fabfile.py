@@ -195,26 +195,23 @@ def service_status():
             print(red("Aborted..."))
 
 def service_stop():
-
+    
     global sys_type
     hostname()
     
     if not sys_type=='feed':
-        time.sleep(2)
-        #confirm=input("Is hostname correct(y/n)?: ")
-        confirm='y'
-        if confirm=='y':
-            run("sudo service liferay stop")
-        else:
-            time.sleep(1)
-            print(red("Aborted..."))
+        run("sudo service liferay stop && sleep 1")
+        ask=input("Do you what to start the service(y/n): ")
+        if ask=='y':
+            run("sudo service liferay start && sleep 1")
+            
     else:
-        confirm=input("Is hostname correct(y/n)?: ")
-        if confirm=='y':
-            run("sudo service jboss-feeds stop && sleep 1")
-        else:
-            time.sleep(1)
-            print(red("Aborted..."))
+        run("sudo service jboss-feeds stop && sleep 1")
+        ask=input("Do you what to start the service(y/n): ")
+        if ask=='y':
+            run("sudo service jboss-feeds start && sleep 1")
+            
+
 def service_start():
     
     hostname()
