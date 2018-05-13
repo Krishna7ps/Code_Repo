@@ -71,8 +71,11 @@ def set_host():
         5.qa
         6.adk
         \n'''))
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> ed4ebfadd6b80370af964ada5ea6b5ee6b71a506
         y=input("Enter enviroment number: ")
         os.system("clear")
         if(y=='1'):
