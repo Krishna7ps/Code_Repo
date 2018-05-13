@@ -5,7 +5,7 @@ while True:
     os.system("clear")
     print(white('''\nAvailable Tasks
     1.Service Status
-    2.Service Stop
+    2.Service Stop and/or Start
     3.Service Start
     4.Purge Logs
     5.Delete S3 Obejcts

@@ -201,17 +201,28 @@ def service_stop():
         #confirm=input("Is hostname correct(y/n)?: ")
         confirm='y'
         if confirm=='y':
-            run("sudo service liferay stop")
+            run("sudo service liferay stop && sleep 1")
+	    print(20*"*","status",20*"*")
+	    run("sudo service status && sleep 1")
         else:
             time.sleep(1)
             print(red("Aborted..."))
+	ask=input("Do you what to start the service(y/n): ")
+        if ask=='y':
+            run("sudo service liferay start && sleep 1")
     else:
-        confirm=input("Is hostname correct(y/n)?: ")
+        #confirm=input("Is hostname correct(y/n)?: ")
+	confirm='y'
         if confirm=='y':
             run("sudo service jboss-feeds stop && sleep 1")
+	    print(20*"*","status",20*"*")
+	    run("sudo service jboss-feeds status && sleep 1")
         else:
             time.sleep(1)
             print(red("Aborted..."))
+	ask=input("Do you what to start the service(y/n): ")
+	if ask=='y':
+	    run("sudo service jboss-feeds start && sleep 1")
 def service_start():
     
     hostname()
