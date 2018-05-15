@@ -20,4 +20,4 @@ plugins/*
 1.2*
 /machineid
 Preferences
-__pycache__
+__pycache__/
