@@ -21,3 +21,4 @@ plugins/*
 /machineid
 Preferences
 __pycache__/
+fabfile.cpython-36.pyc
