@@ -14,7 +14,7 @@ mac*
 #/aws-repo/GP*
 #/aws-repo/Lo*
 #/aws-repo/Us*
-#/aws-repo/logs/*
+aws-repo/logs/*
 #/aws-repo/mac*
 plugins/*
 1.2*
@@ -22,3 +22,4 @@ plugins/*
 Preferences
 __pycache__/
 fabfile.cpython-36.pyc
+storage.json
