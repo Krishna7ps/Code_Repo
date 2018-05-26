@@ -197,13 +197,13 @@ def service_stop():
     
     if not sys_type=='feed':
         run("sudo service liferay stop && sleep 1")
-        ask=input("Do you what to start the service(y/n): ")
+        ask=yellow(input("Do you what to start the service(y/n): "))
         if ask=='y':
             run("sudo service liferay start && sleep 1")
             
     else:
         run("sudo service jboss-feeds stop && sleep 1")
-        ask=input("Do you what to start the service(y/n): ")
+        ask=yellow(input("Do you what to start the service(y/n): "))
         if ask=='y':
             run("sudo service jboss-feeds start && sleep 1")
             
