@@ -166,6 +166,7 @@ def hostname():
     if(len(env.hosts)==0):
         sys.exit(0)
     run("hostname")
+    #run("sudo yum install -y python-passlib.noarch")
 
 def service_status():
     global sys_type
