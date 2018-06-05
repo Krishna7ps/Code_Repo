@@ -6,7 +6,9 @@ import os
 import time
 import sys
 '''
-
+package A -- 1,2,3
+import A (all) --- A.1, A.2
+from A import 3 --- 3
 '''
 env.hosts=[]
 client=''
