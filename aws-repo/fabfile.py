@@ -50,28 +50,13 @@ def set_host():
                 continue
         break
 
-    while True:
-        print(white('''\nAvailable system types
-        1.cms 2.web 3.feed 4.ingestion
-        \n'''))
-
-        sys_type=input("Enter System_type Name: ")
-
-        os.system("clear")
-        if sys_type not in ['cms', 'web', 'feed', 'ingestion']:
-            enter=input("Enter wrong sys_type?, Do you want to continue?(y/n) :")
-            if enter=='y':
-                break
-            else:
-                continue
-        break
 
     env.hosts=[]
     try:
 
         print("\nAvailable hosts: \n")
         servers_list=[]
-        fulldata=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[sys_type]},{"Name":"instance-state-name",'Values':['pending','running']}])
+        fulldata=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{"Name":"instance-state-name",'Values':['pending','running']}])
         for i in range(len(fulldata['Reservations'])):
             for j in range(len(fulldata['Reservations'][i]['Instances'])):
                 servers_list+=[y["Value"] for y in [x for x in fulldata['Reservations'][i]["Instances"][j]['Tags']] if y["Key"]=="Name"]
@@ -83,15 +68,14 @@ def set_host():
                 print(white(servers_list[i]))
             
             
-            shortName[]=input("\nEnter instance short name(EX: cms01,web06,feed01): ")
-            keyInstance=client+"-"+environment+"-"+shortName+"-us-east-1"
-        
-
-
-            response=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[sys_type]},{"Name":'tag:Name','Values':[keyInstance]}])
-        
-            print(green("Info: %s --> %s"%(keyInstance,response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])))
-            env.hosts.append(response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])
+            shortName=input("\nEnter instance short names(EX: cms01,web06,feed01): ").split()
+            for i in shortName:
+                keyInstance=client+"-"+environment+"-"+i+"-us-east-1"
+                print(keyInstance)
+                response=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{"Name":'tag:Name','Values':[keyInstance]}])
+                print(green("Info: %s --> %s"%(keyInstance,response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])))
+                env.hosts.append(response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])
+            print(env.hosts)
 
     except:
         print(yellow('''\n
@@ -104,9 +88,6 @@ def set_host():
 
     
 
-def uname():
-    run("uname -s")
-
 def hostname():
     if(len(env.hosts)==0):
         sys.exit(0)
@@ -114,34 +95,21 @@ def hostname():
 
 
 def service_status():
-    global sys_type
     hostname()
     if(len(env.hosts)==0):
         sys.exit(0)    
-    if not sys_type=='feed':
-        time.sleep(2)
-
-        confirm='y'
-        if confirm=='y':
-            run("service liferay status")
-        else:
-            time.sleep(1)
-            print(red("Aborted..."))
-    else:
-        confirm=input("Is hostname correct(y/n)?: ")
-        if confirm=='y':
-            run("sudo service jboss-feeds status && sleep 1")
+    try:
+        run("service liferay status")
+        
+        
+    except:
+        run("sudo service jboss-feeds status && sleep 1")
             
-        else:
-            time.sleep(1)
-            print(red("Aborted..."))
-
+        
 def service_stop():
     
     global sys_type
-    while True:
-        hostname()
-        multi=input("Another n")
+    hostname()
     
     if not sys_type=='feed':
         run("sudo service liferay stop && sleep 1")
