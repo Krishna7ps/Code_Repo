@@ -78,13 +78,7 @@ def set_host():
             print(env.hosts)
 
     except:
-        print(yellow('''\n
-        Can not connect to the server, reasons can be
-        1. Selected instance might have connectivity problems(network issue, Terminated etc
-        2. Choosen wrong short name
-        3. Pressed ctrl+c
-         
-        Please try after sometime \n'''))
+        print(yellow('\nCan not connect to the server. Please try after sometime \n'))
 
     
 
@@ -96,8 +90,7 @@ def hostname():
 
 def service_status():
     hostname()
-    if(len(env.hosts)==0):
-        sys.exit(0)    
+      
     try:
         run("service liferay status")
         
@@ -110,39 +103,25 @@ def service_stop():
     
     global sys_type
     hostname()
-    
-    if not sys_type=='feed':
-        run("sudo service liferay stop && sleep 1")
-        ask=input("Do you what to start the service(y/n): ")
-        if ask=='y':
-            run("sudo service liferay start && sleep 1")
-            
-    else:
-        run("sudo service jboss-feeds stop && sleep 1")
-        ask=input("Do you what to start the service(y/n): ")
-        if ask=='y':
-            run("sudo service jboss-feeds start && sleep 1")
-            
+    try:
+        run("service liferay status")
+        
+        
+    except:
+        run("sudo service jboss-feeds status && sleep 1")
 
+
+
+            
 def service_start():
-    
-    hostname()
-    global sys_type
-    
-    if not sys_type=='feed':
-        time.sleep(2)
 
-        confirm='y'
-        if confirm=='y':
-            run("sudo service liferay start")
-        else:
-            time.sleep(1)
-            print(red("Aborted..."))
-    else:
-        confirm=input("Is hostname correct(y/n)?: ")
-        if confirm=='y':
-            run("sudo service jboss-feeds start && sleep 1")
-            
-        else:
-            time.sleep(1)
-            print(red("Aborted..."))
+    hostname()
+    try:
+        run("service liferay status")
+       
+    except:
+        run("sudo service jboss-feeds status && sleep 1")
+
+
+
+
