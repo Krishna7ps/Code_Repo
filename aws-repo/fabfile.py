@@ -5,14 +5,12 @@ import boto3
 import os
 import time
 import sys
-'''
 
-'''
 env.hosts=[]
 client=''
 environment=''
 sys_type=''
-# servers_list=[]
+
 def set_host():
     
     global client
@@ -23,114 +21,60 @@ def set_host():
     
     while True:
         
-        print(white('''Choose client from the list
+        print(white('''Available Clients list
 
-        1.tegna
-        2.nxs
-        3.mtss
-        4.sps
-        5.gmg
-        6.cmg
-        7.fox
+        1.tegna 2.nxs 3.mtss 4.sps 5.gmg 6.cmg 7.fox
         \n '''))
-        x=input("\nEnter client number: ")
-
-        os.system("clear")
-        if(x=='1'):
-            client='tegna'
-            break
-        elif(x=='2'):
-            client='nxs'
-            break
-        elif(x=='3'):
-            client='mtss'
-            break
-        elif(x=='4'):
-            client='sps'
-            break
-        elif(x=='5'):
-            client='gmg'
-            break
-        elif(x=='6'):
-            client='cmg'
-            break
-        elif(x=='7'):
-            client='fox'
-            break
-        else:
-            print(yellow("\nNot a valid client number, choose again!\n"))
-            time.sleep(2)
-
-    #print("client is ",client)
-    while True:
-        print(white('''\nChoose environment
-        1.prod
-        2.dev
-        3.uat
-        4.stage
-        5.qa
-        6.adk
-        \n'''))
-
-        y=input("Enter enviroment number: ")
-        os.system("clear")
-        if(y=='1'):
-            environment='prod'
-            break
-        elif(y=='2'):
-            environment='dev'
-            break
-        elif(y=='3'):
-            environment='uat'
-            break
-        elif(y=='4'):
-            environment='stage'
-            break
-        elif(y=='5'):
-            environment='qa'
-            break
-        elif(y=='6'):
-            environment='adk'
-            break
-
-        else:
-            print(yellow("\nNot a valid environment number, choose again! \n"))
-            time.sleep(2)
-
+        client=input("\nEnter Client Name: ")
+        if client not in ['tegna', 'nxs', 'mtss', 'sps', 'gmg', 'cmg', 'fox']:
+            enter=input("Enter wrong client name?, Do you want to continue?:(y/n) ")
+            if enter =='y':
+                break
+            else:
+                continue
+        break
 
     while True:
-        print(white('''\nchoose system type
-        1.cms
-        2.web
-        3.feed
+        print(white('''\n Available environments
+        1.prod 2.dev 3.uat 4.stage 5.qa 6.adk 7.sandbox
         \n'''))
-        z=input("Enter system type number: ")
+
+
+        environment=input("Enter Enviroment Name: ")
         os.system("clear")
-        if(z=='1'):
-            sys_type='cms'
-            break
-        elif(z=='2'):
-            sys_type='web'
-            break
-        elif(z=='3'):
-            sys_type='feed'
-            break
-        else:
-            print(yellow("\nNot a valid system_type number, choose again!"))
-            time.sleep(2)
+        if environment not in ['prod', 'dev', 'qa', 'stage', 'uat', 'sandbox', 'adk']:
+            enter=input("Wrong environment name?, Do you want to continue?(y/n): ")
+            if enter=='y':
+                break
+            else:
+                continue
+        break
 
+    while True:
+        print(white('''\nAvailable system types
+        1.cms 2.web 3.feed 4.ingestion
+        \n'''))
 
-    #shortName=input("Enter instance short name(EX: cms01,web06,feed01): ")
-    #keyInstance=client+"-"+environment+"-"+shortName+"-us-east-1"
-    #print(keyInstance)
+        sys_type=input("Enter System_type Name: ")
+
+        os.system("clear")
+        if sys_type not in ['cms', 'web', 'feed', 'ingestion']:
+            enter=input("Enter wrong sys_type?, Do you want to continue?(y/n) :")
+            if enter=='y':
+                break
+            else:
+                continue
+        break
+
     env.hosts=[]
     try:
-        #begin
+
         print("\nAvailable hosts: \n")
         servers_list=[]
-        fulldata=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[sys_type]}])
+        fulldata=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[sys_type]},{"Name":"instance-state-name",'Values':['pending','running']}])
         for i in range(len(fulldata['Reservations'])):
-            servers_list+=[y["Value"] for y in [x for x in fulldata['Reservations'][i]["Instances"][0]['Tags']] if y["Key"]=="Name"]
+            for j in range(len(fulldata['Reservations'][i]['Instances'])):
+                servers_list+=[y["Value"] for y in [x for x in fulldata['Reservations'][i]["Instances"][j]['Tags']] if y["Key"]=="Name"]
         if len(servers_list)==0:
             print(yellow("No instances available\n"))
             sys.exit(0)
@@ -138,16 +82,17 @@ def set_host():
             for i in range(len(servers_list)):
                 print(white(servers_list[i]))
             
-            shortName=input("\nEnter instance short name(EX: cms01,web06,feed01): ")
+            
+            shortName[]=input("\nEnter instance short name(EX: cms01,web06,feed01): ")
             keyInstance=client+"-"+environment+"-"+shortName+"-us-east-1"
         
-        #end
+
 
             response=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{'Name':'tag:system_type','Values':[sys_type]},{"Name":'tag:Name','Values':[keyInstance]}])
         
             print(green("Info: %s --> %s"%(keyInstance,response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])))
             env.hosts.append(response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])
-            #print("Env hosts is: ",env.hosts)
+
     except:
         print(yellow('''\n
         Can not connect to the server, reasons can be
@@ -166,7 +111,7 @@ def hostname():
     if(len(env.hosts)==0):
         sys.exit(0)
     run("hostname")
-    #run("sudo yum install -y python-passlib.noarch")
+
 
 def service_status():
     global sys_type
@@ -175,7 +120,7 @@ def service_status():
         sys.exit(0)    
     if not sys_type=='feed':
         time.sleep(2)
-        #confirm=input("Is hostname correct(y/n)?: ")
+
         confirm='y'
         if confirm=='y':
             run("service liferay status")
@@ -194,7 +139,9 @@ def service_status():
 def service_stop():
     
     global sys_type
-    hostname()
+    while True:
+        hostname()
+        multi=input("Another n")
     
     if not sys_type=='feed':
         run("sudo service liferay stop && sleep 1")
@@ -216,7 +163,7 @@ def service_start():
     
     if not sys_type=='feed':
         time.sleep(2)
-        #confirm=input("Is hostname correct(y/n)?: ")
+
         confirm='y'
         if confirm=='y':
             run("sudo service liferay start")
