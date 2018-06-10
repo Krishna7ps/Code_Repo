@@ -78,7 +78,13 @@ def set_host():
             print(env.hosts)
 
     except:
-        print(yellow('\nCan not connect to the server. Please try after sometime \n'))
+        print(yellow('''\n
+        Can not connect to the server, reasons can be
+        1. Selected instance might have connectivity problems(network issue, Terminated etc
+        2. Choosen wrong short name
+        3. Pressed ctrl+c
+         
+        Please try after sometime \n'''))
 
     
 
@@ -90,7 +96,8 @@ def hostname():
 
 def service_status():
     hostname()
-      
+    if(len(env.hosts)==0):
+        sys.exit(0)    
     try:
         run("service liferay status")
         
@@ -101,27 +108,28 @@ def service_status():
         
 def service_stop():
     
-    global sys_type
+    
     hostname()
     try:
-        run("service liferay status")
-        
-        
+        run("sudo service liferay stop")
+        ask=input("Do you what to start the service(y/n): ")
+        if ask=='y':
+            run("sudo service liferay start && sleep 1")
+
     except:
-        run("sudo service jboss-feeds status && sleep 1")
-
-
+        run("sudo service jboss-feeds stop && sleep 1")
+        ask=input("Do you what to start the service(y/n): ")
+        if ask=='y':
+            run("sudo service jboss-feeds start && sleep 1")
+            
 
             
+
 def service_start():
-
+    
     hostname()
-    try:
-        run("service liferay status")
-       
+    try():
+        run("sudo service liferay start && sleep 1")
+
     except:
-        run("sudo service jboss-feeds status && sleep 1")
-
-
-
-
+        run("sudo service jboss-feeds start && sleep 1")

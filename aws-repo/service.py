@@ -13,19 +13,19 @@ while True:
     '''))
     task=input("Enter Task number: ")
     if task=='1':
-        os.system('fab -f ./fabfile.py set_host service_status  -u cyb.kpattamsetty  --show everything')
+        os.system('fab -f ./fabfile.py set_host service_status  -u cyb.kpattamsetty   --colorize-errors')
         
         #service_status()
     elif task=='2':
-        os.system('fab -f ./fabfile.py set_host service_stop  -u cyb.kpattamsetty  --show everything')
+        os.system('fab -f ./fabfile.py set_host service_stop  -u cyb.kpattamsetty  --colorize-errors')
         
         #service_stop()
     elif task=='3':
-        os.system('fab -f ./fabfile.py set_host service_start  -u cyb.kpattamsetty  --show everything')
+        os.system('fab -f ./fabfile.py set_host service_start  -u cyb.kpattamsetty  --colorize-errors')
         
         #service_start()
     elif task=='6':
-        os.system('fab -f ./fabfile.py set_host hostname  -u cyb.kpattamsetty  --show everything')
+        os.system('fab -f ./fabfile.py set_host hostname  -u cyb.kpattamsetty  --colorize-errors')
     else:
         print(red("\nInvalid selection.."))
         
