@@ -60,6 +60,7 @@ def set_host():
         for i in range(len(fulldata['Reservations'])):
             for j in range(len(fulldata['Reservations'][i]['Instances'])):
                 servers_list+=[y["Value"] for y in [x for x in fulldata['Reservations'][i]["Instances"][j]['Tags']] if y["Key"]=="Name"]
+                print(fulldata['Reservations'][0]["Instances"][0]['ImageId'])
         if len(servers_list)==0:
             print(yellow("No instances available\n"))
             sys.exit(0)
@@ -75,7 +76,10 @@ def set_host():
                 response=ec2.describe_instances(Filters=[{'Name':'tag:client','Values':[client]},{'Name':'tag:env','Values':[environment]},{"Name":'tag:Name','Values':[keyInstance]}])
                 print(green("Info: %s --> %s"%(keyInstance,response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])))
                 env.hosts.append(response['Reservations'][0]["Instances"][0]["PrivateIpAddress"])
+                print(response['Reservations'][0]["Instances"][0]['ImageId'])
             print(env.hosts)
+
+                
 
     except:
         print(yellow('''\n
@@ -128,7 +132,7 @@ def service_stop():
 def service_start():
     
     hostname()
-    try():
+    try:
         run("sudo service liferay start && sleep 1")
 
     except:
