@@ -60,7 +60,7 @@ def set_host():
         for i in range(len(fulldata['Reservations'])):
             for j in range(len(fulldata['Reservations'][i]['Instances'])):
                 servers_list+=[y["Value"] for y in [x for x in fulldata['Reservations'][i]["Instances"][j]['Tags']] if y["Key"]=="Name"]
-                print(fulldata['Reservations'][0]["Instances"][0]['ImageId'])
+                #print(fulldata['Reservations'][0]["Instances"][0]['ImageId'])
         if len(servers_list)==0:
             print(yellow("No instances available\n"))
             sys.exit(0)
