@@ -6,6 +6,7 @@ import os
 import time
 import sys
 
+#env.password= ''
 env.hosts=[]
 client=''
 environment=''
@@ -103,7 +104,7 @@ def service_status():
     if(len(env.hosts)==0):
         sys.exit(0)    
     try:
-        run("service liferay status")
+        run("sudo service liferay status")
         
         
     except:
