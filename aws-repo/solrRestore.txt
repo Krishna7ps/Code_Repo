@@ -1,0 +1,48 @@
+Ingestion should be stopped or paused before performing a restore. You can do this via the autoscale group or by pausing ingestion.
+ 
+ 
+DB snapshot: rds:fox-prod-2018-04-19-10-10
+ 
+Find the last backup just before the db snapshot was created:  ssh lakana-adkgreen-solr01-us-east-1.lakana-adk.com
+ 
+ll /mnt/backups/prod/ | grep fox
+ 
+endplay_collection_fox_1_article_snapshot_1524124801
+ 
+ 
+S3 Download (if needed for backup > 3 days):
+mkdir /homdirs/jcamp/endplay_collection_fox_1_article_snapshot_1522814401
+cd /homdirs/jcamp/endplay_collection_fox_1_article_snapshot_1522814401
+aws s3 cp s3://lakana-solr-backups-us-east-1/lakana/prod/endplay_collection_fox_1_article_snapshot_1524124801/ . --recursive
+ 
+ 
+Find passive collection and delete it so we can restore from backup: http://solr-lakana.lakana-adk.com/solr/#/
+ 
+bin/control aliases listfrom solr-lakana.lakana-adk.com | grep fox
+ 
+ 
+The actual collections should match the aliases: 
+bin/control collections listfrom solr-lakana.lakana-adk.com | grep fox
+ 
+Now delete the passive collection:
+bin/control collections deletefrom solr-lakana.lakana-adk.com --name endplay_collection_fox_0_article
+ 
+Perform restore to new collection reusing the old passive collection name:
+bin/control collections restore solr-lakana.lakana-adk.com -l /mnt/backups/prod -b endplay_collection_fox_1_article_snapshot_1524124801 -n endplay_collection_fox_0_article
+ 
+You need to find the leader replicas for the newly restored collection and bounce solr. You can find this using the cli or from the UI http://solr-lakana.lakana-adk.com/solr/#/~cloud
+  
+bin/control replicas listfrom solr-lakana.lakana-adk.com --name endplay_collection_fox_0_article
+ 
+Restart solr service on replica leaders:
+ssh -t lakana-adkblue-solr02-us-east-1.lakana-adk.com "sudo systemctl stop solr ; sleep 60s ; sudo systemctl start solr"
+ssh -t lakana-adkblue-solr03-us-east-1.lakana-adk.com "sudo systemctl stop solr ; sleep 60s ; sudo systemctl start solr"
+ 
+Flip aliases to the newly restored collection:
+bin/control aliases swap solr-lakana.lakana-dev.com --from endplay_collection_fox_article_passive --to endplay_collection_fox_article_active
+ 
+Check ingest logs for longer lookback, upload SUCCESS and proper lock handling:
+ 
+tail -f /var/log/lakana/ingestion/ingestion.2018-04-19.log
+grep lookback /var/log/lakana/ingestion/ingestion.2018-04-19.log
+grep -i success /var/log/lakana/ingestion/ingestion.2018-04-19.log

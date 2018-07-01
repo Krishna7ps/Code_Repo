@@ -1,0 +1,9 @@
+
+
+
+RewriteCond     %{HTTP_HOST}    ^(|www\.)myfoxphilly\.com$ [NC]
+RewriteRule     ^(.*)$  http://www.fox29.com/story/$1     [R=301,NE,L]
+
+
+RewriteCond    %{HTTP_HOST}   ^www\.theclasshroom\.com$ [NC]
+RewriteRule    ^/(.*)$    http://www.fox29.com/theclasshroom  [R=301,NE,L]
