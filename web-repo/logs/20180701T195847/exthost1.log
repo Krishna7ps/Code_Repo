@@ -1,0 +1,28 @@
+[2018-07-08 17:30:52.488] [exthost1] [info] extension host started
+[2018-07-08 17:30:52.511] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-07-08 17:30:52.511] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-07-08 17:30:53.372] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-07-08 17:30:53.372] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-07-08 17:30:53.776] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-07-08 17:30:53.776] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-07-08 17:30:53.875] [exthost1] [info] eager extensions activated
+[2018-07-08 17:31:24.964] [exthost1] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-07-08 17:31:24.964] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/python/out/pythonMain
+[2018-07-08 17:31:24.984] [exthost1] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-07-08 17:31:24.984] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ms-python.python-2018.4.0/out/client/extension
+[2018-07-08 17:31:30.975] [exthost1] [info] ExtensionService#_doActivateExtension tht13.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-07-08 17:31:30.975] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/tht13.python-0.2.3/out/client/src/pythonMain
+[2018-07-08 17:59:48.322] [exthost1] [info] extension host started
+[2018-07-08 17:59:48.345] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-07-08 17:59:48.345] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-07-08 17:59:48.397] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-07-08 17:59:48.397] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-07-08 17:59:48.454] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-07-08 17:59:48.454] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-07-08 17:59:48.465] [exthost1] [info] eager extensions activated
+[2018-07-08 18:01:13.725] [exthost1] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-07-08 18:01:13.725] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/python/out/pythonMain
+[2018-07-08 18:01:13.725] [exthost1] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-07-08 18:01:13.725] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ms-python.python-2018.4.0/out/client/extension
+[2018-07-08 18:01:14.345] [exthost1] [info] ExtensionService#_doActivateExtension tht13.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-07-08 18:01:14.345] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/tht13.python-0.2.3/out/client/src/pythonMain
