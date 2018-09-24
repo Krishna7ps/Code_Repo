@@ -24,3 +24,4 @@ __pycache__/
 fabfile.cpython-36.pyc
 storage.json
 python-repo/__pycache__/socket.cpython-36.pyc
+python-repo/ds/
