@@ -1,0 +1,53 @@
+import numpy as np
+from pprint import pprint
+import matplotlib.pyplot as plt
+
+my_list=[1,2,3]
+# print(type(my_list))
+arr=np.array(my_list)
+# print(arr)
+# print(type(arr))
+mul_list=[[1,2,3],[4,5,6],[7,8,9]]
+mul_arr=np.array(mul_list)
+# print(mul_arr)
+# print(np.arange(1,10,2))
+# print(np.zeros((3,3)))
+# print(np.ones((3,3)))
+# print(len(np.linspace(1,10,100)))
+# print(np.eye(4))
+# print(np.random.rand(2,3))
+# print(np.random.randn(4))
+# print(np.random.randn(2,2))
+# print(np.random.randint(1,200,10))
+arr=np.random.randint(1,100,15).reshape(3,5)
+# print(np.ndim(arr))
+# print(np.shape(arr))
+# print(np.reshape(arr,(5,5)))
+# print(np.ndim(np.reshape(arr,(5,5))))
+# print("max=",arr.max(),"@index",arr.argmax(),"min=",arr.min(),"@index",arr.argmin())
+# print("Array of (3,5): \n")
+# pprint(arr)
+# print(arr[:3:-1])
+'''
+arr[:10]=np.arange(10)
+print(arr)
+arr_copy=arr.copy()
+print(arr_copy)
+arr_copy[:]=100
+arr_copy=arr_copy.reshape(5,5)
+print(arr_copy)
+arr_copy[:]=np.random.randint(1,50,25).reshape(5,5)
+print(arr_copy)
+'''
+# print(arr[:,:2])
+# print("Array of elements > 50:")
+# pprint(arr>50)
+# print()
+# pprint(arr[arr>50])
+pprint(arr)
+# pprint(arr+arr)
+x=np.sin(arr).reshape(15,)
+pprint(x)
+# plt.plot(x)
+plt.plot(x)
+plt.show()
